@@ -1,0 +1,1983 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.40f1 (157d81624ddf) revision 1408385'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ko' Physical Memory: 32397 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+62766
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject
+C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28836]  Target information:
+
+Player connection [28836]  * "[IP] 121.179.63.129 [Port] 0 [Flags] 2 [Guid] 3998569698 [EditorId] 3998569698 [Version] 1048832 [Id] WindowsEditor(7,SangWon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28836] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28836] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.40f1 (157d81624ddf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004495 seconds.
+- Loaded All Assemblies, in  0.285 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 209 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 748ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (101ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (273ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.544 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 975ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (101ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (435ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4732 unused Assets / (1.4 MB). Loaded Objects now: 5209.
+Memory consumption went from 91.4 MB to 90.0 MB.
+Total: 6.009700 ms (FindLiveObjects: 0.703500 ms CreateObjectMapping: 0.388000 ms MarkObjects: 3.776000 ms  DeleteObjects: 1.141400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.1 MB). Loaded Objects now: 5209.
+Memory consumption went from 88.8 MB to 87.7 MB.
+Total: 6.322200 ms (FindLiveObjects: 0.763100 ms CreateObjectMapping: 0.641800 ms MarkObjects: 3.880500 ms  DeleteObjects: 1.035600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 1103ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (535ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (426ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.3 MB). Loaded Objects now: 5212.
+Memory consumption went from 90.7 MB to 89.4 MB.
+Total: 6.441100 ms (FindLiveObjects: 0.772900 ms CreateObjectMapping: 0.254300 ms MarkObjects: 4.093000 ms  DeleteObjects: 1.319700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.3 MB). Loaded Objects now: 5212.
+Memory consumption went from 90.9 MB to 89.6 MB.
+Total: 9.309500 ms (FindLiveObjects: 0.760100 ms CreateObjectMapping: 1.012600 ms MarkObjects: 6.355000 ms  DeleteObjects: 1.181100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.611 seconds
+Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.517 seconds
+Domain Reload Profiling: 1127ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (517ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.5 MB). Loaded Objects now: 5214.
+Memory consumption went from 90.7 MB to 89.2 MB.
+Total: 7.846700 ms (FindLiveObjects: 0.789700 ms CreateObjectMapping: 0.902900 ms MarkObjects: 4.671600 ms  DeleteObjects: 1.482000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.4 MB). Loaded Objects now: 5214.
+Memory consumption went from 90.9 MB to 89.5 MB.
+Total: 7.758000 ms (FindLiveObjects: 0.779400 ms CreateObjectMapping: 0.673300 ms MarkObjects: 5.148100 ms  DeleteObjects: 1.156500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.7 MB). Loaded Objects now: 5214.
+Memory consumption went from 90.9 MB to 89.1 MB.
+Total: 8.219900 ms (FindLiveObjects: 0.749800 ms CreateObjectMapping: 0.528200 ms MarkObjects: 5.438300 ms  DeleteObjects: 1.502600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.5 MB). Loaded Objects now: 5214.
+Memory consumption went from 90.9 MB to 89.4 MB.
+Total: 7.804400 ms (FindLiveObjects: 0.758200 ms CreateObjectMapping: 0.521300 ms MarkObjects: 5.395200 ms  DeleteObjects: 1.128600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.536 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 1005ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.6 MB). Loaded Objects now: 5216.
+Memory consumption went from 90.7 MB to 89.2 MB.
+Total: 8.121500 ms (FindLiveObjects: 0.743100 ms CreateObjectMapping: 0.805600 ms MarkObjects: 5.299500 ms  DeleteObjects: 1.272400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.515 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 993ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (286ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (97ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.9 MB). Loaded Objects now: 5218.
+Memory consumption went from 90.7 MB to 88.8 MB.
+Total: 8.641400 ms (FindLiveObjects: 0.999300 ms CreateObjectMapping: 0.768200 ms MarkObjects: 4.967300 ms  DeleteObjects: 1.905300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.501 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.472 seconds
+Domain Reload Profiling: 972ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (472ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.6 MB). Loaded Objects now: 5220.
+Memory consumption went from 90.7 MB to 89.1 MB.
+Total: 8.658000 ms (FindLiveObjects: 0.830600 ms CreateObjectMapping: 0.719400 ms MarkObjects: 5.505700 ms  DeleteObjects: 1.601000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.4 MB). Loaded Objects now: 5220.
+Memory consumption went from 90.9 MB to 89.4 MB.
+Total: 8.850500 ms (FindLiveObjects: 0.865700 ms CreateObjectMapping: 0.943000 ms MarkObjects: 5.619200 ms  DeleteObjects: 1.421700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.562 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.518 seconds
+Domain Reload Profiling: 1077ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (518ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.5 MB). Loaded Objects now: 5222.
+Memory consumption went from 90.7 MB to 89.3 MB.
+Total: 7.970800 ms (FindLiveObjects: 1.023800 ms CreateObjectMapping: 0.541800 ms MarkObjects: 4.872600 ms  DeleteObjects: 1.531700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.1 MB). Loaded Objects now: 5222.
+Memory consumption went from 90.9 MB to 89.8 MB.
+Total: 6.281800 ms (FindLiveObjects: 0.841200 ms CreateObjectMapping: 0.591200 ms MarkObjects: 3.846400 ms  DeleteObjects: 1.002100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.522 seconds
+Domain Reload Profiling: 1090ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (522ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.6 MB). Loaded Objects now: 5224.
+Memory consumption went from 90.7 MB to 89.2 MB.
+Total: 9.421400 ms (FindLiveObjects: 0.948500 ms CreateObjectMapping: 0.800200 ms MarkObjects: 6.105100 ms  DeleteObjects: 1.566600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.7 MB). Loaded Objects now: 5224.
+Memory consumption went from 90.9 MB to 89.2 MB.
+Total: 9.205800 ms (FindLiveObjects: 0.820600 ms CreateObjectMapping: 0.873200 ms MarkObjects: 5.718900 ms  DeleteObjects: 1.792200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.557 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.495 seconds
+Domain Reload Profiling: 1050ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.6 MB). Loaded Objects now: 5226.
+Memory consumption went from 90.7 MB to 89.2 MB.
+Total: 9.297600 ms (FindLiveObjects: 0.885500 ms CreateObjectMapping: 1.348300 ms MarkObjects: 5.549100 ms  DeleteObjects: 1.513800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.7 MB). Loaded Objects now: 5226.
+Memory consumption went from 90.9 MB to 89.2 MB.
+Total: 8.626500 ms (FindLiveObjects: 0.760900 ms CreateObjectMapping: 0.266400 ms MarkObjects: 5.809100 ms  DeleteObjects: 1.788400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.581 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.504 seconds
+Domain Reload Profiling: 1083ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (504ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.2 MB). Loaded Objects now: 5228.
+Memory consumption went from 90.7 MB to 89.5 MB.
+Total: 7.089200 ms (FindLiveObjects: 0.752800 ms CreateObjectMapping: 0.236400 ms MarkObjects: 4.966100 ms  DeleteObjects: 1.132400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.8 MB). Loaded Objects now: 5228.
+Memory consumption went from 90.9 MB to 89.1 MB.
+Total: 8.031200 ms (FindLiveObjects: 0.807400 ms CreateObjectMapping: 0.517600 ms MarkObjects: 5.192300 ms  DeleteObjects: 1.512400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.574 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.522 seconds
+Domain Reload Profiling: 1096ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (523ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.6 MB). Loaded Objects now: 5230.
+Memory consumption went from 90.7 MB to 89.1 MB.
+Total: 8.275000 ms (FindLiveObjects: 0.814800 ms CreateObjectMapping: 0.702100 ms MarkObjects: 5.328900 ms  DeleteObjects: 1.428400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 32413.493236 seconds.
+  path: Assets/Fire Effect 1/Fire Breath hit effect SpriteSheet.png
+  artifactKey: Guid(7e720288ea444ac4abe3743613ad3828) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fire Effect 1/Fire Breath hit effect SpriteSheet.png using Guid(7e720288ea444ac4abe3743613ad3828) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4263f8506aacf8de95f280a478d935f9') in 0.1333736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Ice VFX 2.aseprite
+  artifactKey: Guid(85c52983488d4854c97be0aa9e5ee204) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Ice VFX 2.aseprite using Guid(85c52983488d4854c97be0aa9e5ee204) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '845183584869809809cdfa94d629f62b') in 0.1118168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sound/힘 빠지는 음.mp3
+  artifactKey: Guid(ceaad465cca1230438af4cdd255ff44f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/힘 빠지는 음.mp3 using Guid(ceaad465cca1230438af4cdd255ff44f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f50e6ca6104489f34fa48120189fd4a') in 0.0312103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Ice VFX 2 192x192.png
+  artifactKey: Guid(a304bb2e35ee6b04cad55919f55a8e37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Ice VFX 2 192x192.png using Guid(a304bb2e35ee6b04cad55919f55a8e37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07ad8d95b798b24011a6c5185cd7a805') in 0.0530836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixel Food Items (Fruits)/Instructions.txt
+  artifactKey: Guid(434f0647fcde5ec4591e7d66ea9e0345) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/Instructions.txt using Guid(434f0647fcde5ec4591e7d66ea9e0345) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf5d68a4058d3a56eb7956e3c296b055') in 0.0104961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Apple(Yellow).png.png
+  artifactKey: Guid(9f3ee47bb70d4ce47941885d71cebbb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Apple(Yellow).png.png using Guid(9f3ee47bb70d4ce47941885d71cebbb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '812bd2021e4c25936adecfb2cd5122d3') in 0.0183787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Coconut(Outside).png
+  artifactKey: Guid(c101120180238f84a815184ff77b602b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Coconut(Outside).png using Guid(c101120180238f84a815184ff77b602b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1750ee8627150dab1bc14591bcc607a1') in 0.0172426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sound/Siren.wav
+  artifactKey: Guid(688451f07c6a79a489205c2222df3b64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Siren.wav using Guid(688451f07c6a79a489205c2222df3b64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a98140296a8782d0a3112059d376ad7') in 0.024212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Script/Player1.cs
+  artifactKey: Guid(dee82ef2859fffe41a1ad6360c4abb48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/Player1.cs using Guid(dee82ef2859fffe41a1ad6360c4abb48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33aceeae209270a41cc2c8ac46b9724e') in 0.0114351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sound/Confirm.wav
+  artifactKey: Guid(8002ec8b6562e7249b037c4d196dd451) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Confirm.wav using Guid(8002ec8b6562e7249b037c4d196dd451) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75e855c25f3d56bd0f938373d06ab2fb') in 0.0270353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Mango.png
+  artifactKey: Guid(39fef95ada246cf43b85cc6bc498aaf0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Mango.png using Guid(39fef95ada246cf43b85cc6bc498aaf0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77976e4d3f87976a692acd148bf1956e') in 0.0161424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sound/Bottle_Break.wav
+  artifactKey: Guid(ff89967c667594346911403d603f13a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Bottle_Break.wav using Guid(ff89967c667594346911403d603f13a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16a7ea4525dbcc553d9190ef66b8bd91') in 0.0262987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fire Effect 1/Firebolt SpriteSheet.png
+  artifactKey: Guid(4cefe2904d890ed44a2a12ee8af24b9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fire Effect 1/Firebolt SpriteSheet.png using Guid(4cefe2904d890ed44a2a12ee8af24b9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d2d5eec2382a22a90e82b152ab846ac') in 0.0251566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Melon(Outside).png
+  artifactKey: Guid(f262d89669c2e1e468c5609c48e1ae20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Melon(Outside).png using Guid(f262d89669c2e1e468c5609c48e1ae20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e46be29b33c4fc629d780dec19349acb') in 0.0171476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit7.png
+  artifactKey: Guid(4ec0b36a1496cfa42adb619056325432) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit7.png using Guid(4ec0b36a1496cfa42adb619056325432) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78420a57de35310218188417bd7a1281') in 0.0185402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit5.png
+  artifactKey: Guid(fc7122130949035489d74ec80a02f79b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit5.png using Guid(fc7122130949035489d74ec80a02f79b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d00369b7fa50c626bd2d1bc6f035efa') in 0.0169619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable6.png
+  artifactKey: Guid(1df755cf757907043b33b14eaf25daa9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable6.png using Guid(1df755cf757907043b33b14eaf25daa9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f338b79845d498bc13fe584e2d268fb0') in 0.0161931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sound/Thunder.wav
+  artifactKey: Guid(82bd0f02c2de0474d8321000de2eed13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Thunder.wav using Guid(82bd0f02c2de0474d8321000de2eed13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3fc2c70c62419a1262078be45a187d6') in 0.0249205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/IceVFX 1 Repeatable.png
+  artifactKey: Guid(af121c84ea317dd4686b93877973c482) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/IceVFX 1 Repeatable.png using Guid(af121c84ea317dd4686b93877973c482) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e2fdb9543fe2032c423cbfd7305e7bf') in 0.023241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable7.png
+  artifactKey: Guid(ed34bbda99cca634981b07ffaa5cc201) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable7.png using Guid(ed34bbda99cca634981b07ffaa5cc201) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8751d1348b9d4a25d09771bb09e8cbe8') in 0.013275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable5.png
+  artifactKey: Guid(32b19b4f3490b8f42b1c910e31132d30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable5.png using Guid(32b19b4f3490b8f42b1c910e31132d30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa161f456369197870e208a0f422bc89') in 0.0213158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Active3.png
+  artifactKey: Guid(8f0196319da11764e89535f4bc38e09e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Active3.png using Guid(8f0196319da11764e89535f4bc38e09e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0518d11dbba6c9f4f146fa482ebff7dd') in 0.0156254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Ice VFX 1 Hit.png
+  artifactKey: Guid(6b7dec13cb1fa074ab9630af1533013f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Ice VFX 1 Hit.png using Guid(6b7dec13cb1fa074ab9630af1533013f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f230a2b15bbac466e423e8e8d9ee7bce') in 0.0233172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Strawberry.png
+  artifactKey: Guid(4348e1db336f23c498ae4007470d22e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Strawberry.png using Guid(4348e1db336f23c498ae4007470d22e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '525821799df637b39ab323a44e393741') in 0.0139209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Avocado(Inside).png
+  artifactKey: Guid(5cd8e3a9e11df274caf8a8d170fb8d62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Avocado(Inside).png using Guid(5cd8e3a9e11df274caf8a8d170fb8d62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02f46f23f3455eca41a2644c2446e812') in 0.0181164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Ice VFX 2 Start.png
+  artifactKey: Guid(cc3ce8dd60a7fc74cb33d808a94671b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Ice VFX 2 Start.png using Guid(cc3ce8dd60a7fc74cb33d808a94671b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a1ebdfdd84c48db0fe6a43c0ea699a4') in 0.0236468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sound/Dog_Bark.wav
+  artifactKey: Guid(5ee5147a763212d438d2f0aab1be21a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Dog_Bark.wav using Guid(5ee5147a763212d438d2f0aab1be21a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33e289aa5f2dd02629e7a04a518ef73a') in 0.0286819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sound/Hurt.wav
+  artifactKey: Guid(0f8676a94c683f34baa105d80c7d77f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Hurt.wav using Guid(0f8676a94c683f34baa105d80c7d77f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '117e56f1270d2b56f4ab87dd9b6c9a70') in 0.0253903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Cherry.png
+  artifactKey: Guid(4a749b630434e314e8752f3083683ebb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Cherry.png using Guid(4a749b630434e314e8752f3083683ebb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ca65c17e750320c36a1e978d2a7b011') in 0.014103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sound/Gun.wav
+  artifactKey: Guid(3f34fdbc03d65c64185d95844e6b0b2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Gun.wav using Guid(3f34fdbc03d65c64185d95844e6b0b2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1beeec99577b657992f2056b05bdefea') in 0.0279247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit4.png
+  artifactKey: Guid(fd734676c7c5b774a9cc42b7c1115b0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit4.png using Guid(fd734676c7c5b774a9cc42b7c1115b0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3335055fdfeaa685b861342568f66961') in 0.0189682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pixel Food Items (Fruits)/demo.unity
+  artifactKey: Guid(2740f161aa19b6f43a039b4b264ec9aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/demo.unity using Guid(2740f161aa19b6f43a039b4b264ec9aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49f2c767b1b02e1d1eeeee0d5f44bf9e') in 0.0117113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Script/Shot.cs
+  artifactKey: Guid(af8300e45a352cc478b21e52d2c7ea6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/Shot.cs using Guid(af8300e45a352cc478b21e52d2c7ea6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c71ce2ffa5cc99e0fa7f43ec0a006b7c') in 0.0103769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Grapefruit.png
+  artifactKey: Guid(25eb3476a6ad1264ebf8a2f88584d85a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Grapefruit.png using Guid(25eb3476a6ad1264ebf8a2f88584d85a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '964d3d27e9169f077a68a7d537ba1105') in 0.0165441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Active2.png
+  artifactKey: Guid(e31fcea3899b5834c877d64c34aef43b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Active2.png using Guid(e31fcea3899b5834c877d64c34aef43b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a33026e9f188df2dc518990d8e3fb83') in 0.0281026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sound/Phone_Ring.wav
+  artifactKey: Guid(b6c28cb5c9ac6244f8e318ed5cd2eb0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Phone_Ring.wav using Guid(b6c28cb5c9ac6244f8e318ed5cd2eb0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16f5b3f5f6bafdb45663451805d9c083') in 0.0269796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sound/Crunch.wav
+  artifactKey: Guid(fd47e6e57cde90740833753960a494e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Crunch.wav using Guid(fd47e6e57cde90740833753960a494e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7194cb6fbfb2da6b3e08e9884ef7e312') in 0.0285918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable2.png
+  artifactKey: Guid(459ad30d12945ad448cdea3cd28be29e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable2.png using Guid(459ad30d12945ad448cdea3cd28be29e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '152acbb11649c41c2d3d78c5729d4cc9') in 0.0162264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Grape(Blue).png
+  artifactKey: Guid(6ca8c74ed9d3e044dadb75bf23419b26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Grape(Blue).png using Guid(6ca8c74ed9d3e044dadb75bf23419b26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd348dbc1dc6b4b25533d1a3e6d10a4da') in 0.0156276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending3.png
+  artifactKey: Guid(e7335ab0795b6b444aecc8e2ff688c41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending3.png using Guid(e7335ab0795b6b444aecc8e2ff688c41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bae2f2843df56a13d3c8c5193d440e0') in 0.0200578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Double_Jump_Dust_5.png
+  artifactKey: Guid(63f7204f114b44743949ab33760f4eef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Double_Jump_Dust_5.png using Guid(63f7204f114b44743949ab33760f4eef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c939d1602c4bd07d62cb29c32ef80ee6') in 0.0201019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start8.png
+  artifactKey: Guid(778a1432facbce4499aa404a11dd326f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start8.png using Guid(778a1432facbce4499aa404a11dd326f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd538c2d7bf8badca24e0d2a29f0dfe92') in 0.0172103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start3.png
+  artifactKey: Guid(c36b23ae87800f44d9ec2904fdf16106) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start3.png using Guid(c36b23ae87800f44d9ec2904fdf16106) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d25e8a4e32a4970b87634b805ee0a18') in 0.0212988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Attack1_4.png
+  artifactKey: Guid(76ee73d79ef792e4b93fee6c372f8a30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Attack1_4.png using Guid(76ee73d79ef792e4b93fee6c372f8a30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba8645fe46ecb103050fb9650988fcad') in 0.0211417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start4.png
+  artifactKey: Guid(3ca9f895ac0fd1349bd1eb1b8913e0e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start4.png using Guid(3ca9f895ac0fd1349bd1eb1b8913e0e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c561c5defabd94fad022707fb4821703') in 0.0150656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start2.png
+  artifactKey: Guid(26b9215531e8df843b8b0f955f83c775) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start2.png using Guid(26b9215531e8df843b8b0f955f83c775) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8424f65fa430f1154cd3b83d386ba740') in 0.0169783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending17.png
+  artifactKey: Guid(6c9217b57ef9f5543923ca0f21c9560e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending17.png using Guid(6c9217b57ef9f5543923ca0f21c9560e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5805c863dd48000481e8ced352e4161c') in 0.0173737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start6.png
+  artifactKey: Guid(1edebdcc5e618fa469f0745d9405f60f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start6.png using Guid(1edebdcc5e618fa469f0745d9405f60f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '445ef9933e26b9db3ba336f141265884') in 0.0170544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending11.png
+  artifactKey: Guid(20b20994cb99645469381f82f09d8e86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending11.png using Guid(20b20994cb99645469381f82f09d8e86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c645a17c5f5a62d08a056f064dfa0e7') in 0.018146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start5.png
+  artifactKey: Guid(5bb3e2a9d4f7eba40bf3b5c535ba0b80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start5.png using Guid(5bb3e2a9d4f7eba40bf3b5c535ba0b80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7ec86ba705dd1db87a80fe5ae98d182') in 0.0167708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending4.png
+  artifactKey: Guid(bee31ffbc9110194ca725f96795906df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending4.png using Guid(bee31ffbc9110194ca725f96795906df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '018166269760371d41b612ea77ec3536') in 0.0161699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Attack2_6 1.png
+  artifactKey: Guid(c37a0a72a5f440c439e6d58611da61ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Attack2_6 1.png using Guid(c37a0a72a5f440c439e6d58611da61ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '140fe9f811ee20606fa4f75aba218c84') in 0.0243045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending14.png
+  artifactKey: Guid(19bf1fdb08dad8a48914b9f8dcd09a81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending14.png using Guid(19bf1fdb08dad8a48914b9f8dcd09a81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1d3532309af96f39a1e433936b7ebae') in 0.0160351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster.png
+  artifactKey: Guid(f8c3732bcac9fe34eb59016c3565bde7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster.png using Guid(f8c3732bcac9fe34eb59016c3565bde7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d04008af2c8c6d373c61dcfb232c8ea') in 0.0150475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Attack1_4 1.png
+  artifactKey: Guid(61f76aa2e05cef446a2332aa04a7392f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Attack1_4 1.png using Guid(61f76aa2e05cef446a2332aa04a7392f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c850e316f0d5f48b103faf742606c22') in 0.0187481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start7.png
+  artifactKey: Guid(d006437b7276cd94bb367607408b23c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Start7.png using Guid(d006437b7276cd94bb367607408b23c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32d36d04c097b84dcd6544cc09beada9') in 0.0159145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Attack2_6_0.controller
+  artifactKey: Guid(56813ea3bd6d86446b0ab605e743e629) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Attack2_6_0.controller using Guid(56813ea3bd6d86446b0ab605e743e629) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d8270a4dbf84302567e334c737981c7') in 0.0135424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sound/Water_Splash.wav
+  artifactKey: Guid(eabae1282d6ea89498f90349b281d5c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Water_Splash.wav using Guid(eabae1282d6ea89498f90349b281d5c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ff4e617960f4f92ef48d727ddfd9757') in 0.0262001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sound/Menu_In.wav
+  artifactKey: Guid(2011567138b99da47b472e754761cbf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Menu_In.wav using Guid(2011567138b99da47b472e754761cbf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53a131d469756b6c7546e6766e78e719') in 0.0232159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Apple(Green).png.png
+  artifactKey: Guid(70df993518474404f8b8f8ee833a635f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Apple(Green).png.png using Guid(70df993518474404f8b8f8ee833a635f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d03112d40db1fd640d7871c30357ee0') in 0.0175931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Ice VFX 2 Ending.png
+  artifactKey: Guid(a7567f84199144345950e670b5ac34ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Ice VFX 2 Ending.png using Guid(a7567f84199144345950e670b5ac34ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cb9201967fcb17452007f5708eaca5f') in 0.0296253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit1.png
+  artifactKey: Guid(d9b05be9d4ae6c2429cb8caaba976fe5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit1.png using Guid(d9b05be9d4ae6c2429cb8caaba976fe5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c949a6915566b756c43e64fc4a8c520') in 0.0171174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sound/Sword_Slash.wav
+  artifactKey: Guid(9c6b78038a0f19c4081327694c4d133b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Sword_Slash.wav using Guid(9c6b78038a0f19c4081327694c4d133b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64de4978b6612fde3e574ec0c2edce60') in 0.028601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sound/MP_Flame Arrow.mp3
+  artifactKey: Guid(8f68147617f84f04d917043b9cef0f65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/MP_Flame Arrow.mp3 using Guid(8f68147617f84f04d917043b9cef0f65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '680262b93235c7efaf613c8371c1c571') in 0.0264366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sound/Menu_Out.wav
+  artifactKey: Guid(bd012f1e1bb736a4697022dc15fb9dbd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Menu_Out.wav using Guid(bd012f1e1bb736a4697022dc15fb9dbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f98d598578c298cba131559cc11353a1') in 0.0261051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Death_8.png
+  artifactKey: Guid(f95bac239a17c72428fb4ccb5c1c4b90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Death_8.png using Guid(f95bac239a17c72428fb4ccb5c1c4b90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3831c6e87c579091d930a7bc4a71ab09') in 0.0240032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Attack1_4.png
+  artifactKey: Guid(93c4fecc50598a04485c7f28240d41dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Attack1_4.png using Guid(93c4fecc50598a04485c7f28240d41dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fffabd42ecbc5b9503df5b6602136386') in 0.0186028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Player1_Attack.anim
+  artifactKey: Guid(3b57003fe4b504c4282912d7b83ab537) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Player1_Attack.anim using Guid(3b57003fe4b504c4282912d7b83ab537) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '886a338dc12ef88a51896ede10bad224') in 0.0129325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Hurt_4.png
+  artifactKey: Guid(9aacdb3c2a044c04b93827695d7665a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Hurt_4.png using Guid(9aacdb3c2a044c04b93827695d7665a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e46bca11ab04c1bf782d10ed2aa9e58d') in 0.0193662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Death_8_0 1.controller
+  artifactKey: Guid(7393bfc39620f784fbefda8a72c603cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Death_8_0 1.controller using Guid(7393bfc39620f784fbefda8a72c603cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef659421f45409f38fc85500a8842ea8') in 0.0098188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Throw_4_0.controller
+  artifactKey: Guid(def9f7c0401babe419f7e0bc85c77592) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Throw_4_0.controller using Guid(def9f7c0401babe419f7e0bc85c77592) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cae4ac71df773da954e5b02749a899a') in 0.0110008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Idle_4.png
+  artifactKey: Guid(690731d73da899d4593294db5a616970) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Idle_4.png using Guid(690731d73da899d4593294db5a616970) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c5f7fe31d24c385838d8827aa8885bf') in 0.0173247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Walk+Attack_6.png
+  artifactKey: Guid(93b1789e7e5c7704794f7b79efdae780) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Walk+Attack_6.png using Guid(93b1789e7e5c7704794f7b79efdae780) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ce1b5894a5b314c7545ae63cbbb0f9e') in 0.0188911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Rock2.png
+  artifactKey: Guid(6cdbe32898a50134fb1913c67c19baeb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Rock2.png using Guid(6cdbe32898a50134fb1913c67c19baeb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '255b3f54840a786fb50e5ee2d93e4fef') in 0.0172263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Run_6.png
+  artifactKey: Guid(b37a3455094441f48acdc1b048b14c82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Run_6.png using Guid(b37a3455094441f48acdc1b048b14c82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b8218f59d3be79c7d5e222367f4cde6') in 0.0166735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Run_6_0.controller
+  artifactKey: Guid(be6aa1f1b0e34444da9d6e82d8fc89f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Run_6_0.controller using Guid(be6aa1f1b0e34444da9d6e82d8fc89f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c071583a49712929f5123f7951ceb4c8') in 0.0118672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Owlet_Monster.png
+  artifactKey: Guid(b7d0137309cd5ac41864529a433a9a84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Owlet_Monster.png using Guid(b7d0137309cd5ac41864529a433a9a84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6edae9c526a2ff356d110a6086191f7c') in 0.0175712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Player1_Throw.anim
+  artifactKey: Guid(3a560920bd429f04fa8d62cc3e4f20e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Player1_Throw.anim using Guid(3a560920bd429f04fa8d62cc3e4f20e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5d806edbb426567e6309fbc26861016') in 0.013112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Run_6 1.png
+  artifactKey: Guid(c24bc7b202b9cf5498774fe207f36c8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Run_6 1.png using Guid(c24bc7b202b9cf5498774fe207f36c8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27e8fb5975f4408798e471a760314fe1') in 0.021971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Double_Jump_Dust_5.png
+  artifactKey: Guid(8f03490866d942240ae075f581bb7dc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Double_Jump_Dust_5.png using Guid(8f03490866d942240ae075f581bb7dc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28ce0587fa8a0d2ddf67c90a4f692b6e') in 0.0215134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Throw_4 1.png
+  artifactKey: Guid(189e739bbf083e24ca6aacc4bca3da46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Throw_4 1.png using Guid(189e739bbf083e24ca6aacc4bca3da46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3debed06dd9756f448e93c286706b65') in 0.0177175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Push_6 1.png
+  artifactKey: Guid(c2cd4efa239225e4c9b3fc542dd637c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Push_6 1.png using Guid(c2cd4efa239225e4c9b3fc542dd637c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a5007247438e72c5cb452701782d85f') in 0.020438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Player1_Up.anim
+  artifactKey: Guid(d1c20fac6022f084a82866e0bab9fedc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Player1_Up.anim using Guid(d1c20fac6022f084a82866e0bab9fedc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0adc9a72fe066d3707f15ef24d7ea363') in 0.0126891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Throw_4.png
+  artifactKey: Guid(fc0e83039326f2d41bc33d386f5968a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Throw_4.png using Guid(fc0e83039326f2d41bc33d386f5968a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4af03d66a6f8db69c1c52999d03a7045') in 0.0176114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Hurt_4 1.png
+  artifactKey: Guid(4f36ab00ddf88984b92a82d2e579f50d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Hurt_4 1.png using Guid(4f36ab00ddf88984b92a82d2e579f50d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60f55ecfcf768e063382cad92fbe355d') in 0.0190756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Idle_4_0 1.controller
+  artifactKey: Guid(33ee7a56f48572f46a2dd259d55fcf67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Idle_4_0 1.controller using Guid(33ee7a56f48572f46a2dd259d55fcf67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab1e070025f11427aea4d7a7864674d5') in 0.0112503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sound/Notso_Confirm.wav
+  artifactKey: Guid(9ead19ed856b09247a00b6c95bc46e90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Notso_Confirm.wav using Guid(9ead19ed856b09247a00b6c95bc46e90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8129fc4bd3bea1dcbf2174aabfe8d322') in 0.0298224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Jump_8 1.png
+  artifactKey: Guid(b80bf4661d96af5488a2e13094ae6598) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Jump_8 1.png using Guid(b80bf4661d96af5488a2e13094ae6598) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53fba765b6b3d2b928b2a55065465554') in 0.0223924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Walk_Run_Push_Dust_6.png
+  artifactKey: Guid(0bd574d3adc06324ab30c508c0a747fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Walk_Run_Push_Dust_6.png using Guid(0bd574d3adc06324ab30c508c0a747fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '255900b6015edcf977295021ed5f0ffa') in 0.020719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Active9.png
+  artifactKey: Guid(85b81d8159896814c9a99d5e8527ec4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Active9.png using Guid(85b81d8159896814c9a99d5e8527ec4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fa817e0c122a7d537ad9eaefde05a1b') in 0.0189951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Start2.png
+  artifactKey: Guid(2302033dcee26b6409f9ed280f3536e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Start2.png using Guid(2302033dcee26b6409f9ed280f3536e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aab7b26859463da259b2ec32fa287b3') in 0.0174003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Death_8_0 2.controller
+  artifactKey: Guid(1c828c1110fb0d347b8ae21815eb43a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Death_8_0 2.controller using Guid(1c828c1110fb0d347b8ae21815eb43a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86fc22695ab20f84910fc9294cf7ae5d') in 0.0109898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending10.png
+  artifactKey: Guid(f231d8625ac284648bd11382aece7da8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending10.png using Guid(f231d8625ac284648bd11382aece7da8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f0e4898e297a2455e88e122dfdba274') in 0.0181389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Walk_Run_Push_Dust_6.png
+  artifactKey: Guid(f964714586390394a8c6ea17dd7cce4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Walk_Run_Push_Dust_6.png using Guid(f964714586390394a8c6ea17dd7cce4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f18a697c732f6eb1ecb7a25c1f207f0a') in 0.0219164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Image/Player/Font/Planes_ValMore.ttf
+  artifactKey: Guid(26319d39cd27ee24baf342eaee2ed038) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/Font/Planes_ValMore.ttf using Guid(26319d39cd27ee24baf342eaee2ed038) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '700f71ddc8eb079cb38abb8d83e42fc3') in 0.0177256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Walk+Attack_6.png
+  artifactKey: Guid(c9eac1dc1b02f744eb03f5ff5cc604dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Owlet_Monster_Walk+Attack_6.png using Guid(c9eac1dc1b02f744eb03f5ff5cc604dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9daab35c425964faf731872be51a0fa') in 0.0261283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Image/Player/3 Dude_Monster/Dude_Monster.png
+  artifactKey: Guid(9e55e0a0e1e96db459e02f4266b0ad45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/3 Dude_Monster/Dude_Monster.png using Guid(9e55e0a0e1e96db459e02f4266b0ad45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1faef3753887b0e5feb1db939d077c99') in 0.0166396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Image/Player/3 Dude_Monster/Dude_Monster_Attack2_6.png
+  artifactKey: Guid(ae26d8b5c5baa364896723669e3ef353) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/3 Dude_Monster/Dude_Monster_Attack2_6.png using Guid(ae26d8b5c5baa364896723669e3ef353) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '966a211288e768c9b62ed791534d6603') in 0.020747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Image/Player/3 Dude_Monster/Dude_Monster_Throw_4.png
+  artifactKey: Guid(195f81766fa728546b01f7e4ab7cce55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/3 Dude_Monster/Dude_Monster_Throw_4.png using Guid(195f81766fa728546b01f7e4ab7cce55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0eb2a41a3efad4a582afcd1f08e8543') in 0.0233678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Image/Player/3 Dude_Monster/Dude_Monster_Walk_6.png
+  artifactKey: Guid(9f5ff2d05cb6be942a31ef7f5bb6b172) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/3 Dude_Monster/Dude_Monster_Walk_6.png using Guid(9f5ff2d05cb6be942a31ef7f5bb6b172) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdb72e32e56170aca7413974d1adc7f9') in 0.0240897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Rock1.png
+  artifactKey: Guid(9d441c65be2ffd7488c1366fdac3e8ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Rock1.png using Guid(9d441c65be2ffd7488c1366fdac3e8ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc7a3a34dbcd60320f65937985b35473') in 0.0201316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Image/Player/3 Dude_Monster/Dude_Monster_Death_8.png
+  artifactKey: Guid(a2f068fdc2dc62349a2c46d3e52e1225) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/3 Dude_Monster/Dude_Monster_Death_8.png using Guid(a2f068fdc2dc62349a2c46d3e52e1225) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '885aa65cd0f4bb7a4be34e84ac454758') in 0.0268627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Image/Player/2 Owlet_Monster/Rock2.png
+  artifactKey: Guid(ec4426eb675bd4e4ab7967683ca3b9e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/2 Owlet_Monster/Rock2.png using Guid(ec4426eb675bd4e4ab7967683ca3b9e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ae482c88b94bd421f776e28fb35b463') in 0.0192215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Image/Player/3 Dude_Monster/Rock1.png
+  artifactKey: Guid(61ad795af78904f4d8c2926383de6723) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/3 Dude_Monster/Rock1.png using Guid(61ad795af78904f4d8c2926383de6723) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '628f72797010d1e4e57b4f14285340d4') in 0.0166532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sound/Trampoline.wav
+  artifactKey: Guid(dd791b70652063d47ac286d20718e273) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Trampoline.wav using Guid(dd791b70652063d47ac286d20718e273) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e7770eda5e8bb9b3c92c7c672961b71') in 0.0266295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Banana.png
+  artifactKey: Guid(cb2a358cb282dd34d9b866d1e6b70838) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Banana.png using Guid(cb2a358cb282dd34d9b866d1e6b70838) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0707d51138fa07f090dc7ca8e4dbe3d4') in 0.0163281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit3.png
+  artifactKey: Guid(3ce511ad9ad95594db06e653e0591e2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Hit3.png using Guid(3ce511ad9ad95594db06e653e0591e2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a03f3bb6efe63ff30030fef58aed3e79') in 0.0178605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sound/귀여운거2.mp3
+  artifactKey: Guid(ea1a012d8ef9b874f8321293e665be67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/귀여운거2.mp3 using Guid(ea1a012d8ef9b874f8321293e665be67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d1837613ced4fe437a4c042ae1fa97c') in 0.0208074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Pink_Monster_Walk_6.png
+  artifactKey: Guid(d5462861ece6e124e8a83df8be54e8e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Pink_Monster_Walk_6.png using Guid(d5462861ece6e124e8a83df8be54e8e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ceba10e3624985c8065f8ca91c156c54') in 0.0192516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Pink_Monster_Idle_4_0.prefab
+  artifactKey: Guid(0b41389ee8d762a43a8794c3791721a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefab/Pink_Monster_Idle_4_0.prefab using Guid(0b41389ee8d762a43a8794c3791721a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7efd64cdd1560f9f392f941c064de772') in 0.0158824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending13.png
+  artifactKey: Guid(285951ae8c8d3654995ee83214e5bc36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending13.png using Guid(285951ae8c8d3654995ee83214e5bc36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9879b9e9e6891d089da2c97f3c171e30') in 0.0168016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sound/Cat_Meow.wav
+  artifactKey: Guid(64207a76c5ebad7448b1ee9bdb8a0366) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Cat_Meow.wav using Guid(64207a76c5ebad7448b1ee9bdb8a0366) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5f7efbead0309c2e4fd448bf573615a') in 0.0305745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sound/Evil_Laugh.wav
+  artifactKey: Guid(760b78d51a3758e41b4a632cfa4aaea9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Evil_Laugh.wav using Guid(760b78d51a3758e41b4a632cfa4aaea9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2f0c326a73cabd44f5c1492f62c6742') in 0.0302108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable1.png
+  artifactKey: Guid(9c7588ca1b365d64bba0cee55fe5fb3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable1.png using Guid(9c7588ca1b365d64bba0cee55fe5fb3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbc9133d2766f3a62f494c3ae03f2c1a') in 0.0159852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sound/Cancel.wav
+  artifactKey: Guid(bf80ef2fbdc60b948a5dcc6dc1535eb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/Cancel.wav using Guid(bf80ef2fbdc60b948a5dcc6dc1535eb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85d68fafca16b05dd1ec71dfd475b3de') in 0.0259647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Coconut(Inside).png
+  artifactKey: Guid(e6ae15df6c2fc8342952bad66a042cbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Coconut(Inside).png using Guid(e6ae15df6c2fc8342952bad66a042cbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dc74766137485e32a3cd9a426021a20') in 0.0163785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Ice VFX 1 Start.png
+  artifactKey: Guid(c5d3080d1a78ef7438f8dc4b9c78a0cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Ice VFX 1 Start.png using Guid(c5d3080d1a78ef7438f8dc4b9c78a0cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b1301bd113f333b63c7127bbf8591fe') in 0.0173803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Avocado(Outside).png
+  artifactKey: Guid(5079a2e2aebb0184b8aee292f0a23e9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Avocado(Outside).png using Guid(5079a2e2aebb0184b8aee292f0a23e9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d169078a3d81298ecca62dfa690d883') in 0.0160735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel Food Items (Fruits)/PNG/Orange.png
+  artifactKey: Guid(33b4ba8d7360bde4b8fa407221c5ef6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Pixel Food Items (Fruits)/PNG/Orange.png using Guid(33b4ba8d7360bde4b8fa407221c5ef6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e2c2dd2f3d78c98dbf7c23344360958') in 0.0164487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sound/아케이드느낌_사망음.wav
+  artifactKey: Guid(1092de32b50e0104b99c7dd3645f687d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sound/아케이드느낌_사망음.wav using Guid(1092de32b50e0104b99c7dd3645f687d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19fb23e3f1893d0ee1903e8e97119203') in 0.0250881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Pink_Monster_Run_Right.prefab
+  artifactKey: Guid(9084cb766c0851445a9f593982a1b515) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefab/Pink_Monster_Run_Right.prefab using Guid(9084cb766c0851445a9f593982a1b515) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f597d2627a55d7a5e3f327de2a6975b') in 0.0174739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable4.png
+  artifactKey: Guid(49aeb875d9f2af5498a6c883a0b742d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 1/Separated Frames/VFX 1 Repeatable4.png using Guid(49aeb875d9f2af5498a6c883a0b742d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb8f347d45c121ce0731579f5f9551a0') in 0.015807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Rock1 1.png
+  artifactKey: Guid(209554d50167b284da65ca2b447e378f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Rock1 1.png using Guid(209554d50167b284da65ca2b447e378f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22a46c8d7030cd97459d05e1fb3dd268') in 0.0158592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Active7.png
+  artifactKey: Guid(ca8a13abad737534c80c4a020a2db2b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Active7.png using Guid(ca8a13abad737534c80c4a020a2db2b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36b63309f04a9be9162ee4c181f608b4') in 0.0165495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Image/Player/1 Pink_Monster/Player1.controller
+  artifactKey: Guid(2bce028de84177746bbd22a5e0e17820) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Player/1 Pink_Monster/Player1.controller using Guid(2bce028de84177746bbd22a5e0e17820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '048fd29ee5d26cdcbf7b33889e630445') in 0.0108283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending9.png
+  artifactKey: Guid(9216fe91107fcb740bc10c13af099851) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ice Effect 01/Ice VFX 2/Separated Frames/Ice VFX 2 Ending9.png using Guid(9216fe91107fcb740bc10c13af099851) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d87f57390870e4d55bc4659523cc825') in 0.0175034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.542 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.442 seconds
+Domain Reload Profiling: 982ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (443ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.6 MB). Loaded Objects now: 5235.
+Memory consumption went from 91.7 MB to 90.1 MB.
+Total: 7.911000 ms (FindLiveObjects: 0.867400 ms CreateObjectMapping: 0.718700 ms MarkObjects: 4.988400 ms  DeleteObjects: 1.334800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.525 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.449 seconds
+Domain Reload Profiling: 973ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (102ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (353ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.4 MB). Loaded Objects now: 5237.
+Memory consumption went from 91.7 MB to 90.2 MB.
+Total: 6.347700 ms (FindLiveObjects: 0.647800 ms CreateObjectMapping: 0.380500 ms MarkObjects: 4.004500 ms  DeleteObjects: 1.314100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 262.513907 seconds.
+  path: Assets/Prefab/Pink_Monster_Throw_4_0.prefab
+  artifactKey: Guid(e302638d7f67e8e44806cfaf71ecf975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Pink_Monster_Throw_4_0.prefab using Guid(e302638d7f67e8e44806cfaf71ecf975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a601d13c89866987f70454f94fce85d') in 0.0838222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4719 unused Assets / (1.8 MB). Loaded Objects now: 5246.
+Memory consumption went from 95.7 MB to 93.9 MB.
+Total: 10.457500 ms (FindLiveObjects: 0.978100 ms CreateObjectMapping: 0.818900 ms MarkObjects: 6.855000 ms  DeleteObjects: 1.804300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling: 1079ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (500ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (402ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (259ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4730 unused Assets / (1.4 MB). Loaded Objects now: 5247.
+Memory consumption went from 95.3 MB to 93.9 MB.
+Total: 7.543700 ms (FindLiveObjects: 0.929700 ms CreateObjectMapping: 0.715200 ms MarkObjects: 4.598600 ms  DeleteObjects: 1.299100 ms)
+
+Prepare: number of updated asset objects reloaded= 0

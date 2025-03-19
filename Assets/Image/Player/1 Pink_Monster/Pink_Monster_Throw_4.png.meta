@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pink_Monster_Throw_4_0: -7683509906945406219
+      Pink_Monster_Throw_4_1: -6477938905549605828
+      Pink_Monster_Throw_4_2: -6177161132190960733
+      Pink_Monster_Throw_4_3: -4067830739977130359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
