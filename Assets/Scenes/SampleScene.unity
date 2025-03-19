@@ -128,6 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 74809977}
+  - component: {fileID: 74809978}
   m_Layer: 0
   m_Name: ShotPos (2)
   m_TagString: Untagged
@@ -150,6 +151,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4930053340540296913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &74809978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74809976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37896f357d20bf947a633531c5b725eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShotType:
+  - {fileID: 2369511164535485840, guid: 7904d62b36f23fe40879df458a6b23bf, type: 3}
+  - {fileID: 3965884443263730429, guid: 34291586d8a78214cb12b991b6ed9c65, type: 3}
+  player: {fileID: 0}
+  verticalOffset: 0.5
 --- !u!1 &100975354
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,6 +177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 100975355}
+  - component: {fileID: 100975356}
   m_Layer: 0
   m_Name: ShotPos (1)
   m_TagString: Untagged
@@ -181,6 +200,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4930053340540296913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &100975356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100975354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37896f357d20bf947a633531c5b725eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShotType:
+  - {fileID: 2369511164535485840, guid: 7904d62b36f23fe40879df458a6b23bf, type: 3}
+  - {fileID: 3965884443263730429, guid: 34291586d8a78214cb12b991b6ed9c65, type: 3}
+  player: {fileID: 0}
+  verticalOffset: 0.5
 --- !u!1 &197639941
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,6 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 197639942}
+  - component: {fileID: 197639943}
   m_Layer: 0
   m_Name: ShotPos
   m_TagString: Untagged
@@ -212,6 +249,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4930053340540296913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &197639943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197639941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37896f357d20bf947a633531c5b725eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShotType:
+  - {fileID: 2369511164535485840, guid: 7904d62b36f23fe40879df458a6b23bf, type: 3}
+  - {fileID: 3965884443263730429, guid: 34291586d8a78214cb12b991b6ed9c65, type: 3}
+  player: {fileID: 0}
+  verticalOffset: 0.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +454,7 @@ MonoBehaviour:
   - {fileID: 197639942}
   - {fileID: 100975355}
   - {fileID: 74809977}
+  LifeCount: 3
   ItemCount: 0
   GetItemEffect: {fileID: 5469705163276530633, guid: 151448e4d3180224d8c1eec41d7d5284, type: 3}
 --- !u!1660057539 &9223372036854775807

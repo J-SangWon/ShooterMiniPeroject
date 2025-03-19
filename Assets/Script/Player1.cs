@@ -1,16 +1,19 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 
 public class Player1 : MonoBehaviour
 {
-
     //다른 스크립트에서 사용할 수 있게 싱글톤
-    public static Player1 Instance = null;
+    public static Player1 instance = null;
 
     //이동
     public float MoveSpeed = 5f;
     private Vector2 MinBounds;
     private Vector2 MaxBounds;
     public Transform[] Pos = new Transform[3];
+
+    //목숨 카운트
+    public int LifeCount = 3;
 
     //애니메이션 전환
     Animator Ani;
@@ -23,9 +26,9 @@ public class Player1 : MonoBehaviour
     private void Awake()
     {
 
-        if (Instance == null)
+        if (instance == null)
         {
-            Instance = this;
+            instance = this;
         }
         else
         {
@@ -41,7 +44,8 @@ public class Player1 : MonoBehaviour
         MinBounds = new Vector2(bottomLeft.x, bottomLeft.y);
         MaxBounds = new Vector2(topRight.x, topRight.y);
 
-
+        //애니메이션 컴포넌트 받기
+        Ani = GetComponent<Animator>();
 
 
     }
@@ -57,6 +61,18 @@ public class Player1 : MonoBehaviour
         NewPosition.y = Mathf.Clamp(NewPosition.y, MinBounds.y, MaxBounds.y);
         transform.position = NewPosition;
 
+        //Left
+        if (Input.GetAxis("Horizontal") < 0f)
+            Ani.SetBool("Left", true);
+        else Ani.SetBool("Left", false);
+        //Right
+        if (Input.GetAxis("Horizontal") > 0f)
+            Ani.SetBool("Right", true);
+        else Ani.SetBool("Right", false);
+        // 애니메이터 파라미터 설정
+        //float horizontalInput = Input.GetAxis("Horizontal");
+        //Ani.SetFloat("Horizontal", horizontalInput);
+
         //공격 키와 레이저 키
         if (Input.GetKeyDown(KeyCode.Space)) 
         { 
@@ -65,9 +81,12 @@ public class Player1 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             //공격
+            Ani.SetBool("Attack",true);
         }
-
-
+        if (Input.GetKeyUp(KeyCode.X))
+        {
+            Ani.SetBool("Attack", false);
+        }
 
     }
 
@@ -76,16 +95,31 @@ public class Player1 : MonoBehaviour
         if (collision.gameObject.CompareTag("Item"))
         {
             //아이템 충돌
-
             GameObject go = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
             Destroy(go, 1);
+
+
         }
         if (collision.gameObject.CompareTag("Moster"))
         {
             //몬스터 충돌
+            PlayerDead();
         }
 
     }
 
+    void PlayerDead()
+    {
+        Ani.SetBool("Dead", true);
+        if(LifeCount > 0)
+        {
+            LifeCount--;
+            Invoke("ResetDeadState", 1f);
+        }
+    }
 
+    public void ResetDeadState()
+    {
+        Ani.SetBool("Dead", false);
+    }
 }
