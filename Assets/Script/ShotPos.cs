@@ -3,7 +3,6 @@
 public class ShotPos : MonoBehaviour
 {
     public GameObject[] ShotType = new GameObject[2];
-    public Player1 player;
     
     public float verticalOffset = 0.5f;
     void Start()

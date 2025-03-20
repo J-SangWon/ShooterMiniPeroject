@@ -6,17 +6,21 @@ public class Player1 : MonoBehaviour
     //다른 스크립트에서 사용할 수 있게 싱글톤
     public static Player1 instance = null;
 
+    public ShotPos shotPos;
+    public bool isFire = true;
     //이동
     public float MoveSpeed = 5f;
     private Vector2 MinBounds;
     private Vector2 MaxBounds;
     public Transform[] Pos = new Transform[3];
+    public Vector3 direction;
 
     //목숨 카운트
     public int LifeCount = 3;
 
     //애니메이션 전환
     Animator Ani;
+    SpriteRenderer SP;
 
     //아이템
     public int ItemCount;
@@ -46,7 +50,7 @@ public class Player1 : MonoBehaviour
 
         //애니메이션 컴포넌트 받기
         Ani = GetComponent<Animator>();
-
+        SP = GetComponent<SpriteRenderer>();
 
     }
 
@@ -61,32 +65,19 @@ public class Player1 : MonoBehaviour
         NewPosition.y = Mathf.Clamp(NewPosition.y, MinBounds.y, MaxBounds.y);
         transform.position = NewPosition;
 
-        //Left
-        if (Input.GetAxis("Horizontal") < 0f)
-            Ani.SetBool("Left", true);
-        else Ani.SetBool("Left", false);
-        //Right
-        if (Input.GetAxis("Horizontal") > 0f)
-            Ani.SetBool("Right", true);
-        else Ani.SetBool("Right", false);
-        // 애니메이터 파라미터 설정
-        //float horizontalInput = Input.GetAxis("Horizontal");
-        //Ani.SetFloat("Horizontal", horizontalInput);
+        ////Left
+        //if (Input.GetAxis("Horizontal") < 0f)
+        //    Ani.SetBool("Left", true);
+        //else Ani.SetBool("Left", false);
+        ////Right
+        //if (Input.GetAxis("Horizontal") > 0f)
+        //    Ani.SetBool("Right", true);
+        //else Ani.SetBool("Right", false);
+        KeyInput();
 
-        //공격 키와 레이저 키
-        if (Input.GetKeyDown(KeyCode.Space)) 
-        { 
-            //레이저
-        }
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            //공격
-            Ani.SetBool("Attack",true);
-        }
-        if (Input.GetKeyUp(KeyCode.X))
-        {
-            Ani.SetBool("Attack", false);
-        }
+
+
+        
 
     }
 
@@ -121,5 +112,43 @@ public class Player1 : MonoBehaviour
     public void ResetDeadState()
     {
         Ani.SetBool("Dead", false);
+    }
+
+    void KeyInput()
+    {
+        direction.x = Input.GetAxisRaw("Horizontal");
+
+        if (direction.x < 0)
+        {
+            SP.flipX = true;
+            Ani.SetBool("Move", true);
+        }
+        else if (direction.x > 0)
+        {
+            SP.flipX = false;
+            Ani.SetBool("Move", true);
+        }
+        else if (direction.x == 0)
+        {
+            Ani.SetBool("Move", false);
+        }
+        //공격 키와 레이저 키
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //레이저
+        }
+        if (Input.GetKeyDown(KeyCode.X) )
+        {
+            Ani.SetTrigger("Attack");
+            if (isFire)
+            {
+                shotPos.ShotFire();
+            }
+            else
+            {
+                shotPos.ShotIce();
+            }
+        }
+
     }
 }
