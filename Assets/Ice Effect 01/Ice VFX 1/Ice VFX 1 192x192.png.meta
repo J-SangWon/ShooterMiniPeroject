@@ -112,7 +112,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +126,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -217,10 +217,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_0
       rect:
         serializedVersion: 2
-        x: 81
-        y: 667
-        width: 15
-        height: 9
+        x: 0
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_1
       rect:
         serializedVersion: 2
-        x: 273
-        y: 666
-        width: 20
-        height: 11
+        x: 192
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_2
       rect:
         serializedVersion: 2
-        x: 465
-        y: 666
-        width: 21
-        height: 11
+        x: 384
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_3
       rect:
         serializedVersion: 2
-        x: 652
-        y: 664
-        width: 32
-        height: 14
+        x: 576
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_4
       rect:
         serializedVersion: 2
-        x: 840
-        y: 665
-        width: 36
-        height: 13
+        x: 768
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_5
       rect:
         serializedVersion: 2
-        x: 867
-        y: 673
-        width: 9
-        height: 6
+        x: 0
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_6
       rect:
         serializedVersion: 2
-        x: 72
-        y: 473
-        width: 40
-        height: 17
+        x: 192
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_7
       rect:
         serializedVersion: 2
-        x: 263
-        y: 473
-        width: 41
-        height: 17
+        x: 384
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_8
       rect:
         serializedVersion: 2
-        x: 287
-        y: 471
-        width: 9
-        height: 6
+        x: 576
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_9
       rect:
         serializedVersion: 2
-        x: 456
-        y: 469
-        width: 40
-        height: 17
+        x: 768
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_10
       rect:
         serializedVersion: 2
-        x: 652
-        y: 472
-        width: 32
-        height: 14
+        x: 0
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +459,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_11
       rect:
         serializedVersion: 2
-        x: 840
-        y: 472
-        width: 36
-        height: 17
+        x: 192
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_12
       rect:
         serializedVersion: 2
-        x: 72
-        y: 281
-        width: 36
-        height: 16
+        x: 384
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,10 +503,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_13
       rect:
         serializedVersion: 2
-        x: 263
-        y: 281
-        width: 37
-        height: 13
+        x: 576
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_14
       rect:
         serializedVersion: 2
-        x: 456
-        y: 281
-        width: 36
-        height: 13
+        x: 768
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_15
       rect:
         serializedVersion: 2
-        x: 658
-        y: 86
-        width: 38
-        height: 216
+        x: 0
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_16
       rect:
         serializedVersion: 2
-        x: 856
-        y: 86
-        width: 30
-        height: 216
+        x: 192
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_17
       rect:
         serializedVersion: 2
-        x: 97
-        y: 97
-        width: 19
-        height: 13
+        x: 384
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_18
       rect:
         serializedVersion: 2
-        x: 279
-        y: 79
-        width: 17
-        height: 28
+        x: 576
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,10 +635,10 @@ TextureImporter:
       name: Ice VFX 1 192x192_19
       rect:
         serializedVersion: 2
-        x: 297
-        y: 103
-        width: 14
-        height: 8
+        x: 768
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -653,143 +653,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Ice VFX 1 192x192_20
-      rect:
-        serializedVersion: 2
-        x: 471
-        y: 79
-        width: 33
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d10839ee75a54bd0800000000000000
-      internalID: -2646527241513074221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice VFX 1 192x192_21
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 89
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6dad98e05d60ef420800000000000000
-      internalID: 2665575541591628502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice VFX 1 192x192_22
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 87
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f67284f4873617e50800000000000000
-      internalID: 6805329880310884207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice VFX 1 192x192_23
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 92
-        width: 18
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bff9a0d807d90bf0800000000000000
-      internalID: -357518262538731598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice VFX 1 192x192_24
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 89
-        width: 17
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6b7aa43b04de53c0800000000000000
-      internalID: -4368821443909485714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ice VFX 1 192x192_25
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 80
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4d62ee7bf8c835c20800000000000000
-      internalID: 3194051109629863636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ffdb8c3f89b7a1d42a0aa7ed4122b63b
     internalID: 0
     vertices: []
     indices: 
@@ -798,7 +666,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ice VFX 1 192x192_0: -9098536033205382005
+      Ice VFX 1 192x192_1: -5772842655521866224
+      Ice VFX 1 192x192_10: 2235674083336069360
+      Ice VFX 1 192x192_11: -5559181022113775781
+      Ice VFX 1 192x192_12: -1613528505638790405
+      Ice VFX 1 192x192_13: 5353726666492624114
+      Ice VFX 1 192x192_14: 7368623108540837387
+      Ice VFX 1 192x192_15: -8340751376148345663
+      Ice VFX 1 192x192_16: -8979035300647402884
+      Ice VFX 1 192x192_17: 6688255521528502191
+      Ice VFX 1 192x192_18: 1407002367970735763
+      Ice VFX 1 192x192_19: 8077511362205897346
+      Ice VFX 1 192x192_2: -241421399728457089
+      Ice VFX 1 192x192_3: 1075638616526481633
+      Ice VFX 1 192x192_4: -6056730047181425618
+      Ice VFX 1 192x192_5: -2724761547652799510
+      Ice VFX 1 192x192_6: -6751473140262721941
+      Ice VFX 1 192x192_7: -4153740687176946025
+      Ice VFX 1 192x192_8: 5079528638593229097
+      Ice VFX 1 192x192_9: 7934641483928443595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
