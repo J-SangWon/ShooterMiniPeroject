@@ -3,7 +3,8 @@
 public class ShotPos : MonoBehaviour
 {
     public GameObject[] ShotType = new GameObject[2];
-    
+    public GameObject laserPrefab;
+
     public float verticalOffset = 0.5f;
     void Start()
     {
@@ -46,11 +47,13 @@ public class ShotPos : MonoBehaviour
         }
     }
 
+    public void ShotLaser()
+    {
+        Instantiate(laserPrefab, transform.position, Quaternion.identity);
+    }
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-
-        }
+        
     }
 }

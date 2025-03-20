@@ -65,14 +65,7 @@ public class Player1 : MonoBehaviour
         NewPosition.y = Mathf.Clamp(NewPosition.y, MinBounds.y, MaxBounds.y);
         transform.position = NewPosition;
 
-        ////Left
-        //if (Input.GetAxis("Horizontal") < 0f)
-        //    Ani.SetBool("Left", true);
-        //else Ani.SetBool("Left", false);
-        ////Right
-        //if (Input.GetAxis("Horizontal") > 0f)
-        //    Ani.SetBool("Right", true);
-        //else Ani.SetBool("Right", false);
+        //키 입력받는 거에 대해서 이동 및 공격
         KeyInput();
 
 
@@ -87,6 +80,7 @@ public class Player1 : MonoBehaviour
         {
             //아이템 충돌
             GameObject go = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
+            ItemCount++;
             Destroy(go, 1);
 
 
@@ -133,9 +127,9 @@ public class Player1 : MonoBehaviour
             Ani.SetBool("Move", false);
         }
         //공격 키와 레이저 키
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.C))
         {
-            //레이저
+            shotPos.ShotLaser();
         }
         if (Input.GetKeyDown(KeyCode.X) )
         {
