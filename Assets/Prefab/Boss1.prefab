@@ -125,7 +125,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e60f36bfe50154644bde582998fa9157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   speed: 2
+=======
+  speed: 1
+>>>>>>> Stashed changes
   health: 50
   deathEffect: {fileID: 0}
 --- !u!61 &5485267746351855773

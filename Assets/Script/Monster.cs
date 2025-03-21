@@ -26,6 +26,7 @@ public class Monster : MonoBehaviour
 
 
 
+<<<<<<< Updated upstream
         if (other.CompareTag("Shot"))
         {
             // Shot과 충돌 시 체력 감소
@@ -40,6 +41,22 @@ public class Monster : MonoBehaviour
                 Destroy(gameObject);
                 Debug.Log($"{gameObject.name}이(가) 체력이 0 이하로 감소하여 삭제됨!");
             }
+=======
+        //if (other.CompareTag("Shot"))
+        //{
+        //    // Shot과 충돌 시 체력 감소
+        //    health -= 1;
+        //    Destroy(other.gameObject); // 총알은 삭제
+
+        //    Debug.Log($"{gameObject.name}이(가) Shot과 충돌하여 체력 감소! 현재 체력: {health}");
+
+        //    // 체력이 0 이하일 때 몬스터 삭제
+        //    if (health <= 0)
+        //    {
+        //        Destroy(gameObject);
+        //        Debug.Log($"{gameObject.name}이(가) 체력이 0 이하로 감소하여 삭제됨!");
+        //    }
+>>>>>>> Stashed changes
         }
     }
-}
+
