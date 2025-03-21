@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ShotPos : MonoBehaviour
+public class ShotPos2 : MonoBehaviour
 {
-    public enum PlayerType { Player1, Player2 } // 플레이어 타입 열거형
     public GameObject[] ShotType = new GameObject[2];
     public GameObject ThunderPrefab;
 
@@ -21,9 +20,9 @@ public class ShotPos : MonoBehaviour
         screenWidth = Camera.main.orthographicSize * Camera.main.aspect;
     }
 
-    public void ShotFire(PlayerType playerType)
+    public void ShotFire()
     {
-        int ItemCount = Player1.instance.ItemCount;
+        int ItemCount = Player2.instance.ItemCount;
         if (ItemCount == 0) 
             Instantiate(ShotType[0], transform.position, Quaternion.identity);
         else if (ItemCount == 1)
@@ -39,9 +38,9 @@ public class ShotPos : MonoBehaviour
         }
 
     }
-    public void ShotIce(PlayerType playerType)
+    public void ShotIce()
     {
-        int ItemCount = Player1.instance.ItemCount;
+        int ItemCount = Player2.instance.ItemCount;
         if (ItemCount == 0)
             Instantiate(ShotType[1], transform.position, Quaternion.identity);
         else if (ItemCount == 1)

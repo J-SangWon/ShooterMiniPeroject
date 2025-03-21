@@ -1,10 +1,10 @@
 ﻿using Unity.VisualScripting;
 using UnityEngine;
 
-public class Player1 : MonoBehaviour
+public class Player2 : MonoBehaviour
 {
     //다른 스크립트에서 사용할 수 있게 싱글톤
-    public static Player1 instance = null;
+    public static Player2 instance = null;
 
     public ShotPos shotPos;
     public bool isFire = true;
@@ -57,8 +57,8 @@ public class Player1 : MonoBehaviour
     void Update()
     {
         //이동
-        float moveX = MoveSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
-        float moveY = MoveSpeed * Time.deltaTime * Input.GetAxis("Vertical");
+        float moveX = MoveSpeed * Time.deltaTime * Input.GetAxis("Horizontal2");
+        float moveY = MoveSpeed * Time.deltaTime * Input.GetAxis("Vertical2");
         //화면 경계 밖으로 나가지 못하게 설정
         Vector3 NewPosition = transform.position + new Vector3 (moveX, moveY, 0);
         NewPosition.x = Mathf.Clamp(NewPosition.x, MinBounds.x, MaxBounds.x);
@@ -110,7 +110,7 @@ public class Player1 : MonoBehaviour
 
     void KeyInput()
     {
-        direction.x = Input.GetAxisRaw("Horizontal");
+        direction.x = Input.GetAxisRaw("Horizontal2");
 
         if (direction.x < 0)
         {
@@ -127,20 +127,20 @@ public class Player1 : MonoBehaviour
             Ani.SetBool("Move", false);
         }
         //공격 키와 레이저 키
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.Keypad2))
         {
             shotPos.ShotThunder();
         }
-        if (Input.GetKeyDown(KeyCode.F) )
+        if (Input.GetKeyDown(KeyCode.Keypad1))
         {
             Ani.SetTrigger("Attack");
             if (isFire)
             {
-                shotPos.ShotFire(ShotPos.PlayerType.Player1);
+                shotPos.ShotFire(ShotPos.PlayerType.Player2);
             }
             else
             {
-                shotPos.ShotIce(ShotPos.PlayerType.Player1);
+                shotPos.ShotIce(ShotPos.PlayerType.Player2);
             }
         }
 
