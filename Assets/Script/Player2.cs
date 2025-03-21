@@ -85,7 +85,7 @@ public class Player2 : MonoBehaviour
 
 
         }
-        if (collision.gameObject.CompareTag("Moster"))
+        if (collision.gameObject.CompareTag("Monster"))
         {
             //몬스터 충돌
             PlayerDead();
