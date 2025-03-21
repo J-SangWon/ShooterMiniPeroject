@@ -119,7 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &197639941
+=======
+--- !u!1 &19613612
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,6 +131,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 197639942}
   - component: {fileID: 197639943}
   m_Layer: 0
@@ -137,11 +142,24 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &197639942
+=======
+  - component: {fileID: 19613613}
+  - component: {fileID: 19613614}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &19613613
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 197639941}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -152,11 +170,24 @@ Transform:
   m_Father: {fileID: 4930053340540296913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &197639943
+=======
+  m_GameObject: {fileID: 19613612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.46, y: 0.104483105, z: -0.045706715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &19613614
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 197639941}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -199,6 +230,23 @@ MonoBehaviour:
   LifeCount: 3
   ItemCount: 0
   GetItemEffect: {fileID: 5469705163276530633, guid: 151448e4d3180224d8c1eec41d7d5284, type: 3}
+=======
+  m_GameObject: {fileID: 19613612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5f711c0c98252418947ddd6e797e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterPrefabs:
+  - {fileID: 8092965828317086068, guid: e1a9b97723634b14c83f2aa32b2fd196, type: 3}
+  - {fileID: 5515015166285005706, guid: 149ef25b81b86644fb608d6a373f2cf5, type: 3}
+  bossPrefab: {fileID: 6255788500647039786, guid: 92e3490c13d4cd04b9803e3c69b388a4, type: 3}
+  spawnInterval: 2
+  spawnX: 10
+  minY: -4
+  maxY: 4
+  bossSpawnTime: 20
+>>>>>>> Stashed changes
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,7 +356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &799534854
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -484,11 +532,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1641232328424000064, guid: 00243129805f4114d9d863c4536da516, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -8.09
       objectReference: {fileID: 0}
     - target: {fileID: 1641232328424000064, guid: 00243129805f4114d9d863c4536da516, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.82
       objectReference: {fileID: 0}
     - target: {fileID: 1641232328424000064, guid: 00243129805f4114d9d863c4536da516, type: 3}
       propertyPath: m_LocalPosition.z
@@ -643,3 +691,4 @@ SceneRoots:
   - {fileID: 799534855}
   - {fileID: 4930053340540296911}
   - {fileID: 1214294795779019887}
+  - {fileID: 19613613}

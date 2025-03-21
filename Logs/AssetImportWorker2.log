@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.40f1 (157d81624ddf) revision 1408385'; Using compiler version '193933523'; Build Type 'Release'
+<<<<<<< Updated upstream
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ko' Physical Memory: 32397 MB
+=======
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 32610 MB
+>>>>>>> Stashed changes
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +15,32 @@ C:\Program Files\Unity\Hub\Editor\6000.0.40f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
+<<<<<<< Updated upstream
 C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
 51821
+=======
+C:/Program Files/GitHub/ShooterMiniPeroject
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53501
+>>>>>>> Stashed changes
 -job-worker-count
 5
 -background-job-worker-count
 8
 -gc-helper-count
 1
+<<<<<<< Updated upstream
 Successfully changed project path to: C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject
 C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject
+=======
+Successfully changed project path to: C:/Program Files/GitHub/ShooterMiniPeroject
+C:/Program Files/GitHub/ShooterMiniPeroject
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,12 +76,21 @@ C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [41120]  Target information:
 
 Player connection [41120]  * "[IP] 121.179.63.129 [Port] 0 [Flags] 2 [Guid] 471541383 [EditorId] 471541383 [Version] 1048832 [Id] WindowsEditor(7,SangWon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [41120] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [41120] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [9384]  Target information:
+
+Player connection [9384]  * "[IP] 14.5.116.171 [Port] 0 [Flags] 2 [Guid] 2047420390 [EditorId] 2047420390 [Version] 1048832 [Id] WindowsEditor(7,���¿�) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9384] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9384] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> Stashed changes
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,6 +102,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.40f1 (157d81624ddf)
@@ -88,10 +115,25 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     7949 MB
     Driver:   32.0.15.6636
+=======
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.40f1 (157d81624ddf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/GitHub/ShooterMiniPeroject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16152 MB
+    Driver:   32.0.12033.1030
+>>>>>>> Stashed changes
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -110,11 +152,25 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.594 seconds
 Domain Reload Profiling: 979ms
 	BeginReloadAssembly (134ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001873 seconds.
+- Loaded All Assemblies, in  0.403 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.366 seconds
+Domain Reload Profiling: 768ms
+	BeginReloadAssembly (137ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (48ms)
@@ -136,6 +192,29 @@ Domain Reload Profiling: 979ms
 			BeforeProcessingInitializeOnLoad (43ms)
 			ProcessInitializeOnLoadAttributes (104ms)
 			ProcessInitializeOnLoadMethodAttributes (52ms)
+=======
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (135ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (142ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (367ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (319ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,6 +223,7 @@ Domain Reload Profiling: 979ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.696 seconds
 Refreshing native plugins compatible for Editor in 1.82 ms, found 4 plugins.
 Native extension for Android target not found
@@ -698,3 +778,70 @@ Received Import Request.
 Start importing Assets/Script/Laser.cs using Guid(b80762afed682cd4d99662c0e96e6716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc599c1515ec471ad46e1f21121d95aa') in 0.0044046 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+=======
+- Loaded All Assemblies, in  0.740 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.639 seconds
+Domain Reload Profiling: 1376ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (160ms)
+			BuildScriptInfoCaches (42ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4731 unused Assets / (1.3 MB). Loaded Objects now: 5219.
+Memory consumption went from 91.0 MB to 89.6 MB.
+Total: 7.119900 ms (FindLiveObjects: 0.466500 ms CreateObjectMapping: 0.559400 ms MarkObjects: 4.784400 ms  DeleteObjects: 1.308400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 412762.217038 seconds.
+  path: Assets/Prefab/Thunder.prefab
+  artifactKey: Guid(c0dc3b3c45cf5cc4699f75b23d5f5a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Thunder.prefab using Guid(c0dc3b3c45cf5cc4699f75b23d5f5a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9485a3e66d9fa4c5f207cad9971aa154') in 0.1099273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefab/Boss1.prefab
+  artifactKey: Guid(92e3490c13d4cd04b9803e3c69b388a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Boss1.prefab using Guid(92e3490c13d4cd04b9803e3c69b388a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91bdd64a999e200b1008c025e0b4590a') in 0.0273191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+>>>>>>> Stashed changes

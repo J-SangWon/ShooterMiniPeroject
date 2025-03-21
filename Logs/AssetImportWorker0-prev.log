@@ -15,7 +15,11 @@ C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 50232
+=======
+53962
+>>>>>>> Stashed changes
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +63,21 @@ C:/Users/asdgh/OneDrive/바탕 화면/Study/ShooterMiniPeroject
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [21928]  Target information:
 
 Player connection [21928]  * "[IP] 121.179.63.129 [Port] 0 [Flags] 2 [Guid] 4076389590 [EditorId] 4076389590 [Version] 1048832 [Id] WindowsEditor(7,SangWon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [21928] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [21928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [31156]  Target information:
+
+Player connection [31156]  * "[IP] 121.179.63.129 [Port] 0 [Flags] 2 [Guid] 1261386714 [EditorId] 1261386714 [Version] 1048832 [Id] WindowsEditor(7,SangWon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31156] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31156] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> Stashed changes
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +89,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+=======
+Refreshing native plugins compatible for Editor in 168.71 ms, found 4 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.40f1 (157d81624ddf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
@@ -92,29 +109,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.006084 seconds.
 - Loaded All Assemblies, in  0.388 seconds
 Native extension for Android target not found
 Android Extension - Scanning For ADB Devices 292 ms
+=======
+Registered in 0.897613 seconds.
+- Loaded All Assemblies, in 10.666 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 315 ms
+>>>>>>> Stashed changes
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.633 seconds
 Domain Reload Profiling: 1019ms
 	BeginReloadAssembly (128ms)
+=======
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 11294ms
+	BeginReloadAssembly (7502ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (13ms)
 	initialDomainReloadingComplete (52ms)
@@ -136,6 +171,29 @@ Domain Reload Profiling: 1019ms
 			BeforeProcessingInitializeOnLoad (49ms)
 			ProcessInitializeOnLoadAttributes (104ms)
 			ProcessInitializeOnLoadMethodAttributes (58ms)
+=======
+	RebuildCommonClasses (500ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (937ms)
+	LoadAllAssembliesAndSetupDomain (1714ms)
+		LoadAssemblies (7525ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1686ms)
+			TypeCache.Refresh (1685ms)
+				TypeCache.ScanAssembly (1412ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (387ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,13 +202,19 @@ Domain Reload Profiling: 1019ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.716 seconds
 Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  8.016 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 4 plugins.
+>>>>>>> Stashed changes
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.573 seconds
 Domain Reload Profiling: 1285ms
 	BeginReloadAssembly (169ms)
@@ -179,11 +243,42 @@ Domain Reload Profiling: 1285ms
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (98ms)
 			ProcessInitializeOnLoadAttributes (320ms)
+=======
+- Finished resetting the current domain, in  0.690 seconds
+Domain Reload Profiling: 8702ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (7784ms)
+		LoadAssemblies (7145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (719ms)
+			TypeCache.Refresh (677ms)
+				TypeCache.ScanAssembly (609ms)
+			BuildScriptInfoCaches (36ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (691ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+>>>>>>> Stashed changes
 			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
+<<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -292,3 +387,21 @@ Editor requested this worker to shutdown with reason: Scaling down because of id
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4736 unused Assets / (1.8 MB). Loaded Objects now: 5213.
+Memory consumption went from 91.4 MB to 89.5 MB.
+Total: 9.387500 ms (FindLiveObjects: 0.667800 ms CreateObjectMapping: 0.637000 ms MarkObjects: 5.967900 ms  DeleteObjects: 2.113800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7307.024021 seconds.
+  path: Assets/Prefab/Player1/Pink_Monster_Walk+Attack_6_0.prefab
+  artifactKey: Guid(192f3816cad99cd4085aefc1620263d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Player1/Pink_Monster_Walk+Attack_6_0.prefab using Guid(192f3816cad99cd4085aefc1620263d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bc0bd88568b6d5646134144ab5cb262') in 0.1083024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+>>>>>>> Stashed changes
