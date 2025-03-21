@@ -17,6 +17,7 @@ public class ItemDropManager : MonoBehaviour
     //public GameObject LazerEffect; //임펙트
     //public int LazerCount = 0; //레이저 카운트
 
+    //public GameObject EvolutionEffect;
     public void DropItem(Vector3 position)
     {
 
