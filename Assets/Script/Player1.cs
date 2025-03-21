@@ -96,7 +96,8 @@ public class Player1 : MonoBehaviour
     void PlayerDead()
     {
         Ani.SetBool("Dead", true);
-        if(LifeCount > 0)
+        PlayerSound.instance.PlayerDeadSound();
+        if (LifeCount > 0)
         {
             LifeCount--;
             Invoke("ResetDeadState", 1f);
@@ -134,14 +135,8 @@ public class Player1 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) )
         {
             Ani.SetTrigger("Attack");
-            if (isFire)
-            {
-                shotPos.ShotFire(ShotPos.PlayerType.Player1);
-            }
-            else
-            {
-                shotPos.ShotIce(ShotPos.PlayerType.Player1);
-            }
+            GameObject shot = Instantiate(isFire ? shotPos.ShotType[0] : shotPos.ShotType[1], transform.position, Quaternion.identity);
+            shot.GetComponent<Shot>().playerType = Shot.PlayerType.Player1; // 플레이어 타입 할당
         }
 
     }

@@ -6,6 +6,7 @@ public class ShotPos : MonoBehaviour
     public enum PlayerType { Player1, Player2 } // 플레이어 타입 열거형
     public GameObject[] ShotType = new GameObject[2];
     public GameObject ThunderPrefab;
+    public AudioSource Audio;
 
     public float verticalOffset = 0.5f;
 
@@ -37,6 +38,7 @@ public class ShotPos : MonoBehaviour
             Instantiate(ShotType[0], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
             Instantiate(ShotType[0], transform.position + Vector3.down * verticalOffset, Quaternion.identity);
         }
+        PlayerSound.instance.ShotSound();
 
     }
     public void ShotIce(PlayerType playerType)
@@ -55,8 +57,10 @@ public class ShotPos : MonoBehaviour
             Instantiate(ShotType[1], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
             Instantiate(ShotType[1], transform.position + Vector3.down * verticalOffset, Quaternion.identity);
         }
+        PlayerSound.instance.ShotSound();
     }
 
+    //특수공격
     public void ShotThunder()
     {
         StartCoroutine(SpawnThunder());
@@ -65,6 +69,7 @@ public class ShotPos : MonoBehaviour
     {
         float startX = transform.position.x;
         float currentX = startX;
+        PlayerSound.instance.ThunderAttackSound();
 
         while (currentX < screenWidth)
         {

@@ -4,7 +4,6 @@ public class Thunder : MonoBehaviour
 {
     public Player1 player;
     public int ThunderDamage = 10;
-
     void Start()
     {
         

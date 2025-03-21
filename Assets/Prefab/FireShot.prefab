@@ -204,3 +204,5 @@ MonoBehaviour:
   - {fileID: 5043319102292545533, guid: 968c298140186134aaa99b5727c6da0f, type: 3}
   Speed: 7
   AttackDamage: 0
+  Audio: {fileID: 0}
+  HitSound: {fileID: 8300000, guid: c94566c45696dd943b96e1097baed222, type: 3}

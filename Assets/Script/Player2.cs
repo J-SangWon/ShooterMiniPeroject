@@ -134,14 +134,8 @@ public class Player2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Keypad1))
         {
             Ani.SetTrigger("Attack");
-            if (isFire)
-            {
-                shotPos.ShotFire(ShotPos.PlayerType.Player2);
-            }
-            else
-            {
-                shotPos.ShotIce(ShotPos.PlayerType.Player2);
-            }
+            GameObject shot = Instantiate(isFire ? shotPos.ShotType[0] : shotPos.ShotType[1], transform.position, Quaternion.identity);
+            shot.GetComponent<Shot>().playerType = Shot.PlayerType.Player2; // 플레이어 타입 할당
         }
 
     }
