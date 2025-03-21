@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using static Shot;
 
 public class ShotPos : MonoBehaviour
 {
-    public enum PlayerType { Player1, Player2 } // 플레이어 타입 열거형
     public GameObject[] ShotType = new GameObject[2];
     public GameObject ThunderPrefab;
-    public AudioSource Audio;
 
     public float verticalOffset = 0.5f;
 
@@ -24,26 +23,48 @@ public class ShotPos : MonoBehaviour
 
     public void ShotFire(PlayerType playerType)
     {
-        int ItemCount = Player1.instance.ItemCount;
-        if (ItemCount == 0) 
-            Instantiate(ShotType[0], transform.position, Quaternion.identity);
+
+        int ItemCount = playerType == PlayerType.Player1 ? Player1.instance.ItemCount : Player2.instance.ItemCount;
+        PlayerSound.instance.ShotSound();
+        if (ItemCount == 0)
+        {
+            GameObject shot = Instantiate(ShotType[0], transform.position, Quaternion.identity);
+            shot.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
+        }
         else if (ItemCount == 1)
         {
-            Instantiate(ShotType[0], transform.position, Quaternion.identity);
-            Instantiate(ShotType[0], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
+            GameObject shot1 = Instantiate(ShotType[0], transform.position, Quaternion.identity);
+            shot1.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
+            GameObject shot2 = Instantiate(ShotType[0], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
+            shot2.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
         }
         else if (ItemCount == 2)
         {
-            Instantiate(ShotType[0], transform.position, Quaternion.identity);
-            Instantiate(ShotType[0], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
-            Instantiate(ShotType[0], transform.position + Vector3.down * verticalOffset, Quaternion.identity);
+            GameObject shot1 = Instantiate(ShotType[0], transform.position, Quaternion.identity);
+            shot1.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
+            GameObject shot2 = Instantiate(ShotType[0], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
+            shot2.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
+            GameObject shot3 = Instantiate(ShotType[0], transform.position + Vector3.down * verticalOffset, Quaternion.identity);
+            shot3.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
         }
-        PlayerSound.instance.ShotSound();
+        else if (ItemCount >= 3)
+        {
+            GameObject shot1 = Instantiate(ShotType[0], transform.position, Quaternion.identity);
+            shot1.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
+            GameObject shot2 = Instantiate(ShotType[0], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
+            shot2.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
+            GameObject shot3 = Instantiate(ShotType[0], transform.position + Vector3.down * verticalOffset, Quaternion.identity);
+            shot3.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
+            GameObject shot4 = Instantiate(ShotType[0], transform.position + Vector3.left * verticalOffset, Quaternion.identity);
+            shot4.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
+        }
+
 
     }
     public void ShotIce(PlayerType playerType)
     {
-        int ItemCount = Player1.instance.ItemCount;
+        int ItemCount = playerType == PlayerType.Player1 ? Player1.instance.ItemCount : Player2.instance.ItemCount;
+        PlayerSound.instance.ShotSound();
         if (ItemCount == 0)
             Instantiate(ShotType[1], transform.position, Quaternion.identity);
         else if (ItemCount == 1)
@@ -51,13 +72,12 @@ public class ShotPos : MonoBehaviour
             Instantiate(ShotType[1], transform.position, Quaternion.identity);
             Instantiate(ShotType[1], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
         }
-        else if (ItemCount == 2)
+        else if (ItemCount >= 2)
         {
             Instantiate(ShotType[1], transform.position, Quaternion.identity);
             Instantiate(ShotType[1], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
             Instantiate(ShotType[1], transform.position + Vector3.down * verticalOffset, Quaternion.identity);
         }
-        PlayerSound.instance.ShotSound();
     }
 
     //특수공격

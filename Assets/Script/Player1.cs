@@ -1,4 +1,5 @@
-﻿using Unity.VisualScripting;
+﻿using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player1 : MonoBehaviour
@@ -7,13 +8,23 @@ public class Player1 : MonoBehaviour
     public static Player1 instance = null;
 
     public ShotPos shotPos;
-    public bool isFire = true;
+    public Shot.PlayerType playerType = Shot.PlayerType.Player1;
+    public bool isFire = false;
+
     //이동
     public float MoveSpeed = 5f;
     private Vector2 MinBounds;
     private Vector2 MaxBounds;
     public Transform[] Pos = new Transform[3];
     public Vector3 direction;
+
+    //대쉬
+    public float DashDistance = 5f;
+    public float DashDuration = 0.1f;
+    private bool isDashing = false;
+
+    //무적
+    public bool isInvincible = false;
 
     //목숨 카운트
     public int LifeCount = 3;
@@ -68,10 +79,6 @@ public class Player1 : MonoBehaviour
         //키 입력받는 거에 대해서 이동 및 공격
         KeyInput();
 
-
-
-        
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -85,10 +92,13 @@ public class Player1 : MonoBehaviour
 
 
         }
-        if (collision.gameObject.CompareTag("Monster"))
+        if (collision.gameObject.CompareTag("Monster")&& !isInvincible)
         {
             //몬스터 충돌
             PlayerDead();
+            //무적판정 넣기
+            StartInvincible(5f);
+
         }
 
     }
@@ -135,9 +145,71 @@ public class Player1 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) )
         {
             Ani.SetTrigger("Attack");
-            GameObject shot = Instantiate(isFire ? shotPos.ShotType[0] : shotPos.ShotType[1], transform.position, Quaternion.identity);
-            shot.GetComponent<Shot>().playerType = Shot.PlayerType.Player1; // 플레이어 타입 할당
+            if (isFire)
+            {
+                shotPos.ShotFire(playerType); // ShotPos를 통해 Shot 생성
+            }
+            else
+            {
+                shotPos.ShotIce(playerType); // ShotPos를 통해 Shot 생성
+            }
+        }
+        if(Input.GetKeyDown(KeyCode.H) && !isDashing)
+        {
+            Dash();
         }
 
+    }
+
+    void Dash()
+    {
+        if (!isDashing)
+        {
+            isDashing = true;
+            Vector2 DashDirection = direction.normalized; //대쉬 방향
+            Vector2 TargetPosition = (Vector2)transform.position + DashDirection * DashDistance;
+            StartCoroutine(DashCoroutine(TargetPosition));
+            StartInvincible(1f);
+        }
+    }
+
+    IEnumerator DashCoroutine(Vector2 targetPosition)
+    {
+        float timer = 0f;
+        Vector2 startPosition = transform.position;
+        while (timer < DashDuration)
+        {
+            timer += Time.deltaTime;
+            float t = timer / DashDuration;
+            transform.position = Vector2.Lerp(startPosition, targetPosition, t); // Lerp를 사용하여 부드럽게 이동
+            yield return null;
+        }
+        transform.position = targetPosition; // 목표 위치로 이동
+        isDashing = false; //다음 대쉬 대기
+    }
+
+    //무적
+    public void StartInvincible(float duration)
+    {
+        isInvincible = true;
+        StartCoroutine(Blink(duration));
+    }
+    //무적 끝
+    public void EndInvincible()
+    {
+        isInvincible = false;
+        GetComponent<SpriteRenderer>().enabled = true;
+    }
+    //무적 동안 깜빡임
+    IEnumerator Blink(float duration)
+    {
+        float timer = 0f;
+        while (timer < duration)
+        {
+            GetComponent<SpriteRenderer>().enabled = !GetComponent<SpriteRenderer>().enabled; // 보이게/안 보이게 전환
+            yield return new WaitForSeconds(0.1f);
+            timer += 0.1f;
+        }
+        EndInvincible();
     }
 }

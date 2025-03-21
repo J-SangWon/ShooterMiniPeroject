@@ -13,7 +13,6 @@ public class Shot : MonoBehaviour
     public enum PlayerType { Player1, Player2 }
     public PlayerType playerType; // 플레이어 타입 변수
 
-
     void Start()
     {
         
