@@ -24,6 +24,7 @@ public class Shot : MonoBehaviour
         {
             //몬스터 타격
             GameObject effectPrefab = Player1.instance.isFire ? HitEffect[0] : HitEffect[1];
+            AttackDamage = Player1.instance.isFire ? 1 : 2;
             GameObject effectInstance = Instantiate(effectPrefab, transform.position, Quaternion.identity);
             Destroy(effectInstance, 0.5f);
             Destroy(gameObject);
