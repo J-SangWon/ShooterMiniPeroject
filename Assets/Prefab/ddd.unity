@@ -119,6 +119,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &248739746 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8223770816725995786, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+  m_PrefabInstance: {fileID: 1319318916132260340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &528431018 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4431914648904393055, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+  m_PrefabInstance: {fileID: 1319318916132260340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &539971969 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8084099262097340068, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+  m_PrefabInstance: {fileID: 1319318916132260340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &774168924 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4832991721688495236, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+  m_PrefabInstance: {fileID: 1319318916132260340}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1483717566
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,6 +239,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3432005930981466570, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+      propertyPath: Ms1
+      value: 
+      objectReference: {fileID: 601602235731602685, guid: 558c79fb6fda70840a182f13f9e5d65f, type: 3}
+    - target: {fileID: 3432005930981466570, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+      propertyPath: Lazer
+      value: 
+      objectReference: {fileID: 3968222680748787509, guid: 192317a6fbfadf2459d526a88cafa39b, type: 3}
+    - target: {fileID: 3432005930981466570, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+      propertyPath: LazerWarning
+      value: 
+      objectReference: {fileID: 596188979111611564, guid: 21f4c6250b5de014d9e87daee29d59db, type: 3}
+    - target: {fileID: 3432005930981466570, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+      propertyPath: Pos.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432005930981466570, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+      propertyPath: 'Pos.Array.data[0]'
+      value: 
+      objectReference: {fileID: 774168924}
+    - target: {fileID: 3432005930981466570, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+      propertyPath: 'Pos.Array.data[1]'
+      value: 
+      objectReference: {fileID: 528431018}
+    - target: {fileID: 3432005930981466570, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+      propertyPath: 'Pos.Array.data[2]'
+      value: 
+      objectReference: {fileID: 539971969}
+    - target: {fileID: 3432005930981466570, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
+      propertyPath: 'Pos.Array.data[3]'
+      value: 
+      objectReference: {fileID: 248739746}
     - target: {fileID: 4871784496593034709, guid: 8bef45c78a652ac47b15b98b3ddbdf71, type: 3}
       propertyPath: m_Name
       value: Goru

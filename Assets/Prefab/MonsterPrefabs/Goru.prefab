@@ -239,11 +239,13 @@ MonoBehaviour:
   HP: 10
   Speed: 3
   MaxPlace: 3
-  Ms1: {fileID: 0}
-  Pos1: {fileID: 0}
-  Top: {fileID: 0}
-  Bottom: {fileID: 0}
-  Front: {fileID: 0}
+  Angle: 0.1
+  Ms1: {fileID: 601602235731602685, guid: 558c79fb6fda70840a182f13f9e5d65f, type: 3}
+  Pos:
+  - {fileID: 4832991721688495236}
+  - {fileID: 8084099262097340068}
+  - {fileID: 8223770816725995786}
+  - {fileID: 4431914648904393055}
 --- !u!1 &6088155667096554921
 GameObject:
   m_ObjectHideFlags: 0
