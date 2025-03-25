@@ -47,7 +47,7 @@ public class UIManager : MonoBehaviour
         }
 
 
-        HandleGameInput();
+       
     }
 
     void StartGame()
@@ -113,13 +113,7 @@ public class UIManager : MonoBehaviour
         HideBossText();
     }
 
-    void HandleGameInput()
-    {
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            UseLaser();
-        }
-    }
+   
 
     public void DefeatBoss()
     {
