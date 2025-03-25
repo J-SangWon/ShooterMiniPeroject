@@ -38,6 +38,7 @@ public class Player2 : MonoBehaviour
     public int ItemCount;
     [SerializeField]
     private GameObject GetItemEffect;
+    public int ThunderCount = 3;
 
     private void Awake()
     {
@@ -105,11 +106,17 @@ public class Player2 : MonoBehaviour
 
     void PlayerDead()
     {
-        Ani.SetBool("Dead", true);
-        if(LifeCount > 0)
+        if (LifeCount > 0)
         {
+            Ani.SetBool("Dead", true);
+            PlayerSound.instance.PlayerDeadSound();
             LifeCount--;
-            Invoke("ResetDeadState", 1f);
+            UIManager.instance.UpdateLifeUI(2, LifeCount);
+            if (LifeCount > 0)
+            {
+                Invoke("ResetDeadState", 1f);
+            }
+
         }
     }
 
@@ -139,7 +146,12 @@ public class Player2 : MonoBehaviour
         //공격 키와 레이저 키
         if (Input.GetKeyDown(KeyCode.Keypad2))
         {
-            shotPos.ShotThunder();
+            if(ThunderCount > 0)
+            {
+                shotPos.ShotThunder();
+                ThunderCount--;
+                UIManager.instance.UpdateLaserUI(2, ThunderCount);
+            }
         }
         if (Input.GetKeyDown(KeyCode.Keypad1))
         {

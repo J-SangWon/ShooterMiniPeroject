@@ -1,17 +1,16 @@
-using TMPro;
+ï»¿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using UnityEngine.UIElements;
 
 public class UIManager : MonoBehaviour
 {
     public static bool isWaitingForStart = true;
 
-    public UnityEngine.UI.Image[] lifeIcons;
-    public UnityEngine.UI.Image[] laserIcons;
-    public UnityEngine.UI.Image[] lifeIconsP2;
-    public UnityEngine.UI.Image[] laserIconsP2;
+    public Image[] lifeIconsP1;
+    public Image[] laserIconsP1;
+    public Image[] lifeIconsP2;
+    public Image[] laserIconsP2;
     public TextMeshProUGUI StageText;
     public TextMeshProUGUI bossText;
     public TextMeshProUGUI countdownText;
@@ -20,41 +19,38 @@ public class UIManager : MonoBehaviour
     public BackgroundRepeat backgroundRepeat;
     public GameObject introPanel;
 
-
     private bool isGameOver = false;
-    private int lifeCount = 3;
-    private int laserCount = 3;
     private int stage = 1;
-    private int maxLife = 3;
-    private int lifeCountP2 = 3;
-    private int laserCountP2 = 3;
-    private int maxLifeP2 = 3;
-
     private bool isBossDefeated = false;
     private int finalStage = 2;
+
+    public static UIManager instance;
+
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        }
+    }
 
     void Start()
     {
         InitializeGame();
-       
     }
 
     void Update()
     {
         if (isWaitingForStart)
         {
-
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 StartGame();
             }
-
             return;
         }
 
         if (isGameOver) return;
-
-
     }
 
     void StartGame()
@@ -66,42 +62,30 @@ public class UIManager : MonoBehaviour
             introPanel.SetActive(false);
         }
 
-      
-
-
         startGameText.gameObject.SetActive(false);
 
         InitializeGame();
         StartCoroutine(StartCountdown());
     }
 
-
     void InitializeGame()
     {
-        lifeCount = maxLife;
-        laserCount = 3;
         stage = 1;
         isBossDefeated = false;
 
-        lifeCountP2 = maxLifeP2;
-        laserCountP2 = 3;
-
         UpdateUI();
-        UpdateLifeUI();
-        UpdateLaserUI();
-        UpdateLifeUI_P2();
-        UpdateLaserUI_P2();
+        UpdateLifeUI(1, Player1.instance.LifeCount);
+        UpdateLaserUI(1, Player1.instance.ThunderCount);
+        UpdateLifeUI(2, Player2.instance.LifeCount);
+        UpdateLaserUI(2, Player2.instance.ThunderCount);
 
         bossText.gameObject.SetActive(false);
         countdownText.gameObject.SetActive(false);
         stageClearText.gameObject.SetActive(false);
     }
 
-
-
     IEnumerator StartCountdown()
     {
-
         if (isGameOver) yield break;
         countdownText.gameObject.SetActive(true);
 
@@ -121,13 +105,11 @@ public class UIManager : MonoBehaviour
         countdownText.gameObject.SetActive(false);
 
         yield return new WaitForSeconds(5f);
-        ShowBossText("º¸½º ÃâÇö!");
+        ShowBossText("ë³´ìŠ¤ ì¶œí˜„!");
 
         yield return new WaitForSeconds(2f);
         HideBossText();
     }
-
-   
 
     public void DefeatBoss()
     {
@@ -153,7 +135,6 @@ public class UIManager : MonoBehaviour
             }
 
             ResetGameState();
-           
         }
         else
         {
@@ -164,7 +145,6 @@ public class UIManager : MonoBehaviour
 
     IEnumerator NextStage()
     {
-
         if (isGameOver) yield break;
         stage++;
         isBossDefeated = false;
@@ -189,10 +169,8 @@ public class UIManager : MonoBehaviour
         StartCoroutine(RestartAfterGameOver());
     }
 
-
     IEnumerator RestartAfterGameOver()
     {
-
         yield return new WaitForSecondsRealtime(2f);
 
         if (bossText != null)
@@ -201,70 +179,13 @@ public class UIManager : MonoBehaviour
         }
 
         ResetGameState();
-
-
     }
 
-    public void ReduceLife()
+    public void UpdateLifeUI(int playerNum, int lifeCount)
     {
-        if (isWaitingForStart) return;
-
-        if (lifeCount > 0)
-        {
-            lifeCount--;
-            UpdateLifeUI();
-
-            if (lifeCount <= 0)
-            {
-                GameOver();
-            }
-        }
-    }
-
-    public void ReduceLife_P2()
-    {
-        if (isWaitingForStart) return;
-
-        if (lifeCountP2 > 0)
-        {
-            lifeCountP2--;
-            UpdateLifeUI_P2();
-
-            if (lifeCountP2 <= 0)
-            {
-                GameOver();
-            }
-        }
-    }
-
-
-    public void IncreaseLife()
-    {
-        if (isWaitingForStart) return;
-
-        if (lifeCount < maxLife)
-        {
-            lifeCount++;
-            UpdateLifeUI();
-        }
-    }
-
-    public void IncreaseLife_P2()
-    {
-        if (isWaitingForStart) return;
-
-        if (lifeCountP2 < maxLifeP2)
-        {
-            lifeCountP2++;
-            UpdateLifeUI_P2();
-        }
-    }
-
-
-    void UpdateLifeUI()
-    {
-
         if (isGameOver) return;
+
+        Image[] lifeIcons = (playerNum == 1) ? lifeIconsP1 : lifeIconsP2;
 
         for (int i = 0; i < lifeIcons.Length; i++)
         {
@@ -272,82 +193,15 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    void UpdateLifeUI_P2()
+    public void UpdateLaserUI(int playerNum, int laserCount)
     {
-
         if (isGameOver) return;
 
-        for (int i = 0; i < lifeIconsP2.Length; i++)
-        {
-            lifeIconsP2[i].enabled = (i < lifeCountP2);
-        }
-    }
-
-    public void UseLaser()
-    {
-        if (isWaitingForStart) return;
-
-        if (laserCount > 0)
-        {
-            laserCount--;
-            UpdateLaserUI();
-        }
-    }
-
-    public void UseLaser_P2()
-    {
-        if (isWaitingForStart) return;
-
-        if (laserCountP2 > 0)
-        {
-            laserCountP2--;
-            UpdateLaserUI_P2();
-        }
-    }
-
-
-    public void RechargeLaser()
-    {
-        if (isWaitingForStart) return;
-
-        if (laserCount < 3)
-        {
-            laserCount++;
-            UpdateLaserUI();
-        }
-    }
-
-    public void RechargeLaser_P2()
-    {
-        if (isWaitingForStart) return;
-
-        if (laserCountP2 < 3)
-        {
-            laserCountP2++;
-            UpdateLaserUI_P2();
-        }
-    }
-
-
-    void UpdateLaserUI()
-    {
-
-        if (isGameOver) return;
+        Image[] laserIcons = (playerNum == 1) ? laserIconsP1 : laserIconsP2;
 
         for (int i = 0; i < laserIcons.Length; i++)
         {
             laserIcons[i].enabled = (i < laserCount);
-        }
-    }
-
-    void UpdateLaserUI_P2()
-    {
-
-        if (isGameOver) return;
-
-        for (int i = 0; i < laserIconsP2.Length; i++)
-        {
-            laserIconsP2[i].enabled = (i < laserCountP2);
         }
     }
 
@@ -375,18 +229,14 @@ public class UIManager : MonoBehaviour
         isGameOver = false;
         isWaitingForStart = true;
 
-        lifeCount = maxLife;
-        laserCount = 3;
-        lifeCountP2 = maxLifeP2;
-        laserCountP2 = 3;
         stage = 1;
         isBossDefeated = false;
 
         UpdateUI();
-        UpdateLifeUI();
-        UpdateLaserUI();
-        UpdateLifeUI_P2();
-        UpdateLaserUI_P2();
+        UpdateLifeUI(1, Player1.instance.LifeCount);
+        UpdateLaserUI(1, Player1.instance.ThunderCount);
+        UpdateLifeUI(2, Player2.instance.LifeCount);
+        UpdateLaserUI(2, Player2.instance.ThunderCount);
 
         backgroundRepeat.ChangeBackground(1);
 
@@ -402,7 +252,6 @@ public class UIManager : MonoBehaviour
 
     public void ShowStageClear()
     {
-
         if (isGameOver) return;
 
         if (stageClearText != null)

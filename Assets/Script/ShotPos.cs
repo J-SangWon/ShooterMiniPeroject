@@ -38,7 +38,7 @@ public class ShotPos : MonoBehaviour
             GameObject shot2 = Instantiate(ShotType[0], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
             shot2.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
         }
-        else if (ItemCount == 2)
+        else if (ItemCount >= 2)
         {
             GameObject shot1 = Instantiate(ShotType[0], transform.position, Quaternion.identity);
             shot1.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
@@ -46,17 +46,6 @@ public class ShotPos : MonoBehaviour
             shot2.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
             GameObject shot3 = Instantiate(ShotType[0], transform.position + Vector3.down * verticalOffset, Quaternion.identity);
             shot3.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
-        }
-        else if (ItemCount >= 3)
-        {
-            GameObject shot1 = Instantiate(ShotType[0], transform.position, Quaternion.identity);
-            shot1.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
-            GameObject shot2 = Instantiate(ShotType[0], transform.position + Vector3.up * verticalOffset, Quaternion.identity);
-            shot2.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
-            GameObject shot3 = Instantiate(ShotType[0], transform.position + Vector3.down * verticalOffset, Quaternion.identity);
-            shot3.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
-            GameObject shot4 = Instantiate(ShotType[0], transform.position + Vector3.left * verticalOffset, Quaternion.identity);
-            shot4.GetComponent<Shot>().playerType = playerType; // 플레이어 타입 할당
         }
 
 
