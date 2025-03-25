@@ -10,6 +10,8 @@ public class UIManager : MonoBehaviour
 
     public UnityEngine.UI.Image[] lifeIcons;
     public UnityEngine.UI.Image[] laserIcons;
+    public UnityEngine.UI.Image[] lifeIconsP2;
+    public UnityEngine.UI.Image[] laserIconsP2;
     public TextMeshProUGUI StageText;
     public TextMeshProUGUI bossText;
     public TextMeshProUGUI countdownText;
@@ -19,11 +21,14 @@ public class UIManager : MonoBehaviour
     public GameObject introPanel;
 
 
-
+    private bool isGameOver = false;
     private int lifeCount = 3;
     private int laserCount = 3;
     private int stage = 1;
     private int maxLife = 3;
+    private int lifeCountP2 = 3;
+    private int laserCountP2 = 3;
+    private int maxLifeP2 = 3;
 
     private bool isBossDefeated = false;
     private int finalStage = 2;
@@ -43,11 +48,13 @@ public class UIManager : MonoBehaviour
             {
                 StartGame();
             }
+
             return;
         }
 
+        if (isGameOver) return;
 
-       
+
     }
 
     void StartGame()
@@ -76,9 +83,14 @@ public class UIManager : MonoBehaviour
         stage = 1;
         isBossDefeated = false;
 
+        lifeCountP2 = maxLifeP2;
+        laserCountP2 = 3;
+
         UpdateUI();
         UpdateLifeUI();
         UpdateLaserUI();
+        UpdateLifeUI_P2();
+        UpdateLaserUI_P2();
 
         bossText.gameObject.SetActive(false);
         countdownText.gameObject.SetActive(false);
@@ -89,6 +101,8 @@ public class UIManager : MonoBehaviour
 
     IEnumerator StartCountdown()
     {
+
+        if (isGameOver) yield break;
         countdownText.gameObject.SetActive(true);
 
         countdownText.text = $"Stage {stage}";
@@ -96,7 +110,7 @@ public class UIManager : MonoBehaviour
 
         for (int i = 3; i > 0; i--)
         {
-
+            if (isGameOver) yield break;
             countdownText.text = i.ToString();
             yield return new WaitForSeconds(1f);
         }
@@ -150,6 +164,8 @@ public class UIManager : MonoBehaviour
 
     IEnumerator NextStage()
     {
+
+        if (isGameOver) yield break;
         stage++;
         isBossDefeated = false;
         stageClearText.gameObject.SetActive(false);
@@ -162,7 +178,10 @@ public class UIManager : MonoBehaviour
 
     public void GameOver()
     {
-        if (isWaitingForStart) return;
+        if (isWaitingForStart || isGameOver) return;
+
+        isGameOver = true;
+        Time.timeScale = 0;
 
         bossText.text = "GAME OVER";
         bossText.gameObject.SetActive(true);
@@ -170,21 +189,20 @@ public class UIManager : MonoBehaviour
         StartCoroutine(RestartAfterGameOver());
     }
 
+
     IEnumerator RestartAfterGameOver()
     {
-        yield return new WaitForSeconds(2f);
+
+        yield return new WaitForSecondsRealtime(2f);
 
         if (bossText != null)
         {
             bossText.gameObject.SetActive(false);
         }
 
-        Time.timeScale = 1;
-
-
         ResetGameState();
 
-   
+
     }
 
     public void ReduceLife()
@@ -203,6 +221,23 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void ReduceLife_P2()
+    {
+        if (isWaitingForStart) return;
+
+        if (lifeCountP2 > 0)
+        {
+            lifeCountP2--;
+            UpdateLifeUI_P2();
+
+            if (lifeCountP2 <= 0)
+            {
+                GameOver();
+            }
+        }
+    }
+
+
     public void IncreaseLife()
     {
         if (isWaitingForStart) return;
@@ -214,11 +249,37 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void IncreaseLife_P2()
+    {
+        if (isWaitingForStart) return;
+
+        if (lifeCountP2 < maxLifeP2)
+        {
+            lifeCountP2++;
+            UpdateLifeUI_P2();
+        }
+    }
+
+
     void UpdateLifeUI()
     {
+
+        if (isGameOver) return;
+
         for (int i = 0; i < lifeIcons.Length; i++)
         {
             lifeIcons[i].enabled = (i < lifeCount);
+        }
+    }
+
+    void UpdateLifeUI_P2()
+    {
+
+        if (isGameOver) return;
+
+        for (int i = 0; i < lifeIconsP2.Length; i++)
+        {
+            lifeIconsP2[i].enabled = (i < lifeCountP2);
         }
     }
 
@@ -233,6 +294,18 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void UseLaser_P2()
+    {
+        if (isWaitingForStart) return;
+
+        if (laserCountP2 > 0)
+        {
+            laserCountP2--;
+            UpdateLaserUI_P2();
+        }
+    }
+
+
     public void RechargeLaser()
     {
         if (isWaitingForStart) return;
@@ -244,11 +317,37 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void RechargeLaser_P2()
+    {
+        if (isWaitingForStart) return;
+
+        if (laserCountP2 < 3)
+        {
+            laserCountP2++;
+            UpdateLaserUI_P2();
+        }
+    }
+
+
     void UpdateLaserUI()
     {
+
+        if (isGameOver) return;
+
         for (int i = 0; i < laserIcons.Length; i++)
         {
             laserIcons[i].enabled = (i < laserCount);
+        }
+    }
+
+    void UpdateLaserUI_P2()
+    {
+
+        if (isGameOver) return;
+
+        for (int i = 0; i < laserIconsP2.Length; i++)
+        {
+            laserIconsP2[i].enabled = (i < laserCountP2);
         }
     }
 
@@ -272,33 +371,40 @@ public class UIManager : MonoBehaviour
 
     void ResetGameState()
     {
+        Time.timeScale = 1;
+        isGameOver = false;
+        isWaitingForStart = true;
+
         lifeCount = maxLife;
         laserCount = 3;
+        lifeCountP2 = maxLifeP2;
+        laserCountP2 = 3;
         stage = 1;
         isBossDefeated = false;
 
         UpdateUI();
         UpdateLifeUI();
         UpdateLaserUI();
+        UpdateLifeUI_P2();
+        UpdateLaserUI_P2();
 
-        
         backgroundRepeat.ChangeBackground(1);
 
         bossText.gameObject.SetActive(false);
         countdownText.gameObject.SetActive(false);
         stageClearText.gameObject.SetActive(false);
 
-
         if (introPanel != null)
         {
             introPanel.SetActive(true);
         }
-
-      
     }
 
     public void ShowStageClear()
     {
+
+        if (isGameOver) return;
+
         if (stageClearText != null)
         {
             stageClearText.text = "Stage Clear!";
