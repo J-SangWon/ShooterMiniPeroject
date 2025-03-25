@@ -3,6 +3,7 @@ using UnityEngine;
 public class Boss : MonoBehaviour
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public float speed = 2f;  // 보스의 이동 속도
 =======
     public float speed = 1f;  // 보스의 이동 속도
@@ -10,6 +11,18 @@ public class Boss : MonoBehaviour
     public int health = 50;   // 보스의 체력
     public GameObject deathEffect; // 보스 사망 이펙트 (사망 시 나타날 이펙트)
 
+=======
+    public float speed = 1f;  // 보스의 이동 속도
+    public int health = 50;   // 보스의 체력
+    public GameObject deathEffect; // 보스 사망 이펙트 (사망 시 나타날 이펙트)
+
+    //[Header("Item Drop Settings")]
+    //public GameObject[] itemPrefabs;
+    //public float dropChance = 1f;
+
+    private SpawnManager spawnManager;
+
+>>>>>>> Stashed changes
     void Update()
     {
         // 보스는 왼쪽으로 이동
@@ -23,6 +36,7 @@ public class Boss : MonoBehaviour
     }
 
     // 총알과 충돌 시 체력 감소
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -42,6 +56,8 @@ public class Boss : MonoBehaviour
         }
     }
 =======
+=======
+>>>>>>> Stashed changes
     //private void OnTriggerEnter2D(Collider2D other)
     //{
     //    if (other.CompareTag("Shot")) // 총알과 충돌 감지
@@ -59,6 +75,9 @@ public class Boss : MonoBehaviour
     //        Destroy(other.gameObject);
     //    }
     //}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     // 보스 사망 처리
@@ -70,6 +89,31 @@ public class Boss : MonoBehaviour
             Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
 
+<<<<<<< Updated upstream
         Destroy(gameObject); // 보스 몬스터 삭제
     }
+=======
+        if (spawnManager != null)
+        {
+            spawnManager.BossDefeated();
+        }
+
+        Destroy(gameObject); // 보스 몬스터 삭제
+    }
+
+    //void DropItem()
+    //{
+    //    if(itemPrefabs.Length > 0 && Random.value <= dropChance)
+    //    {
+    //        int randomIndex = Random.Range(0, itemPrefabs.Length);
+    //        Vector3 dropPosition = transform.position;
+    //        Instantiate(itemPrefabs[randomIndex], dropPosition, Quaternion.identity);
+    //    }
+    //}
+
+    public void SetSpawnManager(SpawnManager manager)
+    {
+        spawnManager = manager;
+    }
+>>>>>>> Stashed changes
 }

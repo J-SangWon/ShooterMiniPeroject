@@ -11,6 +11,10 @@ public class SpawnManager : MonoBehaviour
     public float maxY = 4f;             // 최대 Y 값
     public float bossSpawnTime = 20f;   // 보스 몬스터 등장 시간 (초)
 
+<<<<<<< Updated upstream
+=======
+    private bool bossDead = false;
+>>>>>>> Stashed changes
     void Start()
     {
         if (monsterPrefabs == null || monsterPrefabs.Length == 0)
@@ -28,13 +32,18 @@ public class SpawnManager : MonoBehaviour
 
     IEnumerator SpawnMonsterRoutine()
     {
+<<<<<<< Updated upstream
         while (true)
+=======
+        while (!bossDead)
+>>>>>>> Stashed changes
         {
             yield return new WaitForSeconds(spawnInterval);
             SpawnMonster();
         }
     }
 
+<<<<<<< Updated upstream
     void SpawnMonster()
     {
         if (monsterPrefabs == null || monsterPrefabs.Length == 0)
@@ -42,6 +51,28 @@ public class SpawnManager : MonoBehaviour
             Debug.LogError("SpawnManager: monsterPrefabs 배열이 비어 있어서 몬스터를 생성할 수 없습니다!");
             return;
         }
+=======
+    //void SpawnMonster()
+    //{
+    //    if (monsterPrefabs == null || monsterPrefabs.Length == 0)
+    //    {
+    //        Debug.LogError("SpawnManager: monsterPrefabs 배열이 비어 있어서 몬스터를 생성할 수 없습니다!");
+    //        return;
+    //    }
+
+    //    float randomY = Random.Range(minY, maxY);
+    //    Vector3 spawnPosition = new Vector3(spawnX, randomY, 0);
+
+    //    // Monster1과 Monster2 중 하나를 랜덤 선택
+    //    GameObject selectedMonster = monsterPrefabs[Random.Range(0, monsterPrefabs.Length)];
+    //    Instantiate(selectedMonster, spawnPosition, Quaternion.identity);
+    //}
+
+
+    void SpawnMonster()
+    {
+        if (bossDead) return; // 보스가 죽었으면 몬스터 스폰 중단
+>>>>>>> Stashed changes
 
         float randomY = Random.Range(minY, maxY);
         Vector3 spawnPosition = new Vector3(spawnX, randomY, 0);
@@ -64,4 +95,13 @@ public class SpawnManager : MonoBehaviour
             Debug.LogError("SpawnManager: bossPrefab이 할당되지 않았습니다. Inspector에서 Boss 프리팹을 할당하세요!");
         }
     }
+<<<<<<< Updated upstream
+=======
+
+    public void BossDefeated()
+    {
+        bossDead = true; // 보스 사망 시 몬스터 스폰 중지
+    }
+
+>>>>>>> Stashed changes
 }

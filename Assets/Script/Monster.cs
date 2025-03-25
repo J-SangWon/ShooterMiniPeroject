@@ -27,6 +27,7 @@ public class Monster : MonoBehaviour
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         if (other.CompareTag("Shot"))
         {
             // Shot과 충돌 시 체력 감소
@@ -42,6 +43,8 @@ public class Monster : MonoBehaviour
                 Debug.Log($"{gameObject.name}이(가) 체력이 0 이하로 감소하여 삭제됨!");
             }
 =======
+=======
+>>>>>>> Stashed changes
         //if (other.CompareTag("Shot"))
         //{
         //    // Shot과 충돌 시 체력 감소
@@ -56,6 +59,9 @@ public class Monster : MonoBehaviour
         //        Destroy(gameObject);
         //        Debug.Log($"{gameObject.name}이(가) 체력이 0 이하로 감소하여 삭제됨!");
         //    }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
     }
