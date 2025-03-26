@@ -1,0 +1,7409 @@
+fileFormatVersion: 2
+guid: 61aa88f8018a9344397a351efdddb9d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6652620254856729516
+    second: Retro Pixel Effect Pack 1C_0
+  - first:
+      213: 4737769538254592686
+    second: Retro Pixel Effect Pack 1C_1
+  - first:
+      213: -3153010199163819254
+    second: Retro Pixel Effect Pack 1C_2
+  - first:
+      213: 7234699007310289462
+    second: Retro Pixel Effect Pack 1C_3
+  - first:
+      213: -2675383998637049228
+    second: Retro Pixel Effect Pack 1C_4
+  - first:
+      213: -5609864028949122897
+    second: Retro Pixel Effect Pack 1C_5
+  - first:
+      213: -1767986592063676568
+    second: Retro Pixel Effect Pack 1C_6
+  - first:
+      213: 7698329347246824717
+    second: Retro Pixel Effect Pack 1C_7
+  - first:
+      213: 7816396648556430911
+    second: Retro Pixel Effect Pack 1C_8
+  - first:
+      213: 1255092116213672616
+    second: Retro Pixel Effect Pack 1C_9
+  - first:
+      213: 3893961410731328052
+    second: Retro Pixel Effect Pack 1C_10
+  - first:
+      213: 2783227603447928199
+    second: Retro Pixel Effect Pack 1C_11
+  - first:
+      213: 5569275617624070737
+    second: Retro Pixel Effect Pack 1C_12
+  - first:
+      213: 7468031969035585955
+    second: Retro Pixel Effect Pack 1C_13
+  - first:
+      213: -3539416943383283958
+    second: Retro Pixel Effect Pack 1C_14
+  - first:
+      213: -7082714243266239792
+    second: Retro Pixel Effect Pack 1C_15
+  - first:
+      213: 7669274438878037242
+    second: Retro Pixel Effect Pack 1C_16
+  - first:
+      213: -6087964115396542756
+    second: Retro Pixel Effect Pack 1C_17
+  - first:
+      213: 8795266354268108860
+    second: Retro Pixel Effect Pack 1C_18
+  - first:
+      213: 7305489061307578433
+    second: Retro Pixel Effect Pack 1C_19
+  - first:
+      213: 7119641912044719524
+    second: Retro Pixel Effect Pack 1C_20
+  - first:
+      213: 4452355076630601560
+    second: Retro Pixel Effect Pack 1C_21
+  - first:
+      213: 3498251047929513962
+    second: Retro Pixel Effect Pack 1C_22
+  - first:
+      213: 1087551571948856500
+    second: Retro Pixel Effect Pack 1C_23
+  - first:
+      213: -957877274721814453
+    second: Retro Pixel Effect Pack 1C_24
+  - first:
+      213: 7729343968700356578
+    second: Retro Pixel Effect Pack 1C_25
+  - first:
+      213: 6125148297600257265
+    second: Retro Pixel Effect Pack 1C_26
+  - first:
+      213: -5541752421661412031
+    second: Retro Pixel Effect Pack 1C_27
+  - first:
+      213: 1945259573007192522
+    second: Retro Pixel Effect Pack 1C_28
+  - first:
+      213: 4263484457173820891
+    second: Retro Pixel Effect Pack 1C_29
+  - first:
+      213: 5079950934138365128
+    second: Retro Pixel Effect Pack 1C_30
+  - first:
+      213: -2745562114271846497
+    second: Retro Pixel Effect Pack 1C_31
+  - first:
+      213: 8867939169720413443
+    second: Retro Pixel Effect Pack 1C_32
+  - first:
+      213: -1568305273622250135
+    second: Retro Pixel Effect Pack 1C_33
+  - first:
+      213: 8348213846268110863
+    second: Retro Pixel Effect Pack 1C_34
+  - first:
+      213: -695140984069957406
+    second: Retro Pixel Effect Pack 1C_35
+  - first:
+      213: -7391614141474598815
+    second: Retro Pixel Effect Pack 1C_36
+  - first:
+      213: 4784661723568655769
+    second: Retro Pixel Effect Pack 1C_37
+  - first:
+      213: -7340078283772590915
+    second: Retro Pixel Effect Pack 1C_38
+  - first:
+      213: -8175769940104333981
+    second: Retro Pixel Effect Pack 1C_39
+  - first:
+      213: -4925199014125964237
+    second: Retro Pixel Effect Pack 1C_40
+  - first:
+      213: 8375391989893626882
+    second: Retro Pixel Effect Pack 1C_41
+  - first:
+      213: -3259204655002180030
+    second: Retro Pixel Effect Pack 1C_42
+  - first:
+      213: -2481023587396489559
+    second: Retro Pixel Effect Pack 1C_43
+  - first:
+      213: -5952324678941696049
+    second: Retro Pixel Effect Pack 1C_44
+  - first:
+      213: 6406885019260677486
+    second: Retro Pixel Effect Pack 1C_45
+  - first:
+      213: 3055398042721341610
+    second: Retro Pixel Effect Pack 1C_46
+  - first:
+      213: 8809803632951857276
+    second: Retro Pixel Effect Pack 1C_47
+  - first:
+      213: -685813968398575938
+    second: Retro Pixel Effect Pack 1C_48
+  - first:
+      213: -5133915476084441754
+    second: Retro Pixel Effect Pack 1C_49
+  - first:
+      213: -6230565974134305758
+    second: Retro Pixel Effect Pack 1C_50
+  - first:
+      213: 7494297375205505513
+    second: Retro Pixel Effect Pack 1C_51
+  - first:
+      213: -6590849512080026337
+    second: Retro Pixel Effect Pack 1C_52
+  - first:
+      213: 5992993424876381712
+    second: Retro Pixel Effect Pack 1C_53
+  - first:
+      213: 6412869135573933589
+    second: Retro Pixel Effect Pack 1C_54
+  - first:
+      213: -7243626234305211612
+    second: Retro Pixel Effect Pack 1C_55
+  - first:
+      213: -84491916599925175
+    second: Retro Pixel Effect Pack 1C_56
+  - first:
+      213: 6335791138074688832
+    second: Retro Pixel Effect Pack 1C_57
+  - first:
+      213: -6070608847464331284
+    second: Retro Pixel Effect Pack 1C_58
+  - first:
+      213: -813182217576107062
+    second: Retro Pixel Effect Pack 1C_59
+  - first:
+      213: -7044457024000555596
+    second: Retro Pixel Effect Pack 1C_60
+  - first:
+      213: -2695157606721668936
+    second: Retro Pixel Effect Pack 1C_61
+  - first:
+      213: -8543025392200450504
+    second: Retro Pixel Effect Pack 1C_62
+  - first:
+      213: -1723739676873357335
+    second: Retro Pixel Effect Pack 1C_63
+  - first:
+      213: -8086868091631837765
+    second: Retro Pixel Effect Pack 1C_64
+  - first:
+      213: -2609856610153437729
+    second: Retro Pixel Effect Pack 1C_65
+  - first:
+      213: -4273673126988123718
+    second: Retro Pixel Effect Pack 1C_66
+  - first:
+      213: 2722733932162340256
+    second: Retro Pixel Effect Pack 1C_67
+  - first:
+      213: -6197605749386414875
+    second: Retro Pixel Effect Pack 1C_68
+  - first:
+      213: -7152806843909992988
+    second: Retro Pixel Effect Pack 1C_69
+  - first:
+      213: 6707343625301335577
+    second: Retro Pixel Effect Pack 1C_70
+  - first:
+      213: -2558786364321929881
+    second: Retro Pixel Effect Pack 1C_71
+  - first:
+      213: 2411552794406031052
+    second: Retro Pixel Effect Pack 1C_72
+  - first:
+      213: -6268199053900822715
+    second: Retro Pixel Effect Pack 1C_73
+  - first:
+      213: -1581163182845507699
+    second: Retro Pixel Effect Pack 1C_74
+  - first:
+      213: 2587586442146398476
+    second: Retro Pixel Effect Pack 1C_75
+  - first:
+      213: -8770288923430787910
+    second: Retro Pixel Effect Pack 1C_76
+  - first:
+      213: -7626608150132176772
+    second: Retro Pixel Effect Pack 1C_77
+  - first:
+      213: -6530308836235934296
+    second: Retro Pixel Effect Pack 1C_78
+  - first:
+      213: -7665208343979666926
+    second: Retro Pixel Effect Pack 1C_79
+  - first:
+      213: -3380693896917186821
+    second: Retro Pixel Effect Pack 1C_80
+  - first:
+      213: 5342355185449801884
+    second: Retro Pixel Effect Pack 1C_81
+  - first:
+      213: -9112945114018955056
+    second: Retro Pixel Effect Pack 1C_82
+  - first:
+      213: -7873269620664807251
+    second: Retro Pixel Effect Pack 1C_83
+  - first:
+      213: -5650462569581502296
+    second: Retro Pixel Effect Pack 1C_84
+  - first:
+      213: -5736220688929171995
+    second: Retro Pixel Effect Pack 1C_85
+  - first:
+      213: -6018381407625528840
+    second: Retro Pixel Effect Pack 1C_86
+  - first:
+      213: -6660156365695860544
+    second: Retro Pixel Effect Pack 1C_87
+  - first:
+      213: 4140123982439462582
+    second: Retro Pixel Effect Pack 1C_88
+  - first:
+      213: 7786769518203621039
+    second: Retro Pixel Effect Pack 1C_89
+  - first:
+      213: 5146684357567332134
+    second: Retro Pixel Effect Pack 1C_90
+  - first:
+      213: -60826908719507426
+    second: Retro Pixel Effect Pack 1C_91
+  - first:
+      213: 6157062047156030135
+    second: Retro Pixel Effect Pack 1C_92
+  - first:
+      213: 1617421594449888193
+    second: Retro Pixel Effect Pack 1C_93
+  - first:
+      213: 5641439806130058665
+    second: Retro Pixel Effect Pack 1C_94
+  - first:
+      213: 1342818563780114370
+    second: Retro Pixel Effect Pack 1C_95
+  - first:
+      213: 5690137610180613841
+    second: Retro Pixel Effect Pack 1C_96
+  - first:
+      213: -3995649574578221883
+    second: Retro Pixel Effect Pack 1C_97
+  - first:
+      213: -5905087603531195074
+    second: Retro Pixel Effect Pack 1C_98
+  - first:
+      213: 2347561789194745065
+    second: Retro Pixel Effect Pack 1C_99
+  - first:
+      213: -2100906276905272432
+    second: Retro Pixel Effect Pack 1C_100
+  - first:
+      213: -8578219204420791871
+    second: Retro Pixel Effect Pack 1C_101
+  - first:
+      213: -4106990508587888806
+    second: Retro Pixel Effect Pack 1C_102
+  - first:
+      213: -5774521980926635747
+    second: Retro Pixel Effect Pack 1C_103
+  - first:
+      213: -6847539694168807587
+    second: Retro Pixel Effect Pack 1C_104
+  - first:
+      213: -2460911246462243873
+    second: Retro Pixel Effect Pack 1C_105
+  - first:
+      213: -4958891978809559569
+    second: Retro Pixel Effect Pack 1C_106
+  - first:
+      213: 5819327931055289253
+    second: Retro Pixel Effect Pack 1C_107
+  - first:
+      213: 3696363541733581829
+    second: Retro Pixel Effect Pack 1C_108
+  - first:
+      213: 1457280808991804953
+    second: Retro Pixel Effect Pack 1C_109
+  - first:
+      213: 8101188717848192016
+    second: Retro Pixel Effect Pack 1C_110
+  - first:
+      213: -2774926597662641603
+    second: Retro Pixel Effect Pack 1C_111
+  - first:
+      213: -5097031048591390508
+    second: Retro Pixel Effect Pack 1C_112
+  - first:
+      213: 1607579884719360377
+    second: Retro Pixel Effect Pack 1C_113
+  - first:
+      213: 103783554199052336
+    second: Retro Pixel Effect Pack 1C_114
+  - first:
+      213: -1052711637001949900
+    second: Retro Pixel Effect Pack 1C_115
+  - first:
+      213: 1976584071260529826
+    second: Retro Pixel Effect Pack 1C_116
+  - first:
+      213: -2924452657945149517
+    second: Retro Pixel Effect Pack 1C_117
+  - first:
+      213: 149747651252527529
+    second: Retro Pixel Effect Pack 1C_118
+  - first:
+      213: 4433182965292498780
+    second: Retro Pixel Effect Pack 1C_119
+  - first:
+      213: 3179168232313542937
+    second: Retro Pixel Effect Pack 1C_120
+  - first:
+      213: -7858251633310870976
+    second: Retro Pixel Effect Pack 1C_121
+  - first:
+      213: 3638460909858647963
+    second: Retro Pixel Effect Pack 1C_122
+  - first:
+      213: -8318497983071307134
+    second: Retro Pixel Effect Pack 1C_123
+  - first:
+      213: 5142234237313569106
+    second: Retro Pixel Effect Pack 1C_124
+  - first:
+      213: 772639380992470651
+    second: Retro Pixel Effect Pack 1C_125
+  - first:
+      213: -5746546295999845106
+    second: Retro Pixel Effect Pack 1C_126
+  - first:
+      213: 7954128276246012969
+    second: Retro Pixel Effect Pack 1C_127
+  - first:
+      213: -6154737881238342682
+    second: Retro Pixel Effect Pack 1C_128
+  - first:
+      213: 595904954855363682
+    second: Retro Pixel Effect Pack 1C_129
+  - first:
+      213: 5257862171368581444
+    second: Retro Pixel Effect Pack 1C_130
+  - first:
+      213: -499230591601192842
+    second: Retro Pixel Effect Pack 1C_131
+  - first:
+      213: 2401479323272038790
+    second: Retro Pixel Effect Pack 1C_132
+  - first:
+      213: -1059013768213928970
+    second: Retro Pixel Effect Pack 1C_133
+  - first:
+      213: -6271906051715998909
+    second: Retro Pixel Effect Pack 1C_134
+  - first:
+      213: -478639490753832629
+    second: Retro Pixel Effect Pack 1C_135
+  - first:
+      213: -324703480385727416
+    second: Retro Pixel Effect Pack 1C_136
+  - first:
+      213: 3303071477407974385
+    second: Retro Pixel Effect Pack 1C_137
+  - first:
+      213: -8173900365662310732
+    second: Retro Pixel Effect Pack 1C_138
+  - first:
+      213: -223894008462179902
+    second: Retro Pixel Effect Pack 1C_139
+  - first:
+      213: 2881436914850948628
+    second: Retro Pixel Effect Pack 1C_140
+  - first:
+      213: -8385181105568246752
+    second: Retro Pixel Effect Pack 1C_141
+  - first:
+      213: -4823890431896036420
+    second: Retro Pixel Effect Pack 1C_142
+  - first:
+      213: -493705263240475037
+    second: Retro Pixel Effect Pack 1C_143
+  - first:
+      213: 1013479602441835421
+    second: Retro Pixel Effect Pack 1C_144
+  - first:
+      213: -6242592794325852938
+    second: Retro Pixel Effect Pack 1C_145
+  - first:
+      213: -2085535483209292007
+    second: Retro Pixel Effect Pack 1C_146
+  - first:
+      213: 778982436890676345
+    second: Retro Pixel Effect Pack 1C_147
+  - first:
+      213: -5670436680906304227
+    second: Retro Pixel Effect Pack 1C_148
+  - first:
+      213: -8068760251112921476
+    second: Retro Pixel Effect Pack 1C_149
+  - first:
+      213: 6505307877433267554
+    second: Retro Pixel Effect Pack 1C_150
+  - first:
+      213: 795212753790859989
+    second: Retro Pixel Effect Pack 1C_151
+  - first:
+      213: 8248570732405025644
+    second: Retro Pixel Effect Pack 1C_152
+  - first:
+      213: -2323406171609853354
+    second: Retro Pixel Effect Pack 1C_153
+  - first:
+      213: 7732683027287288561
+    second: Retro Pixel Effect Pack 1C_154
+  - first:
+      213: -4411915168097359627
+    second: Retro Pixel Effect Pack 1C_155
+  - first:
+      213: 1202153089717495577
+    second: Retro Pixel Effect Pack 1C_156
+  - first:
+      213: 7686560086347279724
+    second: Retro Pixel Effect Pack 1C_157
+  - first:
+      213: -2949688215352805993
+    second: Retro Pixel Effect Pack 1C_158
+  - first:
+      213: -382960646240062381
+    second: Retro Pixel Effect Pack 1C_159
+  - first:
+      213: 7653027609345116453
+    second: Retro Pixel Effect Pack 1C_160
+  - first:
+      213: -7648048770751865668
+    second: Retro Pixel Effect Pack 1C_161
+  - first:
+      213: -6044075934389519489
+    second: Retro Pixel Effect Pack 1C_162
+  - first:
+      213: 2308915253266949875
+    second: Retro Pixel Effect Pack 1C_163
+  - first:
+      213: 1442712209674654234
+    second: Retro Pixel Effect Pack 1C_164
+  - first:
+      213: -3370785389983368747
+    second: Retro Pixel Effect Pack 1C_165
+  - first:
+      213: -145555013871760902
+    second: Retro Pixel Effect Pack 1C_166
+  - first:
+      213: -152392288187510879
+    second: Retro Pixel Effect Pack 1C_167
+  - first:
+      213: -2307139521819809809
+    second: Retro Pixel Effect Pack 1C_168
+  - first:
+      213: -8164415623464685597
+    second: Retro Pixel Effect Pack 1C_169
+  - first:
+      213: -5690533161507724425
+    second: Retro Pixel Effect Pack 1C_170
+  - first:
+      213: -3925747919752521255
+    second: Retro Pixel Effect Pack 1C_171
+  - first:
+      213: -7510351485853884461
+    second: Retro Pixel Effect Pack 1C_172
+  - first:
+      213: 5950705870301329383
+    second: Retro Pixel Effect Pack 1C_173
+  - first:
+      213: -2586703015877132768
+    second: Retro Pixel Effect Pack 1C_174
+  - first:
+      213: -8728568902398119969
+    second: Retro Pixel Effect Pack 1C_175
+  - first:
+      213: 6397948299866574898
+    second: Retro Pixel Effect Pack 1C_176
+  - first:
+      213: -5143475797468654133
+    second: Retro Pixel Effect Pack 1C_177
+  - first:
+      213: -5246080181490383134
+    second: Retro Pixel Effect Pack 1C_178
+  - first:
+      213: 9196659605419623247
+    second: Retro Pixel Effect Pack 1C_179
+  - first:
+      213: -3411861228923458004
+    second: Retro Pixel Effect Pack 1C_180
+  - first:
+      213: 6971518022173148204
+    second: Retro Pixel Effect Pack 1C_181
+  - first:
+      213: -1386078853424352273
+    second: Retro Pixel Effect Pack 1C_182
+  - first:
+      213: -4401030604803042663
+    second: Retro Pixel Effect Pack 1C_183
+  - first:
+      213: 8542187455997072564
+    second: Retro Pixel Effect Pack 1C_184
+  - first:
+      213: -2613272597923585939
+    second: Retro Pixel Effect Pack 1C_185
+  - first:
+      213: -8166240758775673338
+    second: Retro Pixel Effect Pack 1C_186
+  - first:
+      213: 3529407933482922164
+    second: Retro Pixel Effect Pack 1C_187
+  - first:
+      213: 895774409483693395
+    second: Retro Pixel Effect Pack 1C_188
+  - first:
+      213: 7885664501712531479
+    second: Retro Pixel Effect Pack 1C_189
+  - first:
+      213: -3025481550836990240
+    second: Retro Pixel Effect Pack 1C_190
+  - first:
+      213: -4542681862654295138
+    second: Retro Pixel Effect Pack 1C_191
+  - first:
+      213: 6661592487649797187
+    second: Retro Pixel Effect Pack 1C_192
+  - first:
+      213: -3394108772451935070
+    second: Retro Pixel Effect Pack 1C_193
+  - first:
+      213: 1521964979581151216
+    second: Retro Pixel Effect Pack 1C_194
+  - first:
+      213: 3358010909487799582
+    second: Retro Pixel Effect Pack 1C_195
+  - first:
+      213: -8238381884357729810
+    second: Retro Pixel Effect Pack 1C_196
+  - first:
+      213: 8582741104771306116
+    second: Retro Pixel Effect Pack 1C_197
+  - first:
+      213: -8503472841309613233
+    second: Retro Pixel Effect Pack 1C_198
+  - first:
+      213: 7569929814270428263
+    second: Retro Pixel Effect Pack 1C_199
+  - first:
+      213: 5230794243625564803
+    second: Retro Pixel Effect Pack 1C_200
+  - first:
+      213: 2323321975490768403
+    second: Retro Pixel Effect Pack 1C_201
+  - first:
+      213: 2248528904371360979
+    second: Retro Pixel Effect Pack 1C_202
+  - first:
+      213: -7160899388731459166
+    second: Retro Pixel Effect Pack 1C_203
+  - first:
+      213: -127555503437357612
+    second: Retro Pixel Effect Pack 1C_204
+  - first:
+      213: -6830371259403955546
+    second: Retro Pixel Effect Pack 1C_205
+  - first:
+      213: 5873659334190813868
+    second: Retro Pixel Effect Pack 1C_206
+  - first:
+      213: 8369105506411519568
+    second: Retro Pixel Effect Pack 1C_207
+  - first:
+      213: -3127361380151750388
+    second: Retro Pixel Effect Pack 1C_208
+  - first:
+      213: 2965222030456533070
+    second: Retro Pixel Effect Pack 1C_209
+  - first:
+      213: -1117180160276532667
+    second: Retro Pixel Effect Pack 1C_210
+  - first:
+      213: 7177995003053657064
+    second: Retro Pixel Effect Pack 1C_211
+  - first:
+      213: -2750389414239844808
+    second: Retro Pixel Effect Pack 1C_212
+  - first:
+      213: 889763266286463292
+    second: Retro Pixel Effect Pack 1C_213
+  - first:
+      213: -2098100415163192224
+    second: Retro Pixel Effect Pack 1C_214
+  - first:
+      213: 2473530502903824521
+    second: Retro Pixel Effect Pack 1C_215
+  - first:
+      213: 2962503328908030845
+    second: Retro Pixel Effect Pack 1C_216
+  - first:
+      213: 6715833684855129466
+    second: Retro Pixel Effect Pack 1C_217
+  - first:
+      213: 6962470186553854316
+    second: Retro Pixel Effect Pack 1C_218
+  - first:
+      213: 1742149900455647628
+    second: Retro Pixel Effect Pack 1C_219
+  - first:
+      213: -3290858779653206756
+    second: Retro Pixel Effect Pack 1C_220
+  - first:
+      213: -9066980671661627934
+    second: Retro Pixel Effect Pack 1C_221
+  - first:
+      213: 8963472370967993106
+    second: Retro Pixel Effect Pack 1C_222
+  - first:
+      213: 5398011452862888168
+    second: Retro Pixel Effect Pack 1C_223
+  - first:
+      213: 4759026146558223955
+    second: Retro Pixel Effect Pack 1C_224
+  - first:
+      213: 6282184083321211270
+    second: Retro Pixel Effect Pack 1C_225
+  - first:
+      213: -5987483365069496045
+    second: Retro Pixel Effect Pack 1C_226
+  - first:
+      213: 8416089352310771002
+    second: Retro Pixel Effect Pack 1C_227
+  - first:
+      213: -820507405352084092
+    second: Retro Pixel Effect Pack 1C_228
+  - first:
+      213: 6926264857529175224
+    second: Retro Pixel Effect Pack 1C_229
+  - first:
+      213: 5989101954544944426
+    second: Retro Pixel Effect Pack 1C_230
+  - first:
+      213: -5078407178217234436
+    second: Retro Pixel Effect Pack 1C_231
+  - first:
+      213: -5063448578034610260
+    second: Retro Pixel Effect Pack 1C_232
+  - first:
+      213: 1187081411679509099
+    second: Retro Pixel Effect Pack 1C_233
+  - first:
+      213: 2196961275261037292
+    second: Retro Pixel Effect Pack 1C_234
+  - first:
+      213: -4162734773631015652
+    second: Retro Pixel Effect Pack 1C_235
+  - first:
+      213: 4866430792760444179
+    second: Retro Pixel Effect Pack 1C_236
+  - first:
+      213: 2478274139544248992
+    second: Retro Pixel Effect Pack 1C_237
+  - first:
+      213: 7093895718551312631
+    second: Retro Pixel Effect Pack 1C_238
+  - first:
+      213: -7030545691451729553
+    second: Retro Pixel Effect Pack 1C_239
+  - first:
+      213: -469695787142535100
+    second: Retro Pixel Effect Pack 1C_240
+  - first:
+      213: -7661551299076486218
+    second: Retro Pixel Effect Pack 1C_241
+  - first:
+      213: 6752013523611322220
+    second: Retro Pixel Effect Pack 1C_242
+  - first:
+      213: -1741650740534863696
+    second: Retro Pixel Effect Pack 1C_243
+  - first:
+      213: 2201155256508787785
+    second: Retro Pixel Effect Pack 1C_244
+  - first:
+      213: 4716378122270333127
+    second: Retro Pixel Effect Pack 1C_245
+  - first:
+      213: 5330790649471709880
+    second: Retro Pixel Effect Pack 1C_246
+  - first:
+      213: 7076833072722088395
+    second: Retro Pixel Effect Pack 1C_247
+  - first:
+      213: -1216635132619944714
+    second: Retro Pixel Effect Pack 1C_248
+  - first:
+      213: -7939201070386697184
+    second: Retro Pixel Effect Pack 1C_249
+  - first:
+      213: 3903956256974398021
+    second: Retro Pixel Effect Pack 1C_250
+  - first:
+      213: -6693463624542972415
+    second: Retro Pixel Effect Pack 1C_251
+  - first:
+      213: 1262616594903762530
+    second: Retro Pixel Effect Pack 1C_252
+  - first:
+      213: 4288680203186562182
+    second: Retro Pixel Effect Pack 1C_253
+  - first:
+      213: -1424269494961989945
+    second: Retro Pixel Effect Pack 1C_254
+  - first:
+      213: 5825005488434224799
+    second: Retro Pixel Effect Pack 1C_255
+  - first:
+      213: 4131631874128014281
+    second: Retro Pixel Effect Pack 1C_256
+  - first:
+      213: -1031292958008736832
+    second: Retro Pixel Effect Pack 1C_257
+  - first:
+      213: 5222833951714140229
+    second: Retro Pixel Effect Pack 1C_258
+  - first:
+      213: -5975739899179936471
+    second: Retro Pixel Effect Pack 1C_259
+  - first:
+      213: 7567888833694433205
+    second: Retro Pixel Effect Pack 1C_260
+  - first:
+      213: -6825089989382516916
+    second: Retro Pixel Effect Pack 1C_261
+  - first:
+      213: -1064266028085459993
+    second: Retro Pixel Effect Pack 1C_262
+  - first:
+      213: -7481871744761543866
+    second: Retro Pixel Effect Pack 1C_263
+  - first:
+      213: -6054523492466285160
+    second: Retro Pixel Effect Pack 1C_264
+  - first:
+      213: -6790947354168297872
+    second: Retro Pixel Effect Pack 1C_265
+  - first:
+      213: -7602963844010391221
+    second: Retro Pixel Effect Pack 1C_266
+  - first:
+      213: 3694635743216331223
+    second: Retro Pixel Effect Pack 1C_267
+  - first:
+      213: -7905385281062113975
+    second: Retro Pixel Effect Pack 1C_268
+  - first:
+      213: -1245775405398970963
+    second: Retro Pixel Effect Pack 1C_269
+  - first:
+      213: -997286018942923943
+    second: Retro Pixel Effect Pack 1C_270
+  - first:
+      213: 1092945791046225732
+    second: Retro Pixel Effect Pack 1C_271
+  - first:
+      213: -1197930141098446540
+    second: Retro Pixel Effect Pack 1C_272
+  - first:
+      213: -5752960266485295385
+    second: Retro Pixel Effect Pack 1C_273
+  - first:
+      213: -5052905364155354435
+    second: Retro Pixel Effect Pack 1C_274
+  - first:
+      213: -2281196861496188549
+    second: Retro Pixel Effect Pack 1C_275
+  - first:
+      213: 3200821466999952639
+    second: Retro Pixel Effect Pack 1C_276
+  - first:
+      213: -164904676732578413
+    second: Retro Pixel Effect Pack 1C_277
+  - first:
+      213: -8717032763766048066
+    second: Retro Pixel Effect Pack 1C_278
+  - first:
+      213: -5951782190357940000
+    second: Retro Pixel Effect Pack 1C_279
+  - first:
+      213: -1217107931080981628
+    second: Retro Pixel Effect Pack 1C_280
+  - first:
+      213: 3251701982835164239
+    second: Retro Pixel Effect Pack 1C_281
+  - first:
+      213: -3043364155105555378
+    second: Retro Pixel Effect Pack 1C_282
+  - first:
+      213: -789176685116354482
+    second: Retro Pixel Effect Pack 1C_283
+  - first:
+      213: 2497231423006207858
+    second: Retro Pixel Effect Pack 1C_284
+  - first:
+      213: 433012517197432963
+    second: Retro Pixel Effect Pack 1C_285
+  - first:
+      213: -4880728826264845002
+    second: Retro Pixel Effect Pack 1C_286
+  - first:
+      213: 9140373724898391368
+    second: Retro Pixel Effect Pack 1C_287
+  - first:
+      213: -2514565941032948094
+    second: Retro Pixel Effect Pack 1C_288
+  - first:
+      213: 3042804805180884122
+    second: Retro Pixel Effect Pack 1C_289
+  - first:
+      213: -6809521284586766222
+    second: Retro Pixel Effect Pack 1C_290
+  - first:
+      213: 8234674335757738986
+    second: Retro Pixel Effect Pack 1C_291
+  - first:
+      213: -6264022791597558899
+    second: Retro Pixel Effect Pack 1C_292
+  - first:
+      213: 7861682288748680658
+    second: Retro Pixel Effect Pack 1C_293
+  - first:
+      213: 7938727324477643291
+    second: Retro Pixel Effect Pack 1C_294
+  - first:
+      213: 549868001358136934
+    second: Retro Pixel Effect Pack 1C_295
+  - first:
+      213: -3147833797816516602
+    second: Retro Pixel Effect Pack 1C_296
+  - first:
+      213: -1497559884887130366
+    second: Retro Pixel Effect Pack 1C_297
+  - first:
+      213: 5198764367612884033
+    second: Retro Pixel Effect Pack 1C_298
+  - first:
+      213: 5293288859296117277
+    second: Retro Pixel Effect Pack 1C_299
+  - first:
+      213: -7731440972462540307
+    second: Retro Pixel Effect Pack 1C_300
+  - first:
+      213: -4836698619484455215
+    second: Retro Pixel Effect Pack 1C_301
+  - first:
+      213: -5473406004613548654
+    second: Retro Pixel Effect Pack 1C_302
+  - first:
+      213: -378626865843497201
+    second: Retro Pixel Effect Pack 1C_303
+  - first:
+      213: -2904990450202747455
+    second: Retro Pixel Effect Pack 1C_304
+  - first:
+      213: -3210191423408020956
+    second: Retro Pixel Effect Pack 1C_305
+  - first:
+      213: 8594325767868051003
+    second: Retro Pixel Effect Pack 1C_306
+  - first:
+      213: 6907393433469188356
+    second: Retro Pixel Effect Pack 1C_307
+  - first:
+      213: 2116585906931758356
+    second: Retro Pixel Effect Pack 1C_308
+  - first:
+      213: 5515794063857427803
+    second: Retro Pixel Effect Pack 1C_309
+  - first:
+      213: 3203298721483203810
+    second: Retro Pixel Effect Pack 1C_310
+  - first:
+      213: -2914263340461540206
+    second: Retro Pixel Effect Pack 1C_311
+  - first:
+      213: 1518088777244900295
+    second: Retro Pixel Effect Pack 1C_312
+  - first:
+      213: 6227065964014537153
+    second: Retro Pixel Effect Pack 1C_313
+  - first:
+      213: -5441765653278238971
+    second: Retro Pixel Effect Pack 1C_314
+  - first:
+      213: 266393722193266846
+    second: Retro Pixel Effect Pack 1C_315
+  - first:
+      213: 129201023861185774
+    second: Retro Pixel Effect Pack 1C_316
+  - first:
+      213: -1032540720748182876
+    second: Retro Pixel Effect Pack 1C_317
+  - first:
+      213: 7381057816293963286
+    second: Retro Pixel Effect Pack 1C_318
+  - first:
+      213: -8446387379646758590
+    second: Retro Pixel Effect Pack 1C_319
+  - first:
+      213: -3092330249852443495
+    second: Retro Pixel Effect Pack 1C_320
+  - first:
+      213: 1485512931105489194
+    second: Retro Pixel Effect Pack 1C_321
+  - first:
+      213: -4300315094351861044
+    second: Retro Pixel Effect Pack 1C_322
+  - first:
+      213: 2896071543808481384
+    second: Retro Pixel Effect Pack 1C_323
+  - first:
+      213: 5809996991364757807
+    second: Retro Pixel Effect Pack 1C_324
+  - first:
+      213: -4839022129283824137
+    second: Retro Pixel Effect Pack 1C_325
+  - first:
+      213: 2761876028439426872
+    second: Retro Pixel Effect Pack 1C_326
+  - first:
+      213: 3423692293253216918
+    second: Retro Pixel Effect Pack 1C_327
+  - first:
+      213: 1131996248128857223
+    second: Retro Pixel Effect Pack 1C_328
+  - first:
+      213: 3673229761986713738
+    second: Retro Pixel Effect Pack 1C_329
+  - first:
+      213: 6791811333829141546
+    second: Retro Pixel Effect Pack 1C_330
+  - first:
+      213: 2527792130148820306
+    second: Retro Pixel Effect Pack 1C_331
+  - first:
+      213: -4390558061394840364
+    second: Retro Pixel Effect Pack 1C_332
+  - first:
+      213: -4912360233988334025
+    second: Retro Pixel Effect Pack 1C_333
+  - first:
+      213: -6067440498187205782
+    second: Retro Pixel Effect Pack 1C_334
+  - first:
+      213: 3592994403486286125
+    second: Retro Pixel Effect Pack 1C_335
+  - first:
+      213: 7486664750622066108
+    second: Retro Pixel Effect Pack 1C_336
+  - first:
+      213: -6715156945570869905
+    second: Retro Pixel Effect Pack 1C_337
+  - first:
+      213: 3055458863042508300
+    second: Retro Pixel Effect Pack 1C_338
+  - first:
+      213: 7625448249635517634
+    second: Retro Pixel Effect Pack 1C_339
+  - first:
+      213: -5079969899609649568
+    second: Retro Pixel Effect Pack 1C_340
+  - first:
+      213: 2491642196996848521
+    second: Retro Pixel Effect Pack 1C_341
+  - first:
+      213: -8268879030092975674
+    second: Retro Pixel Effect Pack 1C_342
+  - first:
+      213: -373494776506675032
+    second: Retro Pixel Effect Pack 1C_343
+  - first:
+      213: -2504122744206188534
+    second: Retro Pixel Effect Pack 1C_344
+  - first:
+      213: 1590717604520905828
+    second: Retro Pixel Effect Pack 1C_345
+  - first:
+      213: 2072861836918541888
+    second: Retro Pixel Effect Pack 1C_346
+  - first:
+      213: -2843646796725740222
+    second: Retro Pixel Effect Pack 1C_347
+  - first:
+      213: -5893563508178191011
+    second: Retro Pixel Effect Pack 1C_348
+  - first:
+      213: -7840688056359020878
+    second: Retro Pixel Effect Pack 1C_349
+  - first:
+      213: -1809870443844867060
+    second: Retro Pixel Effect Pack 1C_350
+  - first:
+      213: 7081693967431889200
+    second: Retro Pixel Effect Pack 1C_351
+  - first:
+      213: 3481339634113879037
+    second: Retro Pixel Effect Pack 1C_352
+  - first:
+      213: 3031998908668208013
+    second: Retro Pixel Effect Pack 1C_353
+  - first:
+      213: 8628248272930861186
+    second: Retro Pixel Effect Pack 1C_354
+  - first:
+      213: 4014512736152100193
+    second: Retro Pixel Effect Pack 1C_355
+  - first:
+      213: -472512111278638842
+    second: Retro Pixel Effect Pack 1C_356
+  - first:
+      213: -7053500784006198498
+    second: Retro Pixel Effect Pack 1C_357
+  - first:
+      213: -6383659988870205335
+    second: Retro Pixel Effect Pack 1C_358
+  - first:
+      213: 7766500021491678938
+    second: Retro Pixel Effect Pack 1C_359
+  - first:
+      213: -6478196053245398903
+    second: Retro Pixel Effect Pack 1C_360
+  - first:
+      213: -6703526541708951536
+    second: Retro Pixel Effect Pack 1C_361
+  - first:
+      213: -9094695873361613038
+    second: Retro Pixel Effect Pack 1C_362
+  - first:
+      213: -4503685107947984207
+    second: Retro Pixel Effect Pack 1C_363
+  - first:
+      213: 4086872931526251928
+    second: Retro Pixel Effect Pack 1C_364
+  - first:
+      213: -8451851640160575409
+    second: Retro Pixel Effect Pack 1C_365
+  - first:
+      213: -3459812171103235637
+    second: Retro Pixel Effect Pack 1C_366
+  - first:
+      213: -282010362506391233
+    second: Retro Pixel Effect Pack 1C_367
+  - first:
+      213: -7193808335579063682
+    second: Retro Pixel Effect Pack 1C_368
+  - first:
+      213: -1280872707271918708
+    second: Retro Pixel Effect Pack 1C_369
+  - first:
+      213: 4578115324655771816
+    second: Retro Pixel Effect Pack 1C_370
+  - first:
+      213: 7728341691558623671
+    second: Retro Pixel Effect Pack 1C_371
+  - first:
+      213: -8460382348112722578
+    second: Retro Pixel Effect Pack 1C_372
+  - first:
+      213: 5413901265820684080
+    second: Retro Pixel Effect Pack 1C_373
+  - first:
+      213: -4125717800309403303
+    second: Retro Pixel Effect Pack 1C_374
+  - first:
+      213: -3471901037738886153
+    second: Retro Pixel Effect Pack 1C_375
+  - first:
+      213: 8694874414285378898
+    second: Retro Pixel Effect Pack 1C_376
+  - first:
+      213: -7293199433310706549
+    second: Retro Pixel Effect Pack 1C_377
+  - first:
+      213: 2986724769884422602
+    second: Retro Pixel Effect Pack 1C_378
+  - first:
+      213: -7636210732162931953
+    second: Retro Pixel Effect Pack 1C_379
+  - first:
+      213: -6448173461961721011
+    second: Retro Pixel Effect Pack 1C_380
+  - first:
+      213: -7986450770536418382
+    second: Retro Pixel Effect Pack 1C_381
+  - first:
+      213: -3435235342730502269
+    second: Retro Pixel Effect Pack 1C_382
+  - first:
+      213: 6667782675561248547
+    second: Retro Pixel Effect Pack 1C_383
+  - first:
+      213: 4349222617892797901
+    second: Retro Pixel Effect Pack 1C_384
+  - first:
+      213: -1580490048310495387
+    second: Retro Pixel Effect Pack 1C_385
+  - first:
+      213: 7613570816567297129
+    second: Retro Pixel Effect Pack 1C_386
+  - first:
+      213: 9077255588690245057
+    second: Retro Pixel Effect Pack 1C_387
+  - first:
+      213: 7905294540017626391
+    second: Retro Pixel Effect Pack 1C_388
+  - first:
+      213: -4255564219314002052
+    second: Retro Pixel Effect Pack 1C_389
+  - first:
+      213: 6357660615071494234
+    second: Retro Pixel Effect Pack 1C_390
+  - first:
+      213: -9204757821499052917
+    second: Retro Pixel Effect Pack 1C_391
+  - first:
+      213: 7382055248034405240
+    second: Retro Pixel Effect Pack 1C_392
+  - first:
+      213: 6618844181000452857
+    second: Retro Pixel Effect Pack 1C_393
+  - first:
+      213: -5100869272871255426
+    second: Retro Pixel Effect Pack 1C_394
+  - first:
+      213: 380921860810955588
+    second: Retro Pixel Effect Pack 1C_395
+  - first:
+      213: 5987187134939525962
+    second: Retro Pixel Effect Pack 1C_396
+  - first:
+      213: -1892563013534714324
+    second: Retro Pixel Effect Pack 1C_397
+  - first:
+      213: 6567265361895948978
+    second: Retro Pixel Effect Pack 1C_398
+  - first:
+      213: 570216512701311613
+    second: Retro Pixel Effect Pack 1C_399
+  - first:
+      213: 4681850111493672225
+    second: Retro Pixel Effect Pack 1C_400
+  - first:
+      213: -798330445758824430
+    second: Retro Pixel Effect Pack 1C_401
+  - first:
+      213: 5361926389673769185
+    second: Retro Pixel Effect Pack 1C_402
+  - first:
+      213: 7927708279192154289
+    second: Retro Pixel Effect Pack 1C_403
+  - first:
+      213: 5260861431192329300
+    second: Retro Pixel Effect Pack 1C_404
+  - first:
+      213: -8245293487804274696
+    second: Retro Pixel Effect Pack 1C_405
+  - first:
+      213: -2640656767532779311
+    second: Retro Pixel Effect Pack 1C_406
+  - first:
+      213: 5885790979485390625
+    second: Retro Pixel Effect Pack 1C_407
+  - first:
+      213: -7403835664222394779
+    second: Retro Pixel Effect Pack 1C_408
+  - first:
+      213: -3699570138373142999
+    second: Retro Pixel Effect Pack 1C_409
+  - first:
+      213: -7561634256684100868
+    second: Retro Pixel Effect Pack 1C_410
+  - first:
+      213: 7055164599326357817
+    second: Retro Pixel Effect Pack 1C_411
+  - first:
+      213: -5054349524400622518
+    second: Retro Pixel Effect Pack 1C_412
+  - first:
+      213: 8088949110268078037
+    second: Retro Pixel Effect Pack 1C_413
+  - first:
+      213: -3526148429354454841
+    second: Retro Pixel Effect Pack 1C_414
+  - first:
+      213: -7490344512139711976
+    second: Retro Pixel Effect Pack 1C_415
+  - first:
+      213: -2970308350338987969
+    second: Retro Pixel Effect Pack 1C_416
+  - first:
+      213: 4846396464800301656
+    second: Retro Pixel Effect Pack 1C_417
+  - first:
+      213: 5094767364939574636
+    second: Retro Pixel Effect Pack 1C_418
+  - first:
+      213: 1164237236009450821
+    second: Retro Pixel Effect Pack 1C_419
+  - first:
+      213: -4589872045543441986
+    second: Retro Pixel Effect Pack 1C_420
+  - first:
+      213: 2013340826139328315
+    second: Retro Pixel Effect Pack 1C_421
+  - first:
+      213: 2212756800836934571
+    second: Retro Pixel Effect Pack 1C_422
+  - first:
+      213: -6357582957389693595
+    second: Retro Pixel Effect Pack 1C_423
+  - first:
+      213: 2471381796169340431
+    second: Retro Pixel Effect Pack 1C_424
+  - first:
+      213: 8593032234220487169
+    second: Retro Pixel Effect Pack 1C_425
+  - first:
+      213: 1170112288598701798
+    second: Retro Pixel Effect Pack 1C_426
+  - first:
+      213: 5923068522070782876
+    second: Retro Pixel Effect Pack 1C_427
+  - first:
+      213: -7604503645271545341
+    second: Retro Pixel Effect Pack 1C_428
+  - first:
+      213: 3385830220757216692
+    second: Retro Pixel Effect Pack 1C_429
+  - first:
+      213: -2180018339171383415
+    second: Retro Pixel Effect Pack 1C_430
+  - first:
+      213: 8471509529401201445
+    second: Retro Pixel Effect Pack 1C_431
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3dd4cefdad25c50800000000000000
+      internalID: 6652620254856729516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaad4531b40ffb140800000000000000
+      internalID: 4737769538254592686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b28a1ede14e34d0800000000000000
+      internalID: -3153010199163819254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ad9938a60d66460800000000000000
+      internalID: 7234699007310289462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a79739d602fdad0800000000000000
+      internalID: -2675383998637049228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0fe345362c522b0800000000000000
+      internalID: -5609864028949122897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f146ccf89d677e0800000000000000
+      internalID: -1767986592063676568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d9c9af0c5f5da60800000000000000
+      internalID: 7698329347246824717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3682ccb65b697c60800000000000000
+      internalID: 7816396648556430911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa2f4341abfa6110800000000000000
+      internalID: 1255092116213672616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43248bf95412a0630800000000000000
+      internalID: 3893961410731328052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785539852c200a620800000000000000
+      internalID: 2783227603447928199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a1abcbaaa0a4d40800000000000000
+      internalID: 5569275617624070737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a980ad2287c3a760800000000000000
+      internalID: 7468031969035585955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07f3a9ea0771eec0800000000000000
+      internalID: -3539416943383283958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2248cebe425bd90800000000000000
+      internalID: -7082714243266239792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af40f46f77cbe6a60800000000000000
+      internalID: 7669274438878037242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdeb67874e4338ba0800000000000000
+      internalID: -6087964115396542756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38781f56201f0a70800000000000000
+      internalID: 8795266354268108860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1487db9589f426560800000000000000
+      internalID: 7305489061307578433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad8867f89c0ec260800000000000000
+      internalID: 7119641912044719524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f59744a51f9cd30800000000000000
+      internalID: 4452355076630601560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae70af62bc84c8030800000000000000
+      internalID: 3498251047929513962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4ede08462c71f00800000000000000
+      internalID: 1087551571948856500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4879c591bfe4b2f0800000000000000
+      internalID: -957877274721814453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e751314365244b60800000000000000
+      internalID: 7729343968700356578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc4d0b9ce5e00550800000000000000
+      internalID: 6125148297600257265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145f5b1b88db713b0800000000000000
+      internalID: -5541752421661412031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac195057643fefa10800000000000000
+      internalID: 1945259573007192522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5ae3f5680fa2b30800000000000000
+      internalID: 4263484457173820891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c42bb9b57c9f7640800000000000000
+      internalID: 5079950934138365128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f5e0ebdcdc5e9d0800000000000000
+      internalID: -2745562114271846497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d25f4c0bf311b70800000000000000
+      internalID: 8867939169720413443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96dbf52b9a24c3ae0800000000000000
+      internalID: -1568305273622250135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08eecf2340dad370800000000000000
+      internalID: 8348213846268110863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8d1bf35fc5a56f0800000000000000
+      internalID: -695140984069957406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16017acc916bb6990800000000000000
+      internalID: -7391614141474598815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dc7b3cc78866240800000000000000
+      internalID: 4784661723568655769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db40d28b0bdc22a90800000000000000
+      internalID: -7340078283772590915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365b3ca7e84d98e80800000000000000
+      internalID: -8175769940104333981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334faea679d26abb0800000000000000
+      internalID: -4925199014125964237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cf24cd3ae5b3470800000000000000
+      internalID: 8375391989893626882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246ab4062aaf4c2d0800000000000000
+      internalID: -3259204655002180030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aeedd93132a19dd0800000000000000
+      internalID: -2481023587396489559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf93e3cd38156da0800000000000000
+      internalID: -5952324678941696049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dedc9daf3d9e850800000000000000
+      internalID: 6406885019260677486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa054d7e454f66a20800000000000000
+      internalID: 3055398042721341610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c709a035ab5b24a70800000000000000
+      internalID: 8809803632951857276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_48
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb61a9f44df7b76f0800000000000000
+      internalID: -685813968398575938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d3b1d331ba0c8b0800000000000000
+      internalID: -5133915476084441754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_50
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cc61ae1459889a0800000000000000
+      internalID: -6230565974134305758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_51
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9344a91c7110860800000000000000
+      internalID: 7494297375205505513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15d960e9499884a0800000000000000
+      internalID: -6590849512080026337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016220784c36b2350800000000000000
+      internalID: 5992993424876381712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e53f080861ff850800000000000000
+      internalID: 6412869135573933589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423998a7158797b90800000000000000
+      internalID: -7243626234305211612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9466bacac03d3def0800000000000000
+      internalID: -84491916599925175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d720cb8704de750800000000000000
+      internalID: 6335791138074688832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce78b8caa6dd0cba0800000000000000
+      internalID: -6070608847464331284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac336bfd41ff6b4f0800000000000000
+      internalID: -813182217576107062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b501f8e8af0d3e90800000000000000
+      internalID: -7044457024000555596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8b9adaf60e89ad0800000000000000
+      internalID: -2695157606721668936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83effbe2ba3117980800000000000000
+      internalID: -8543025392200450504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e787ba85eb0418e0800000000000000
+      internalID: -1723739676873357335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdd7d4115ca5cf80800000000000000
+      internalID: -8086868091631837765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5691d9d3de7cbd0800000000000000
+      internalID: -2609856610153437729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab17db31fecd0b4c0800000000000000
+      internalID: -4273673126988123718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5507ce51819c520800000000000000
+      internalID: 2722733932162340256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e477e1486eadf9a0800000000000000
+      internalID: -6197605749386414875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_69
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed03c992102cbc90800000000000000
+      internalID: -7152806843909992988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_70
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e119c7d75451d50800000000000000
+      internalID: 6707343625301335577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_71
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7656a72db5d5d7cd0800000000000000
+      internalID: -2558786364321929881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_72
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce0ca35d7e877120800000000000000
+      internalID: 2411552794406031052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_73
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5474dcabb22e209a0800000000000000
+      internalID: -6268199053900822715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87419a66749e0ae0800000000000000
+      internalID: -1581163182845507699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_75
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01c0c5d824f8e320800000000000000
+      internalID: 2587586442146398476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab46d5de0bca94680800000000000000
+      internalID: -8770288923430787910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_77
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78c5428b48d82690800000000000000
+      internalID: -7626608150132176772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5009666beaf55a0800000000000000
+      internalID: -6530308836235934296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2125bb78f95bf9590800000000000000
+      internalID: -7665208343979666926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf68bebffcc5511d0800000000000000
+      internalID: -3380693896917186821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_81
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9893b47cbbd32a40800000000000000
+      internalID: 5342355185449801884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_82
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0c44583b0588180800000000000000
+      internalID: -9112945114018955056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_83
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0566f8ef68cb290800000000000000
+      internalID: -7873269620664807251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_84
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0247bfa368591b0800000000000000
+      internalID: -5650462569581502296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_85
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5512bdca9d460b0800000000000000
+      internalID: -5736220688929171995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f93aab1ff96a7ca0800000000000000
+      internalID: -6018381407625528840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0442a821f5293a0800000000000000
+      internalID: -6660156365695860544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b63163a3dca47930800000000000000
+      internalID: 4140123982439462582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_89
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faecd58ee99201c60800000000000000
+      internalID: 7786769518203621039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_90
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f3cd7a722bc6740800000000000000
+      internalID: 5146684357567332134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_91
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e181df0bf36e72ff0800000000000000
+      internalID: -60826908719507426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba46c47f47427550800000000000000
+      internalID: 6157062047156030135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_93
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c34b35ee5c327610800000000000000
+      internalID: 1617421594449888193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a571223d9b6a4e40800000000000000
+      internalID: 5641439806130058665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_95
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7f9e38e56a2a210800000000000000
+      internalID: 1342818563780114370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_96
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6d7e1420e67fe40800000000000000
+      internalID: 5690137610180613841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc035cb1e99c88c0800000000000000
+      internalID: -3995649574578221883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3dd5ff6c1aec0ea0800000000000000
+      internalID: -5905087603531195074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4bb356207349020800000000000000
+      internalID: 2347561789194745065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b3caa4fd418d2e0800000000000000
+      internalID: -2100906276905272432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1901b351b04f880800000000000000
+      internalID: -8578219204420791871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fc7b764e90107c0800000000000000
+      internalID: -4106990508587888806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11de236ad6ccdfa0800000000000000
+      internalID: -5774521980926635747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_104
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d576eaf8de6a8f0a0800000000000000
+      internalID: -6847539694168807587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_105
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbaad2824619ddd0800000000000000
+      internalID: -2460911246462243873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_106
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5b583c40a7e2bb0800000000000000
+      internalID: -4958891978809559569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_107
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a33f02dbe762c050800000000000000
+      internalID: 5819327931055289253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5042cb99e0f1c4330800000000000000
+      internalID: 3696363541733581829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e43fdbc2d493410800000000000000
+      internalID: 1457280808991804953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0146eb987343d6070800000000000000
+      internalID: 8101188717848192016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32f88c26fa7d79d0800000000000000
+      internalID: -2774926597662641603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8c29b3445b349b0800000000000000
+      internalID: -5097031048591390508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979c2c843654f4610800000000000000
+      internalID: 1607579884719360377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_114
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030ef89b796b07100800000000000000
+      internalID: 103783554199052336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_115
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d2499f7540461f0800000000000000
+      internalID: -1052711637001949900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_116
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4ed2c8dbc3e6b10800000000000000
+      internalID: 1976584071260529826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_117
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf7bb05dc14a67d0800000000000000
+      internalID: -2924452657945149517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_118
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a12bd602b2041200800000000000000
+      internalID: 149747651252527529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f729e3b64d58d30800000000000000
+      internalID: 4433182965292498780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_120
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9195140d9acae1c20800000000000000
+      internalID: 3179168232313542937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0425fd836c1e1f290800000000000000
+      internalID: -7858251633310870976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fe44d8be86e7230800000000000000
+      internalID: 3638460909858647963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_123
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a3b3e5822ce8c80800000000000000
+      internalID: -8318497983071307134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_124
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2515dea4bc2ec5740800000000000000
+      internalID: 5142234237313569106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_125
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ea8836c67f8ba00800000000000000
+      internalID: 772639380992470651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0da79d179a2040b0800000000000000
+      internalID: -5746546295999845106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_127
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924a883468db26e60800000000000000
+      internalID: 7954128276246012969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_128
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3f527918af59aa0800000000000000
+      internalID: -6154737881238342682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_129
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2649c023664154800800000000000000
+      internalID: 595904954855363682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449636a99cda7f840800000000000000
+      internalID: 5257862171368581444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_131
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6705a960c606219f0800000000000000
+      internalID: -499230591601192842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689431f88b4c35120800000000000000
+      internalID: 2401479323272038790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f36c55b690ad41f0800000000000000
+      internalID: -1059013768213928970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_134
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b58da0da6b5f8a0800000000000000
+      internalID: -6271906051715998909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_135
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49d42a4be78b59f0800000000000000
+      internalID: -478639490753832629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844964aa7eb6e7bf0800000000000000
+      internalID: -324703480385727416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_137
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f380ae120ed6dd20800000000000000
+      internalID: 3303071477407974385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_138
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be2343bce8709e80800000000000000
+      internalID: -8173900365662310732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_139
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c10646e59194ecf0800000000000000
+      internalID: -223894008462179902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_140
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41663688b9becf720800000000000000
+      internalID: 2881436914850948628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0249949063ad1ab80800000000000000
+      internalID: -8385181105568246752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb5e63d5391e0db0800000000000000
+      internalID: -4823890431896036420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_143
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e8fc8cda10629f0800000000000000
+      internalID: -493705263240475037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9356aa245a901e00800000000000000
+      internalID: 1013479602441835421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_145
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc5bc0adeadd59a0800000000000000
+      internalID: -6242592794325852938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_146
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91766d41780be03e0800000000000000
+      internalID: -2085535483209292007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_147
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c032d26608fca00800000000000000
+      internalID: 778982436890676345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_148
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d151c39c1ef8e41b0800000000000000
+      internalID: -5670436680906304227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_149
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c766f9e3d41060090800000000000000
+      internalID: -8068760251112921476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_150
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265d5f44c0f774a50800000000000000
+      internalID: 6505307877433267554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_151
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da709e49c9290b00800000000000000
+      internalID: 795212753790859989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_152
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b6fa9d06fc87270800000000000000
+      internalID: 8248570732405025644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_153
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6529e38956a91cfd0800000000000000
+      internalID: -2323406171609853354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faa62a6e32005b60800000000000000
+      internalID: 7732683027287288561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_155
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8266aa78ab5c2c0800000000000000
+      internalID: -4411915168097359627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917ef36add7eea010800000000000000
+      internalID: 1202153089717495577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_157
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dec636ca52caa60800000000000000
+      internalID: 7686560086347279724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_158
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7957dbd323a9017d0800000000000000
+      internalID: -2949688215352805993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_159
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35438ed32537faaf0800000000000000
+      internalID: -382960646240062381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_160
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529c54f2014053a60800000000000000
+      internalID: 7653027609345116453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_161
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcd8720a2cacd590800000000000000
+      internalID: -7648048770751865668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_162
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bb937e5f02f1ca0800000000000000
+      internalID: -6044075934389519489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_163
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6257f803aea0020800000000000000
+      internalID: 2308915253266949875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_164
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12d6c26c1b850410800000000000000
+      internalID: 1442712209674654234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9f6f70c809831d0800000000000000
+      internalID: -3370785389983368747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af985ee6c72eafdf0800000000000000
+      internalID: -145555013871760902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_167
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af0314750892edf0800000000000000
+      internalID: -152392288187510879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_168
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe76aa224d46bffd0800000000000000
+      internalID: -2307139521819809809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_169
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efecb45f3b22be80800000000000000
+      internalID: -8164415623464685597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77360c54d3a2701b0800000000000000
+      internalID: -5690533161507724425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_171
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d91c650111f489c0800000000000000
+      internalID: -3925747919752521255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_172
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df1a5b7d1fd5c790800000000000000
+      internalID: -7510351485853884461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_173
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7742af577259250800000000000000
+      internalID: 5950705870301329383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_174
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e363fdf4f2a1cd0800000000000000
+      internalID: -2586703015877132768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_175
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfe90744d4edd680800000000000000
+      internalID: -8728568902398119969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2309cd8b4141ac850800000000000000
+      internalID: 6397948299866574898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5df057304be98b0800000000000000
+      internalID: -5143475797468654133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e68c0faedd2237b0800000000000000
+      internalID: -5246080181490383134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4388356f2911af70800000000000000
+      internalID: 9196659605419623247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ee6130a42a6a0d0800000000000000
+      internalID: -3411861228923458004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_181
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c244dd854becfb060800000000000000
+      internalID: 6971518022173148204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3f5f660a8a3cce0800000000000000
+      internalID: -1386078853424352273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_183
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992971b8bf56ce2c0800000000000000
+      internalID: -4401030604803042663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_184
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4d0879b32fb8670800000000000000
+      internalID: 8542187455997072564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_185
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60a08bfa6acbbbd0800000000000000
+      internalID: -2613272597923585939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_186
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e0cd6eb4fabae80800000000000000
+      internalID: -8166240758775673338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_187
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0f1bed0d9faf030800000000000000
+      internalID: 3529407933482922164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_188
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d2924541e6e6c00800000000000000
+      internalID: 895774409483693395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_189
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710bb7295128f6d60800000000000000
+      internalID: 7885664501712531479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eefcd72f845306d0800000000000000
+      internalID: -3025481550836990240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_191
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9381e00ae625f0c0800000000000000
+      internalID: -4542681862654295138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_192
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344e6c8a21bb27c50800000000000000
+      internalID: 6661592487649797187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_193
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac17f0ed04b5e0d0800000000000000
+      internalID: -3394108772451935070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_194
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7e480d51b1f1510800000000000000
+      internalID: 1521964979581151216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_195
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d18e3712d0a9e20800000000000000
+      internalID: 3358010909487799582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_196
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee128d233536bad80800000000000000
+      internalID: -8238381884357729810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_197
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482990dbf850c1770800000000000000
+      internalID: 8582741104771306116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_198
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f431f8011889df980800000000000000
+      internalID: -8503472841309613233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_199
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7644a321f0bcd0960800000000000000
+      internalID: 7569929814270428263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ab57096a3879840800000000000000
+      internalID: 5230794243625564803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e6cf7f6091e3020800000000000000
+      internalID: 2323321975490768403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_202
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4d0441021643f10800000000000000
+      internalID: 2248528904371360979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_203
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9795e22ff5f9c90800000000000000
+      internalID: -7160899388731459166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_204
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd587802f4da3ef0800000000000000
+      internalID: -127555503437357612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_205
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a290374785a531a0800000000000000
+      internalID: -6830371259403955546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_206
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2d9126b0e638150800000000000000
+      internalID: 5873659334190813868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_207
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e9c6ddd19052470800000000000000
+      internalID: 8369105506411519568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_208
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0197cbe4616994d0800000000000000
+      internalID: -3127361380151750388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_209
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40368de9b5962920800000000000000
+      internalID: 2965222030456533070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_210
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5427a94309afe70f0800000000000000
+      internalID: -1117180160276532667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_211
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebca84bc6c5d9360800000000000000
+      internalID: 7177995003053657064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_212
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8364d326667a4d9d0800000000000000
+      internalID: -2750389414239844808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_213
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39223df9f2195c00800000000000000
+      internalID: 889763266286463292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_214
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c2913e9cc02e2e0800000000000000
+      internalID: -2098100415163192224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_215
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9800da613eeb35220800000000000000
+      internalID: 2473530502903824521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_216
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73b975e41dec1920800000000000000
+      internalID: 2962503328908030845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_217
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a758464872f633d50800000000000000
+      internalID: 6715833684855129466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_218
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c694ac4feb9af9060800000000000000
+      internalID: 6962470186553854316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_219
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89142aaa1c5d2810800000000000000
+      internalID: 1742149900455647628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_220
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d8bc820658452d0800000000000000
+      internalID: -3290858779653206756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_221
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5a6483e1d9b2280800000000000000
+      internalID: -9066980671661627934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_222
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b539181a6a46c70800000000000000
+      internalID: 8963472370967993106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_223
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8f16501d699ea40800000000000000
+      internalID: 5398011452862888168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_224
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356266ed0157b0240800000000000000
+      internalID: 4759026146558223955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_225
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68949fba32dce2750800000000000000
+      internalID: 6282184083321211270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_226
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311e87e3a9f28eca0800000000000000
+      internalID: -5987483365069496045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_227
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d4e62fca4fbc470800000000000000
+      internalID: 8416089352310771002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_228
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d5960bcd8fc94f0800000000000000
+      internalID: -820507405352084092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_229
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc4c45e0390f1060800000000000000
+      internalID: 6926264857529175224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_230
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25cf3cfe709d1350800000000000000
+      internalID: 5989101954544944426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_231
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff5195f39fd589b0800000000000000
+      internalID: -5078407178217234436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_232
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf4ac778540bb9b0800000000000000
+      internalID: -5063448578034610260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_233
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a50a6214c597010800000000000000
+      internalID: 1187081411679509099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_234
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea293dc3ac2d7e10800000000000000
+      internalID: 2196961275261037292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_235
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15ae8b47cefa36c0800000000000000
+      internalID: -4162734773631015652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_236
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3154286c509098340800000000000000
+      internalID: 4866430792760444179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_237
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2629f0339946220800000000000000
+      internalID: 2478274139544248992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_238
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f85ae92294927260800000000000000
+      internalID: 7093895718551312631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_239
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69dddb61fb7e6e90800000000000000
+      internalID: -7030545691451729553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_240
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4482fde8b2e4b79f0800000000000000
+      internalID: -469695787142535100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_241
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb0d16afa3bca590800000000000000
+      internalID: -7661551299076486218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_242
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c678c79a688f3bd50800000000000000
+      internalID: 6752013523611322220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_243
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b89f9f01e964d7e0800000000000000
+      internalID: -1741650740534863696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_244
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ca0b72b031c8e10800000000000000
+      internalID: 2201155256508787785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_245
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8d85ce9e0f37140800000000000000
+      internalID: 4716378122270333127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_246
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b23cb91ad5caf940800000000000000
+      internalID: 5330790649471709880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_247
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1165a5f26f53260800000000000000
+      internalID: 7076833072722088395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_248
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc8deafac4ad1fe0800000000000000
+      internalID: -1216635132619944714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_249
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c233fa0ba42d190800000000000000
+      internalID: -7939201070386697184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_250
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5426f9b1883ad2630800000000000000
+      internalID: 3903956256974398021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_251
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1061e160c4a0c13a0800000000000000
+      internalID: -6693463624542972415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_252
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26680ca7a17b58110800000000000000
+      internalID: 1262616594903762530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_253
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6846f222ce3748b30800000000000000
+      internalID: 4288680203186562182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_254
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c69d50c07afb3ce0800000000000000
+      internalID: -1424269494961989945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_255
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e92d821a396d050800000000000000
+      internalID: 5825005488434224799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_256
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbe4189c41865930800000000000000
+      internalID: 4131631874128014281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_257
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3078ac48c10b1f0800000000000000
+      internalID: -1031292958008736832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retro Pixel Effect Pack 1C_258
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54065ccaecb3b7840800000000000000
+      internalID: 5222833951714140229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0071884f9b5650f4bb083a36fd90b73d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Retro Pixel Effect Pack 1C_0: 6652620254856729516
+      Retro Pixel Effect Pack 1C_1: 4737769538254592686
+      Retro Pixel Effect Pack 1C_10: 3893961410731328052
+      Retro Pixel Effect Pack 1C_100: -2100906276905272432
+      Retro Pixel Effect Pack 1C_101: -8578219204420791871
+      Retro Pixel Effect Pack 1C_102: -4106990508587888806
+      Retro Pixel Effect Pack 1C_103: -5774521980926635747
+      Retro Pixel Effect Pack 1C_104: -6847539694168807587
+      Retro Pixel Effect Pack 1C_105: -2460911246462243873
+      Retro Pixel Effect Pack 1C_106: -4958891978809559569
+      Retro Pixel Effect Pack 1C_107: 5819327931055289253
+      Retro Pixel Effect Pack 1C_108: 3696363541733581829
+      Retro Pixel Effect Pack 1C_109: 1457280808991804953
+      Retro Pixel Effect Pack 1C_11: 2783227603447928199
+      Retro Pixel Effect Pack 1C_110: 8101188717848192016
+      Retro Pixel Effect Pack 1C_111: -2774926597662641603
+      Retro Pixel Effect Pack 1C_112: -5097031048591390508
+      Retro Pixel Effect Pack 1C_113: 1607579884719360377
+      Retro Pixel Effect Pack 1C_114: 103783554199052336
+      Retro Pixel Effect Pack 1C_115: -1052711637001949900
+      Retro Pixel Effect Pack 1C_116: 1976584071260529826
+      Retro Pixel Effect Pack 1C_117: -2924452657945149517
+      Retro Pixel Effect Pack 1C_118: 149747651252527529
+      Retro Pixel Effect Pack 1C_119: 4433182965292498780
+      Retro Pixel Effect Pack 1C_12: 5569275617624070737
+      Retro Pixel Effect Pack 1C_120: 3179168232313542937
+      Retro Pixel Effect Pack 1C_121: -7858251633310870976
+      Retro Pixel Effect Pack 1C_122: 3638460909858647963
+      Retro Pixel Effect Pack 1C_123: -8318497983071307134
+      Retro Pixel Effect Pack 1C_124: 5142234237313569106
+      Retro Pixel Effect Pack 1C_125: 772639380992470651
+      Retro Pixel Effect Pack 1C_126: -5746546295999845106
+      Retro Pixel Effect Pack 1C_127: 7954128276246012969
+      Retro Pixel Effect Pack 1C_128: -6154737881238342682
+      Retro Pixel Effect Pack 1C_129: 595904954855363682
+      Retro Pixel Effect Pack 1C_13: 7468031969035585955
+      Retro Pixel Effect Pack 1C_130: 5257862171368581444
+      Retro Pixel Effect Pack 1C_131: -499230591601192842
+      Retro Pixel Effect Pack 1C_132: 2401479323272038790
+      Retro Pixel Effect Pack 1C_133: -1059013768213928970
+      Retro Pixel Effect Pack 1C_134: -6271906051715998909
+      Retro Pixel Effect Pack 1C_135: -478639490753832629
+      Retro Pixel Effect Pack 1C_136: -324703480385727416
+      Retro Pixel Effect Pack 1C_137: 3303071477407974385
+      Retro Pixel Effect Pack 1C_138: -8173900365662310732
+      Retro Pixel Effect Pack 1C_139: -223894008462179902
+      Retro Pixel Effect Pack 1C_14: -3539416943383283958
+      Retro Pixel Effect Pack 1C_140: 2881436914850948628
+      Retro Pixel Effect Pack 1C_141: -8385181105568246752
+      Retro Pixel Effect Pack 1C_142: -4823890431896036420
+      Retro Pixel Effect Pack 1C_143: -493705263240475037
+      Retro Pixel Effect Pack 1C_144: 1013479602441835421
+      Retro Pixel Effect Pack 1C_145: -6242592794325852938
+      Retro Pixel Effect Pack 1C_146: -2085535483209292007
+      Retro Pixel Effect Pack 1C_147: 778982436890676345
+      Retro Pixel Effect Pack 1C_148: -5670436680906304227
+      Retro Pixel Effect Pack 1C_149: -8068760251112921476
+      Retro Pixel Effect Pack 1C_15: -7082714243266239792
+      Retro Pixel Effect Pack 1C_150: 6505307877433267554
+      Retro Pixel Effect Pack 1C_151: 795212753790859989
+      Retro Pixel Effect Pack 1C_152: 8248570732405025644
+      Retro Pixel Effect Pack 1C_153: -2323406171609853354
+      Retro Pixel Effect Pack 1C_154: 7732683027287288561
+      Retro Pixel Effect Pack 1C_155: -4411915168097359627
+      Retro Pixel Effect Pack 1C_156: 1202153089717495577
+      Retro Pixel Effect Pack 1C_157: 7686560086347279724
+      Retro Pixel Effect Pack 1C_158: -2949688215352805993
+      Retro Pixel Effect Pack 1C_159: -382960646240062381
+      Retro Pixel Effect Pack 1C_16: 7669274438878037242
+      Retro Pixel Effect Pack 1C_160: 7653027609345116453
+      Retro Pixel Effect Pack 1C_161: -7648048770751865668
+      Retro Pixel Effect Pack 1C_162: -6044075934389519489
+      Retro Pixel Effect Pack 1C_163: 2308915253266949875
+      Retro Pixel Effect Pack 1C_164: 1442712209674654234
+      Retro Pixel Effect Pack 1C_165: -3370785389983368747
+      Retro Pixel Effect Pack 1C_166: -145555013871760902
+      Retro Pixel Effect Pack 1C_167: -152392288187510879
+      Retro Pixel Effect Pack 1C_168: -2307139521819809809
+      Retro Pixel Effect Pack 1C_169: -8164415623464685597
+      Retro Pixel Effect Pack 1C_17: -6087964115396542756
+      Retro Pixel Effect Pack 1C_170: -5690533161507724425
+      Retro Pixel Effect Pack 1C_171: -3925747919752521255
+      Retro Pixel Effect Pack 1C_172: -7510351485853884461
+      Retro Pixel Effect Pack 1C_173: 5950705870301329383
+      Retro Pixel Effect Pack 1C_174: -2586703015877132768
+      Retro Pixel Effect Pack 1C_175: -8728568902398119969
+      Retro Pixel Effect Pack 1C_176: 6397948299866574898
+      Retro Pixel Effect Pack 1C_177: -5143475797468654133
+      Retro Pixel Effect Pack 1C_178: -5246080181490383134
+      Retro Pixel Effect Pack 1C_179: 9196659605419623247
+      Retro Pixel Effect Pack 1C_18: 8795266354268108860
+      Retro Pixel Effect Pack 1C_180: -3411861228923458004
+      Retro Pixel Effect Pack 1C_181: 6971518022173148204
+      Retro Pixel Effect Pack 1C_182: -1386078853424352273
+      Retro Pixel Effect Pack 1C_183: -4401030604803042663
+      Retro Pixel Effect Pack 1C_184: 8542187455997072564
+      Retro Pixel Effect Pack 1C_185: -2613272597923585939
+      Retro Pixel Effect Pack 1C_186: -8166240758775673338
+      Retro Pixel Effect Pack 1C_187: 3529407933482922164
+      Retro Pixel Effect Pack 1C_188: 895774409483693395
+      Retro Pixel Effect Pack 1C_189: 7885664501712531479
+      Retro Pixel Effect Pack 1C_19: 7305489061307578433
+      Retro Pixel Effect Pack 1C_190: -3025481550836990240
+      Retro Pixel Effect Pack 1C_191: -4542681862654295138
+      Retro Pixel Effect Pack 1C_192: 6661592487649797187
+      Retro Pixel Effect Pack 1C_193: -3394108772451935070
+      Retro Pixel Effect Pack 1C_194: 1521964979581151216
+      Retro Pixel Effect Pack 1C_195: 3358010909487799582
+      Retro Pixel Effect Pack 1C_196: -8238381884357729810
+      Retro Pixel Effect Pack 1C_197: 8582741104771306116
+      Retro Pixel Effect Pack 1C_198: -8503472841309613233
+      Retro Pixel Effect Pack 1C_199: 7569929814270428263
+      Retro Pixel Effect Pack 1C_2: -3153010199163819254
+      Retro Pixel Effect Pack 1C_20: 7119641912044719524
+      Retro Pixel Effect Pack 1C_200: 5230794243625564803
+      Retro Pixel Effect Pack 1C_201: 2323321975490768403
+      Retro Pixel Effect Pack 1C_202: 2248528904371360979
+      Retro Pixel Effect Pack 1C_203: -7160899388731459166
+      Retro Pixel Effect Pack 1C_204: -127555503437357612
+      Retro Pixel Effect Pack 1C_205: -6830371259403955546
+      Retro Pixel Effect Pack 1C_206: 5873659334190813868
+      Retro Pixel Effect Pack 1C_207: 8369105506411519568
+      Retro Pixel Effect Pack 1C_208: -3127361380151750388
+      Retro Pixel Effect Pack 1C_209: 2965222030456533070
+      Retro Pixel Effect Pack 1C_21: 4452355076630601560
+      Retro Pixel Effect Pack 1C_210: -1117180160276532667
+      Retro Pixel Effect Pack 1C_211: 7177995003053657064
+      Retro Pixel Effect Pack 1C_212: -2750389414239844808
+      Retro Pixel Effect Pack 1C_213: 889763266286463292
+      Retro Pixel Effect Pack 1C_214: -2098100415163192224
+      Retro Pixel Effect Pack 1C_215: 2473530502903824521
+      Retro Pixel Effect Pack 1C_216: 2962503328908030845
+      Retro Pixel Effect Pack 1C_217: 6715833684855129466
+      Retro Pixel Effect Pack 1C_218: 6962470186553854316
+      Retro Pixel Effect Pack 1C_219: 1742149900455647628
+      Retro Pixel Effect Pack 1C_22: 3498251047929513962
+      Retro Pixel Effect Pack 1C_220: -3290858779653206756
+      Retro Pixel Effect Pack 1C_221: -9066980671661627934
+      Retro Pixel Effect Pack 1C_222: 8963472370967993106
+      Retro Pixel Effect Pack 1C_223: 5398011452862888168
+      Retro Pixel Effect Pack 1C_224: 4759026146558223955
+      Retro Pixel Effect Pack 1C_225: 6282184083321211270
+      Retro Pixel Effect Pack 1C_226: -5987483365069496045
+      Retro Pixel Effect Pack 1C_227: 8416089352310771002
+      Retro Pixel Effect Pack 1C_228: -820507405352084092
+      Retro Pixel Effect Pack 1C_229: 6926264857529175224
+      Retro Pixel Effect Pack 1C_23: 1087551571948856500
+      Retro Pixel Effect Pack 1C_230: 5989101954544944426
+      Retro Pixel Effect Pack 1C_231: -5078407178217234436
+      Retro Pixel Effect Pack 1C_232: -5063448578034610260
+      Retro Pixel Effect Pack 1C_233: 1187081411679509099
+      Retro Pixel Effect Pack 1C_234: 2196961275261037292
+      Retro Pixel Effect Pack 1C_235: -4162734773631015652
+      Retro Pixel Effect Pack 1C_236: 4866430792760444179
+      Retro Pixel Effect Pack 1C_237: 2478274139544248992
+      Retro Pixel Effect Pack 1C_238: 7093895718551312631
+      Retro Pixel Effect Pack 1C_239: -7030545691451729553
+      Retro Pixel Effect Pack 1C_24: -957877274721814453
+      Retro Pixel Effect Pack 1C_240: -469695787142535100
+      Retro Pixel Effect Pack 1C_241: -7661551299076486218
+      Retro Pixel Effect Pack 1C_242: 6752013523611322220
+      Retro Pixel Effect Pack 1C_243: -1741650740534863696
+      Retro Pixel Effect Pack 1C_244: 2201155256508787785
+      Retro Pixel Effect Pack 1C_245: 4716378122270333127
+      Retro Pixel Effect Pack 1C_246: 5330790649471709880
+      Retro Pixel Effect Pack 1C_247: 7076833072722088395
+      Retro Pixel Effect Pack 1C_248: -1216635132619944714
+      Retro Pixel Effect Pack 1C_249: -7939201070386697184
+      Retro Pixel Effect Pack 1C_25: 7729343968700356578
+      Retro Pixel Effect Pack 1C_250: 3903956256974398021
+      Retro Pixel Effect Pack 1C_251: -6693463624542972415
+      Retro Pixel Effect Pack 1C_252: 1262616594903762530
+      Retro Pixel Effect Pack 1C_253: 4288680203186562182
+      Retro Pixel Effect Pack 1C_254: -1424269494961989945
+      Retro Pixel Effect Pack 1C_255: 5825005488434224799
+      Retro Pixel Effect Pack 1C_256: 4131631874128014281
+      Retro Pixel Effect Pack 1C_257: -1031292958008736832
+      Retro Pixel Effect Pack 1C_258: 5222833951714140229
+      Retro Pixel Effect Pack 1C_26: 6125148297600257265
+      Retro Pixel Effect Pack 1C_27: -5541752421661412031
+      Retro Pixel Effect Pack 1C_28: 1945259573007192522
+      Retro Pixel Effect Pack 1C_29: 4263484457173820891
+      Retro Pixel Effect Pack 1C_3: 7234699007310289462
+      Retro Pixel Effect Pack 1C_30: 5079950934138365128
+      Retro Pixel Effect Pack 1C_31: -2745562114271846497
+      Retro Pixel Effect Pack 1C_32: 8867939169720413443
+      Retro Pixel Effect Pack 1C_33: -1568305273622250135
+      Retro Pixel Effect Pack 1C_34: 8348213846268110863
+      Retro Pixel Effect Pack 1C_35: -695140984069957406
+      Retro Pixel Effect Pack 1C_36: -7391614141474598815
+      Retro Pixel Effect Pack 1C_37: 4784661723568655769
+      Retro Pixel Effect Pack 1C_38: -7340078283772590915
+      Retro Pixel Effect Pack 1C_39: -8175769940104333981
+      Retro Pixel Effect Pack 1C_4: -2675383998637049228
+      Retro Pixel Effect Pack 1C_40: -4925199014125964237
+      Retro Pixel Effect Pack 1C_41: 8375391989893626882
+      Retro Pixel Effect Pack 1C_42: -3259204655002180030
+      Retro Pixel Effect Pack 1C_43: -2481023587396489559
+      Retro Pixel Effect Pack 1C_44: -5952324678941696049
+      Retro Pixel Effect Pack 1C_45: 6406885019260677486
+      Retro Pixel Effect Pack 1C_46: 3055398042721341610
+      Retro Pixel Effect Pack 1C_47: 8809803632951857276
+      Retro Pixel Effect Pack 1C_48: -685813968398575938
+      Retro Pixel Effect Pack 1C_49: -5133915476084441754
+      Retro Pixel Effect Pack 1C_5: -5609864028949122897
+      Retro Pixel Effect Pack 1C_50: -6230565974134305758
+      Retro Pixel Effect Pack 1C_51: 7494297375205505513
+      Retro Pixel Effect Pack 1C_52: -6590849512080026337
+      Retro Pixel Effect Pack 1C_53: 5992993424876381712
+      Retro Pixel Effect Pack 1C_54: 6412869135573933589
+      Retro Pixel Effect Pack 1C_55: -7243626234305211612
+      Retro Pixel Effect Pack 1C_56: -84491916599925175
+      Retro Pixel Effect Pack 1C_57: 6335791138074688832
+      Retro Pixel Effect Pack 1C_58: -6070608847464331284
+      Retro Pixel Effect Pack 1C_59: -813182217576107062
+      Retro Pixel Effect Pack 1C_6: -1767986592063676568
+      Retro Pixel Effect Pack 1C_60: -7044457024000555596
+      Retro Pixel Effect Pack 1C_61: -2695157606721668936
+      Retro Pixel Effect Pack 1C_62: -8543025392200450504
+      Retro Pixel Effect Pack 1C_63: -1723739676873357335
+      Retro Pixel Effect Pack 1C_64: -8086868091631837765
+      Retro Pixel Effect Pack 1C_65: -2609856610153437729
+      Retro Pixel Effect Pack 1C_66: -4273673126988123718
+      Retro Pixel Effect Pack 1C_67: 2722733932162340256
+      Retro Pixel Effect Pack 1C_68: -6197605749386414875
+      Retro Pixel Effect Pack 1C_69: -7152806843909992988
+      Retro Pixel Effect Pack 1C_7: 7698329347246824717
+      Retro Pixel Effect Pack 1C_70: 6707343625301335577
+      Retro Pixel Effect Pack 1C_71: -2558786364321929881
+      Retro Pixel Effect Pack 1C_72: 2411552794406031052
+      Retro Pixel Effect Pack 1C_73: -6268199053900822715
+      Retro Pixel Effect Pack 1C_74: -1581163182845507699
+      Retro Pixel Effect Pack 1C_75: 2587586442146398476
+      Retro Pixel Effect Pack 1C_76: -8770288923430787910
+      Retro Pixel Effect Pack 1C_77: -7626608150132176772
+      Retro Pixel Effect Pack 1C_78: -6530308836235934296
+      Retro Pixel Effect Pack 1C_79: -7665208343979666926
+      Retro Pixel Effect Pack 1C_8: 7816396648556430911
+      Retro Pixel Effect Pack 1C_80: -3380693896917186821
+      Retro Pixel Effect Pack 1C_81: 5342355185449801884
+      Retro Pixel Effect Pack 1C_82: -9112945114018955056
+      Retro Pixel Effect Pack 1C_83: -7873269620664807251
+      Retro Pixel Effect Pack 1C_84: -5650462569581502296
+      Retro Pixel Effect Pack 1C_85: -5736220688929171995
+      Retro Pixel Effect Pack 1C_86: -6018381407625528840
+      Retro Pixel Effect Pack 1C_87: -6660156365695860544
+      Retro Pixel Effect Pack 1C_88: 4140123982439462582
+      Retro Pixel Effect Pack 1C_89: 7786769518203621039
+      Retro Pixel Effect Pack 1C_9: 1255092116213672616
+      Retro Pixel Effect Pack 1C_90: 5146684357567332134
+      Retro Pixel Effect Pack 1C_91: -60826908719507426
+      Retro Pixel Effect Pack 1C_92: 6157062047156030135
+      Retro Pixel Effect Pack 1C_93: 1617421594449888193
+      Retro Pixel Effect Pack 1C_94: 5641439806130058665
+      Retro Pixel Effect Pack 1C_95: 1342818563780114370
+      Retro Pixel Effect Pack 1C_96: 5690137610180613841
+      Retro Pixel Effect Pack 1C_97: -3995649574578221883
+      Retro Pixel Effect Pack 1C_98: -5905087603531195074
+      Retro Pixel Effect Pack 1C_99: 2347561789194745065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

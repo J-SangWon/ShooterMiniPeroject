@@ -2,42 +2,48 @@ using UnityEngine;
 
 public class GravityPowerUp : MonoBehaviour
 {
-    public float ItemVelocity = 2f;
-    public float UpwardForce = 5f;
-    public float RotationSpeed = 350f;
 
-    public float floatSpeed = 1f;
-    public float floatAmount = 0.02f; 
+    public float UpSpeed = 5f;
+    public float RotationSpeed = 350f;
     Rigidbody2D rig;
-    private bool hasLanded = false;
-    private Vector3 startPos;
+
+    public float ReturnSpeed = 2f;
+    public float Stop = 0.1f;
+
+    private Vector2 initialPosition; 
+    private bool Returning = false; 
+
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        rig.linearVelocity = new Vector2(0f, UpwardForce);
-
+        rig.linearVelocity = new Vector2(0f, UpSpeed);
         rig.angularVelocity = RotationSpeed;
+        initialPosition = transform.position; 
     }
 
-    void Update()
+
+
+    void FixedUpdate()
     {
-        if (hasLanded)
+        if (rig.linearVelocity.y < 0)
+        {
+            Returning = true;
+        }
+
+        if (Returning)
         {
             
-            transform.position = startPos + new Vector3(0, Mathf.Sin(Time.time * floatSpeed) * floatAmount, 0);
-        }
-    }
+            Vector2 returnDirection = (initialPosition - (Vector2)transform.position).normalized;
+            rig.AddForce(returnDirection * ReturnSpeed);
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (!hasLanded)
-        {
-            hasLanded = true;
-            startPos = transform.position; 
-            rig.linearVelocity = Vector2.zero;
-            rig.angularVelocity = 0f;
-            rig.bodyType = RigidbodyType2D.Kinematic; 
+           
+            if (Vector2.Distance(transform.position, initialPosition) < Stop)
+            {
+                rig.linearVelocity = Vector2.zero;
+                rig.angularVelocity = 0;
+                rig.isKinematic = true;
+                Returning = false;
+            }
         }
-    }
-
+    } 
 }

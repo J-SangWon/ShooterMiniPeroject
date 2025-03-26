@@ -2,45 +2,50 @@ using UnityEngine;
 
 public class EvolutionItem : MonoBehaviour
 {
-    public float ItemVelocity = 2f;
-    public float UpwardForce = 5f;
-    public float RotationSpeed = 300f;
-
-    public float floatSpeed = 1.5f;
-    public float floatAmount = 0.1f;
+    public float UpSpeed = 5f;
+    public float RotationSpeed = 350f;
     Rigidbody2D rig;
-    private bool hasLanded = false;
-    private Vector3 startPos;
 
+    public float ReturnSpeed = 2f;
+    public float Stop = 0.1f;
+
+    private Vector2 initialPosition;
+    private bool Returning = false;
 
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        rig.linearVelocity = new Vector2(0f, UpwardForce);
-
+        rig.linearVelocity = new Vector2(0f, UpSpeed);
         rig.angularVelocity = RotationSpeed;
+        initialPosition = transform.position;
     }
 
-    void Update()
+
+
+    void FixedUpdate()
     {
-        if (hasLanded)
+        if (rig.linearVelocity.y < 0)
         {
-            
-            transform.position = startPos + new Vector3(0, Mathf.Sin(Time.time * floatSpeed) * floatAmount, 0);
+            Returning = true;
+        }
+
+        if (Returning)
+        {
+
+            Vector2 returnD = (initialPosition - (Vector2)transform.position).normalized;
+            rig.AddForce(returnD * ReturnSpeed);
+
+
+            if (Vector2.Distance(transform.position, initialPosition) < Stop)
+            {
+                rig.linearVelocity = Vector2.zero;
+                rig.angularVelocity = 0;
+                rig.isKinematic = true;
+                Returning = false;
+            }
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (!hasLanded)
-        {
-            hasLanded = true;
-            startPos = transform.position; 
-            rig.linearVelocity = Vector2.zero;
-            rig.angularVelocity = 0f;
-            rig.bodyType = RigidbodyType2D.Kinematic;
-        }
-    }
 
     //보스쪽에서 드랍시키기
     //public void EvolutionDrop()
