@@ -7,11 +7,11 @@ public class ShotPos : MonoBehaviour
     public GameObject[] ShotType = new GameObject[2];
     public GameObject ThunderPrefab;
 
-    public float verticalOffset = 0.5f;
+    private float verticalOffset = 0.5f; //탄 위아래 간격
 
-    public float SpawnInterval = 0.1f; // 생성 간격
-    public float DistanceInterval = 2f; // 거리 간격
-    public float LifeTime = 2f; // 수명
+    private float SpawnInterval = 0.1f; // 생성 간격
+    private float DistanceInterval = 2f; // 거리 간격
+    private float LifeTime = 1.0f; // 수명
 
     private float screenWidth;
 
@@ -82,7 +82,7 @@ public class ShotPos : MonoBehaviour
 
         while (currentX < screenWidth)
         {
-            Vector3 spawnPosition = new Vector3(currentX, transform.position.y, transform.position.z);
+            Vector3 spawnPosition = new Vector3(currentX, transform.position.y, 0);
             GameObject thunder = Instantiate(ThunderPrefab, spawnPosition, Quaternion.identity);
             Destroy(thunder, LifeTime);
 
