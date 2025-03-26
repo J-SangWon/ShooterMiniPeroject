@@ -19,6 +19,15 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI startGameText;
     public BackgroundRepeat backgroundRepeat;
     public GameObject introPanel;
+    public BossHealthBar bossHealthBar;
+    public AudioClip countdownSfx;
+    public AudioClip stageStartSfx;
+    public AudioClip bossAppearsSfx;
+    public AudioClip stageClearSfx;
+    public AudioClip gameOverSfx;
+
+    private AudioSource audioSource;
+
 
 
     private bool isGameOver = false;
@@ -35,6 +44,9 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.volume = 0.4f;
         InitializeGame();
        
     }
@@ -55,6 +67,12 @@ public class UIManager : MonoBehaviour
         if (isGameOver) return;
 
 
+    }
+
+    void PlaySfx(AudioClip clip)
+    {
+        if (clip != null)
+            audioSource.PlayOneShot(clip);
     }
 
     void StartGame()
@@ -112,10 +130,12 @@ public class UIManager : MonoBehaviour
         {
             if (isGameOver) yield break;
             countdownText.text = i.ToString();
+            PlaySfx(countdownSfx);
             yield return new WaitForSeconds(1f);
         }
 
         countdownText.text = "Stage Start!";
+        PlaySfx(stageStartSfx);
         yield return new WaitForSeconds(1f);
 
         countdownText.gameObject.SetActive(false);
@@ -125,6 +145,8 @@ public class UIManager : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
         HideBossText();
+
+
     }
 
    
@@ -134,6 +156,7 @@ public class UIManager : MonoBehaviour
         if (isWaitingForStart || isBossDefeated) return;
 
         isBossDefeated = true;
+        bossHealthBar.HideBar();
         StartCoroutine(ShowStageClearAfterDelay());
     }
 
@@ -182,8 +205,9 @@ public class UIManager : MonoBehaviour
 
         isGameOver = true;
         Time.timeScale = 0;
-
+        bossHealthBar.HideBar();
         bossText.text = "GAME OVER";
+        PlaySfx(gameOverSfx);
         bossText.gameObject.SetActive(true);
 
         StartCoroutine(RestartAfterGameOver());
@@ -362,7 +386,27 @@ public class UIManager : MonoBehaviour
 
         bossText.text = message;
         bossText.gameObject.SetActive(true);
+        StartCoroutine(ShowBossHealthBarWithDelay());
     }
+
+    IEnumerator ShowBossHealthBarWithDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        bossHealthBar.InitBar();
+    }
+
+    public void DamageBoss(float damage)
+    {
+        if (isWaitingForStart || isBossDefeated) return;
+
+        bossHealthBar.TakeDamage(damage);
+
+        if (bossHealthBar.IsDead)
+        {
+            DefeatBoss();
+        }
+    }
+
 
     void HideBossText()
     {
@@ -387,6 +431,7 @@ public class UIManager : MonoBehaviour
         UpdateLaserUI();
         UpdateLifeUI_P2();
         UpdateLaserUI_P2();
+        bossHealthBar.ResetBar();
 
         backgroundRepeat.ChangeBackground(1);
 

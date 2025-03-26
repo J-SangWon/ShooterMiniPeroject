@@ -63,8 +63,8 @@ public class TestController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            uiManager.DefeatBoss();
-
+            uiManager.DamageBoss(10f); 
         }
+
     }
 }
