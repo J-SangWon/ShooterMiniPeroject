@@ -37,6 +37,7 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         InitializeGame();
+        AudioManager.Instance.PlayLobbyBGM();
     }
 
     void Update()
@@ -46,6 +47,7 @@ public class UIManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 StartGame();
+                
             }
             return;
         }
@@ -63,7 +65,8 @@ public class UIManager : MonoBehaviour
         }
 
         startGameText.gameObject.SetActive(false);
-
+        AudioManager.Instance.StopBGM();
+        AudioManager.Instance.PlayStage1BGM();
         InitializeGame();
         StartCoroutine(StartCountdown());
     }
