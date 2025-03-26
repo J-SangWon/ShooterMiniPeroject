@@ -16,30 +16,43 @@ public class Monster : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    //합치기 전이라 주석처리
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.CompareTag("Shot"))
+    //    {
+    //        Shot shot = collision.GetComponent<Shot>();
+    //        if (shot != null)
+    //        {
+    //            health -= shot.AttackDamage;
+
+    //            if (health <= 0) Die();
+    //        }
+    //        Destroy(collision.gameObject);
+    //    }
+    //    else if (collision.CompareTag("Thunder")) // Thunder에 맞았을 때 체력 10 감소
+    //    {
+    //        health -= 10;
+
+    //        if (health <= 0) Die();
+    //        Destroy(collision.gameObject);
+    //    }
+    //    else if (collision.CompareTag("Player")) // 플레이어와 충돌
+    //    {
+    //        Player player = collision.GetComponent<Player>();
+    //        if (player != null)
+    //        {
+    //            player.life--; //플레이어 목숨 1 감소
+    //        }
+    //        Destroy(gameObject); //몬스터 제거
+    //    }
+    //}
+
+    void Die()
     {
-        if (other.CompareTag("Player")) // Player와 충돌 감지
-        {
-
-        }
-
-
-
-        //if (other.CompareTag("Shot"))
-        //{
-        //    // Shot과 충돌 시 체력 감소
-        //    health -= 1;
-        //    Destroy(other.gameObject); // 총알은 삭제
-
-        //    Debug.Log($"{gameObject.name}이(가) Shot과 충돌하여 체력 감소! 현재 체력: {health}");
-
-        //    // 체력이 0 이하일 때 몬스터 삭제
-        //    if (health <= 0)
-        //    {
-        //        Destroy(gameObject);
-        //        Debug.Log($"{gameObject.name}이(가) 체력이 0 이하로 감소하여 삭제됨!");
-        //    }
-        //}
+        Destroy(gameObject);
     }
+
+
 }
 

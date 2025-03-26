@@ -10,6 +10,8 @@ public class Boss : MonoBehaviour
     public int health = 50;   // 보스의 체력
     public GameObject deathEffect; // 보스 사망 이펙트 (사망 시 나타날 이펙트)
 
+    //public IteamDropManager itemDropManager; //아이템 드롭 매니저 참조, 합치기 전이라 주석처리
+
     void Update()
     {
         if (Time.time >= nextFireTime)
@@ -36,22 +38,45 @@ public class Boss : MonoBehaviour
         }
     }
 
-    // 총알과 충돌 시 체력 감소
-    //private void OnTriggerEnter2D(Collider2D other)
+
+    // //합치기 전이라 주석처리
+    //private void OnTriggerEnter2D(Collider2D collision)
     //{
-    //    if (other.CompareTag("Shot")) // 총알과 충돌 감지
+    //    if (collision.CompareTag("Shot"))
     //    {
-    //        // 체력 감소
-    //        health -= other.GetComponent<Shot>().AttackDamage;
-
-    //        // 체력이 0 이하이면 보스 사망 처리
-    //        if (health <= 0)
+    //        Shot shot = collision.GetComponent<Shot>();
+    //        if (shot != null)
     //        {
-    //            Die();
-    //        }
+    //            health -= shot.AttackDamage;
 
-    //        // 총알 삭제
-    //        Destroy(other.gameObject);
+    //            if (health <= 0) Die();
+    //        }
+    //        Destroy(collision.gameObject);
+    //    }
+    //    else if (collision.CompareTag("Thunder")) // Thunder에 맞았을 때 체력 10 감소
+    //    {
+    //        health -= 10;
+
+    //        if (health <= 0) Die();
+    //        Destroy(collision.gameObject);
+    //    }
+    //    else if (collision.CompareTag("Player")) //플레이어오 충돌
+    //    {
+    //        Player player = collision.GetComponent<player>();
+    //        if (player != null)
+    //        {
+    //            player.life--; //플레이어 목숨 1감소
+    //        }
+    //        
+    //    }
+    //}
+
+    //합치기 전이라 주석처리
+    //void DropItem()
+    //{
+    //    if (itemDropManager != null)
+    //    {
+    //        itemDropManager.DropItem(transform.position);
     //    }
     //}
 
