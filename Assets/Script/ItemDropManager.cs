@@ -4,24 +4,24 @@ public class ItemDropManager : MonoBehaviour
 {
     public GameObject PowerUp;
     public GameObject Hp;
-    public GameObject Lazer;
+    public GameObject ThunderItem;
 
 
     //플레이어쪽
     //public GameObject Effet; //파워업 임펙트
     //public int Count = 0; //파워업 카운트 세기
 
-    
+
     //public int HpCount = 3; //Hp 카운트
 
-    
-    //public int LazerCount = 0; //레이저 카운트
+
+    //public int ThunderCount = 0; //레이저 카운트
 
 
     public void DropItem(Vector3 position)
     {
 
-        GameObject[] items = { PowerUp, Hp, Lazer };
+        GameObject[] items = { PowerUp, Hp, ThunderItem };
 
 
         int random = Random.Range(0, items.Length);
@@ -45,7 +45,7 @@ public class ItemDropManager : MonoBehaviour
 
     //                else if (HpCount <= 3)
     //                {
-    //                    GameObject go = Instantiate(Effet, transform.position, Quaternion.identity);
+    //                    GameObject go = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
     //                    Destroy(go, 1);
     //                    HpCount += 1;
     //                }
@@ -56,24 +56,24 @@ public class ItemDropManager : MonoBehaviour
 
     //                else if (Count <= 3)
     //                {
-    //                    GameObject go = Instantiate(Effet, transform.position, Quaternion.identity);
+    //                    GameObject go = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
     //                    Destroy(go, 1);
     //                    Count += 1;
     //                }
     //                break;
-    //            case "Lazer":
-    //                if (LazerCount >= 3)
-    //                    LazerCount = 3;
+    //            case "ThunderItem":
+    //                if (ThunderCount >= 3)
+    //                    ThunderCount = 3;
 
-    //                else if (LazerCount < 3)
+    //                else if (ThunderCount < 3)
     //                {
-    //                    GameObject go = Instantiate(Effect, transform.position, Quaternion.identity);
+    //                    GameObject go = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
     //                    Destroy(go, 1);
-    //                    LazerCount += 1;
+    //                    ThunderCount += 1;
     //                }
     //                break;
     //            case "EvolutionItem":
-    //                GameObject go = Instantiate(Effect, transform.position, Quaternion.identity);
+    //                GameObject go = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
     //                Destroy(go, 1);
     //                isFire = false;
     //                break;
