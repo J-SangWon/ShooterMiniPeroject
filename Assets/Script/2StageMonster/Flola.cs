@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Flola : MonoBehaviour
 {
-    public int HP = 10;
+    public int HP = 6;
     public float Speed = 2;
     public Transform Pos1;
     public GameObject Ms1;

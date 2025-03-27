@@ -125,8 +125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4693990d381f5664bbc78cb30893d820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 10
   Speed: 3
-  ms1: {fileID: 601602235731602685, guid: 935b0f524f9cca242adceb66dc71cc44, type: 3}
+  ms1: {fileID: 601602235731602685, guid: 558c79fb6fda70840a182f13f9e5d65f, type: 3}
   pos1: {fileID: 6439604886258852373}
   Angle: 0.1
   Delay: 0.3

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Gobu : MonoBehaviour
 {
-    public int HP = 10;
+    public int HP = 12;
     public float Speed = 3;
     public GameObject ms1;
     public Transform pos1;
@@ -24,9 +24,9 @@ public class Gobu : MonoBehaviour
         {
             for (int i = 0; i < 3; i++)
             {
-                Instantiate(ms1, transform.position, Quaternion.identity).GetComponent<FloraBullet>().Move(new Vector2(-1, 0));
-                Instantiate(ms1, transform.position, Quaternion.identity).GetComponent<FloraBullet>().Move(new Vector2(-1, Angle));
-                Instantiate(ms1, transform.position, Quaternion.identity).GetComponent<FloraBullet>().Move(new Vector2(-1, -Angle));
+                Instantiate(ms1, transform.position, Quaternion.identity).GetComponent<FloraBullet>().Move(new Vector2(-2, 0));
+                Instantiate(ms1, transform.position, Quaternion.identity).GetComponent<FloraBullet>().Move(new Vector2(-2, Angle));
+                Instantiate(ms1, transform.position, Quaternion.identity).GetComponent<FloraBullet>().Move(new Vector2(-2, -Angle));
                 yield return new WaitForSeconds(Delay);
             }
                 yield return new WaitForSeconds(FireDelay);
