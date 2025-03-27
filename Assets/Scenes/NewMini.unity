@@ -3445,10 +3445,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 838595517769322809, guid: 00243129805f4114d9d863c4536da516, type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 612340524801913035, guid: 00243129805f4114d9d863c4536da516, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1641232328424000064, guid: 00243129805f4114d9d863c4536da516, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -3497,18 +3497,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2398198603845449765, guid: 00243129805f4114d9d863c4536da516, type: 3}
-      propertyPath: ThunderSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 82bd0f02c2de0474d8321000de2eed13, type: 3}
-    - target: {fileID: 3013592679111709437, guid: 00243129805f4114d9d863c4536da516, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.129
-      objectReference: {fileID: 0}
-    - target: {fileID: 3013592679111709437, guid: 00243129805f4114d9d863c4536da516, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.028
-      objectReference: {fileID: 0}
     - target: {fileID: 6305062240941325070, guid: 00243129805f4114d9d863c4536da516, type: 3}
       propertyPath: m_Name
       value: Player2_Idle
@@ -3526,14 +3514,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 611747793439196051, guid: 0b41389ee8d762a43a8794c3791721a5, type: 3}
-      propertyPath: ShotSound
-      value: 
-      objectReference: {fileID: 8300000, guid: a652877b012108e41871f867ada9f176, type: 3}
-    - target: {fileID: 611747793439196051, guid: 0b41389ee8d762a43a8794c3791721a5, type: 3}
-      propertyPath: ThunderSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 82bd0f02c2de0474d8321000de2eed13, type: 3}
     - target: {fileID: 3853440913201603133, guid: 0b41389ee8d762a43a8794c3791721a5, type: 3}
       propertyPath: m_Name
       value: Pink_Monster_Idle_4_0

@@ -48,10 +48,6 @@ MonoBehaviour:
   - {fileID: 2369511164535485840, guid: 7904d62b36f23fe40879df458a6b23bf, type: 3}
   - {fileID: 3965884443263730429, guid: 34291586d8a78214cb12b991b6ed9c65, type: 3}
   ThunderPrefab: {fileID: 7588058779702890951, guid: c0dc3b3c45cf5cc4699f75b23d5f5a51, type: 3}
-  verticalOffset: 0.5
-  SpawnInterval: 0.1
-  DistanceInterval: 2
-  LifeTime: 2
 --- !u!1 &6305062240941325070
 GameObject:
   m_ObjectHideFlags: 0
@@ -83,7 +79,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3013592679111709437}
@@ -179,6 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPos: {fileID: 2398198603845449765}
+  playerType: 1
   isFire: 1
   MoveSpeed: 5
   Pos:
@@ -186,9 +183,13 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   direction: {x: 0, y: 0, z: 0}
+  DashDistance: 5
+  DashDuration: 0.1
   LifeCount: 3
+  isInvincible: 0
   ItemCount: 0
   GetItemEffect: {fileID: 5469705163276530633, guid: 151448e4d3180224d8c1eec41d7d5284, type: 3}
+  ThunderCount: 3
 --- !u!61 &612340524801913035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -219,7 +220,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
