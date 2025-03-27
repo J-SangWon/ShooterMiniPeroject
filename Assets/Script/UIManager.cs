@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI startGameText;
     public BackgroundRepeat backgroundRepeat;
     public GameObject introPanel;
+    public BossHealthBar bossHealthBar;
 
     private bool isGameOver = false;
     private int stage = 1;
@@ -119,6 +120,7 @@ public class UIManager : MonoBehaviour
         if (isWaitingForStart || isBossDefeated) return;
 
         isBossDefeated = true;
+        bossHealthBar.HideBar();
         StartCoroutine(ShowStageClearAfterDelay());
     }
 
@@ -165,7 +167,7 @@ public class UIManager : MonoBehaviour
 
         isGameOver = true;
         Time.timeScale = 0;
-
+        bossHealthBar.HideBar();
         bossText.text = "GAME OVER";
         bossText.gameObject.SetActive(true);
 
@@ -219,6 +221,25 @@ public class UIManager : MonoBehaviour
 
         bossText.text = message;
         bossText.gameObject.SetActive(true);
+        StartCoroutine(ShowBossHealthBarWithDelay());
+    }
+
+    IEnumerator ShowBossHealthBarWithDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        bossHealthBar.InitBar();
+    }
+
+    public void DamageBoss(float damage)
+    {
+        if (isWaitingForStart || isBossDefeated) return;
+
+        bossHealthBar.TakeDamage(damage);
+
+        if (bossHealthBar.IsDead)
+        {
+            DefeatBoss();
+        }
     }
 
     void HideBossText()
@@ -240,6 +261,7 @@ public class UIManager : MonoBehaviour
         UpdateLaserUI(1, Player1.instance.ThunderCount);
         UpdateLifeUI(2, Player2.instance.LifeCount);
         UpdateLaserUI(2, Player2.instance.ThunderCount);
+        bossHealthBar.ResetBar();
 
         backgroundRepeat.ChangeBackground(1);
 
