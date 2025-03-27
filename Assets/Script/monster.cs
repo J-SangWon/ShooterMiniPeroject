@@ -1,22 +1,27 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-    public float speed = 3f;  // ¸ó½ºÅÍ ÀÌµ¿ ¼Óµµ
-    public int health = 5;    // ¸ó½ºÅÍ Ã¼·Â (ÃÊ±â°ª 5)
+    public float speed = 3f;
+    public int health = 5;
+    private Animator anim;  // ì• ë‹ˆë©”ì´í„° ì¶”ê°€
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();  // ì• ë‹ˆë©”ì´í„° ê°€ì ¸ì˜¤ê¸°
+    }
 
     void Update()
     {
-        transform.position += Vector3.left * speed * Time.deltaTime;  // ¿ŞÂÊÀ¸·Î ÀÌµ¿
+        transform.position += Vector3.left * speed * Time.deltaTime;
 
-        // È­¸é ¿ŞÂÊ ³¡À» ¹ş¾î³ª¸é Á¦°Å
         if (transform.position.x < -10f)
         {
             Destroy(gameObject);
         }
     }
 
-    //ÇÕÄ¡±â ÀüÀÌ¶ó ÁÖ¼®Ã³¸®
+    //í•©ì¹˜ê¸° ì „ ì£¼ì„ ì²˜ë¦¬
     //private void OnTriggerEnter2D(Collider2D collision)
     //{
     //    if (collision.CompareTag("Shot"))
@@ -25,34 +30,36 @@ public class Monster : MonoBehaviour
     //        if (shot != null)
     //        {
     //            health -= shot.AttackDamage;
+    //            anim.SetTrigger("Hit");  // ë§ì•˜ì„ ë•Œ ì• ë‹ˆë©”ì´ì…˜ ì¬ìƒ
 
     //            if (health <= 0) Die();
     //        }
     //        Destroy(collision.gameObject);
     //    }
-    //    else if (collision.CompareTag("Thunder")) // Thunder¿¡ ¸Â¾ÒÀ» ¶§ Ã¼·Â 10 °¨¼Ò
+    //    else if (collision.CompareTag("Thunder"))
     //    {
     //        health -= 10;
+    //        anim.SetTrigger("Hit");
 
     //        if (health <= 0) Die();
     //        Destroy(collision.gameObject);
     //    }
-    //    else if (collision.CompareTag("Player")) // ÇÃ·¹ÀÌ¾î¿Í Ãæµ¹
+    //    else if (collision.CompareTag("Player")) // Playerì™€ ì¶©ëŒ
     //    {
     //        Player player = collision.GetComponent<Player>();
     //        if (player != null)
     //        {
-    //            player.life--; //ÇÃ·¹ÀÌ¾î ¸ñ¼û 1 °¨¼Ò
+    //            player.life--; // í”Œë ˆì´ì–´ ëª©ìˆ¨ 1 ê°ì†Œ
     //        }
-    //        Destroy(gameObject); //¸ó½ºÅÍ Á¦°Å
+
+    //        anim.SetTrigger("Hit");  // í”Œë ˆì´ì–´ì™€ ì¶©ëŒí•´ë„ ëª¬ìŠ¤í„° í”¼ê²© ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰
+    //        Destroy(gameObject); // ëª¬ìŠ¤í„° ì œê±°
     //    }
     //}
 
     void Die()
     {
-        Destroy(gameObject);
+        anim.SetTrigger("Die"); // ì£½ëŠ” ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰
+        Destroy(gameObject, 0.5f); // 0.5ì´ˆ í›„ ëª¬ìŠ¤í„° ì œê±°
     }
-
-
 }
-

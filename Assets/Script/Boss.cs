@@ -12,6 +12,10 @@ public class Boss : MonoBehaviour
 
     //public IteamDropManager itemDropManager; //아이템 드롭 매니저 참조, 합치기 전이라 주석처리
 
+    private float minY = -3f; // 보스 이동 최소 y 좌표
+    private float maxY = 3f; // 보스 이동 최대 y 좌표
+    private int direction = 1; // 이동 방향 (1: 위, -1: 아래)
+
     void Update()
     {
         if (Time.time >= nextFireTime)
@@ -20,26 +24,25 @@ public class Boss : MonoBehaviour
             nextFireTime = Time.time + fireRate;
         }
 
-        void Fire()
-        {
-            foreach (Transform firePoint in firePoints)
-            {
-                Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
-            }
-        }
+        // 보스는 y축으로만 이동
+        transform.Translate(Vector2.up * speed * direction * Time.deltaTime);
 
-        // 보스는 왼쪽으로 이동
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
-
-        // 화면 왼쪽 끝을 벗어나면 제거
-        if (transform.position.x < -10f)
+        // 화면 위아래 끝에 닿으면 방향 변경
+        if (transform.position.y >= maxY || transform.position.y <= minY)
         {
-            Destroy(gameObject);
+            direction *= -1;
         }
     }
 
+    void Fire()
+    {
+        foreach (Transform firePoint in firePoints)
+        {
+            Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        }
+    }
 
-    // //합치기 전이라 주석처리
+    //합치기 전이라 주석처리
     //private void OnTriggerEnter2D(Collider2D collision)
     //{
     //    if (collision.CompareTag("Shot"))
@@ -60,25 +63,26 @@ public class Boss : MonoBehaviour
     //        if (health <= 0) Die();
     //        Destroy(collision.gameObject);
     //    }
-    //    else if (collision.CompareTag("Player")) //플레이어오 충돌
+    //    else if (collision.CompareTag("Player")) // 플레이어와 충돌
     //    {
-    //        Player player = collision.GetComponent<player>();
+    //        Player player = collision.GetComponent<Player>();
     //        if (player != null)
     //        {
-    //            player.life--; //플레이어 목숨 1감소
+    //            player.life--; // 플레이어 목숨 1 감소
     //        }
-    //        
     //    }
     //}
 
-    //합치기 전이라 주석처리
-    //void DropItem()
-    //{
-    //    if (itemDropManager != null)
-    //    {
-    //        itemDropManager.DropItem(transform.position);
-    //    }
-    //}
+    
+    /*
+    void DropItem()
+    {
+        if (itemDropManager != null)
+        {
+            itemDropManager.DropItem(transform.position);
+        }
+    }
+    */
 
     // 보스 사망 처리
     void Die()

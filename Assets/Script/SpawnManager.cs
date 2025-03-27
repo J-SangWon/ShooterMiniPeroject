@@ -6,16 +6,16 @@ public class SpawnManager : MonoBehaviour
     public GameObject[] monsterPrefabs; // Monster1, Monster2를 담을 배열
     public GameObject bossPrefab;       // Boss 몬스터
     public float spawnInterval = 2f;    // 몬스터 생성 간격
-    public float spawnX = 10f;          // 몬스터가 생성될 X 위치 (오른쪽 끝)
+    public float spawnX = 8.5f;         // 몬스터가 생성될 X 위치 (오른쪽 끝)
     public float minY = -4f;            // 최소 Y 값
     public float maxY = 4f;             // 최대 Y 값
     public float bossSpawnTime = 20f;   // 보스 몬스터 등장 시간 (초)
+    private bool isBossSpawned = false; // 보스가 등장했는지 확인하는 변수
 
     void Start()
     {
         if (monsterPrefabs == null || monsterPrefabs.Length == 0)
         {
-            //Debug.LogError("SpawnManager: monsterPrefabs 배열이 비어 있습니다. Inspector에서 Monster1과 Monster2를 추가하세요!");
             return;
         }
 
@@ -28,7 +28,7 @@ public class SpawnManager : MonoBehaviour
 
     IEnumerator SpawnMonsterRoutine()
     {
-        while (true)
+        while (!isBossSpawned) // 보스가 등장하기 전까지만 몬스터 생성
         {
             yield return new WaitForSeconds(spawnInterval);
             SpawnMonster();
@@ -37,9 +37,8 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnMonster()
     {
-        if (monsterPrefabs == null || monsterPrefabs.Length == 0)
+        if (monsterPrefabs == null || monsterPrefabs.Length == 0 || isBossSpawned)
         {
-            
             return;
         }
 
@@ -56,12 +55,11 @@ public class SpawnManager : MonoBehaviour
         if (bossPrefab != null)
         {
             // 보스 몬스터 생성 위치 (오른쪽 끝 가운데)
-            Vector3 bossSpawnPosition = new Vector3(spawnX, 0, 0);
+            Vector3 bossSpawnPosition = new Vector3(7.7f, 0f, 0f);
             Instantiate(bossPrefab, bossSpawnPosition, Quaternion.identity);
-        }
-        else
-        {
-            
+
+            // 보스가 생성되었음을 표시하고 몬스터 생성 중단
+            isBossSpawned = true;
         }
     }
 }
