@@ -272,6 +272,14 @@ public class Goru : MonoBehaviour
         }
     }
 
+    void GetDamage(int Damage)
+    {
+        HP -= Damage;
+        if (HP <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void FixedUpdate()
     {
