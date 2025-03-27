@@ -3513,6 +3513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2_Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 6526775178471304209, guid: 00243129805f4114d9d863c4536da516, type: 3}
+      propertyPath: GetItemEffect
+      value: 
+      objectReference: {fileID: 3642670722126023259, guid: 151448e4d3180224d8c1eec41d7d5284, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3534,6 +3538,10 @@ PrefabInstance:
       propertyPath: ThunderSound
       value: 
       objectReference: {fileID: 8300000, guid: 82bd0f02c2de0474d8321000de2eed13, type: 3}
+    - target: {fileID: 2344136810406701823, guid: 0b41389ee8d762a43a8794c3791721a5, type: 3}
+      propertyPath: GetItemEffect
+      value: 
+      objectReference: {fileID: 3642670722126023259, guid: 151448e4d3180224d8c1eec41d7d5284, type: 3}
     - target: {fileID: 3853440913201603133, guid: 0b41389ee8d762a43a8794c3791721a5, type: 3}
       propertyPath: m_Name
       value: Pink_Monster_Idle_4_0

@@ -3,6 +3,7 @@ using UnityEngine;
 public class Monster : MonoBehaviour
 {
     public float speed = 3f;  // 몬스터 이동 속도
+    public ItemDropManager itemDropManager;
 
     void Update()
     {
@@ -21,6 +22,13 @@ public class Monster : MonoBehaviour
         {
             Debug.Log($"{gameObject.name}이(가) Player와 충돌함!");
             // Player가 죽는 처리는 Player 스크립트에서 하면 됨.
+        }
+    }
+    private void Destroy()
+    {
+        if (itemDropManager != null)
+        {
+            itemDropManager.DropItem(transform.position);
         }
     }
 }

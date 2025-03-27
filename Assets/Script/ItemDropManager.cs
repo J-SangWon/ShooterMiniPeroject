@@ -6,18 +6,6 @@ public class ItemDropManager : MonoBehaviour
     public GameObject Hp;
     public GameObject ThunderItem;
 
-
-    //플레이어쪽
-    //public GameObject Effet; //파워업 임펙트
-    //public int Count = 0; //파워업 카운트 세기
-
-
-    //public int HpCount = 3; //Hp 카운트
-
-
-    //public int ThunderCount = 0; //레이저 카운트
-
-
     public void DropItem(Vector3 position)
     {
 
@@ -83,16 +71,7 @@ public class ItemDropManager : MonoBehaviour
     //    }
     //}
 
-    //몬스터쪽 3가지 아이템중 하나를 드롭
-    //public ItemDropManager itemDropManager;
-
-    //private void Destroy()
-    //{
-    //    if (itemDropManager != null)
-    //    {
-    //        itemDropManager.DropItem(transform.position);
-    //    }
-    //}
+    
 
 
 

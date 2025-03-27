@@ -37,7 +37,9 @@ public class Player1 : MonoBehaviour
     public int ItemCount;
     [SerializeField]
     private GameObject GetItemEffect;
-    public int ThunderCount = 3;
+    public int PowerCount = 0; //파워업 카운트 세기
+    public int HpCount = 3; //Hp 카운트
+    public int ThunderCount = 3;//썬더 카운트
 
     private void Awake()
     {
@@ -86,13 +88,61 @@ public class Player1 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Item"))
         {
-            //아이템 충돌
-            GameObject go = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
-            ItemCount++;
-            Destroy(go, 1);
+            switch (gameObject.tag)
+            {
+                case "Hp":
+                    if (HpCount >= 3) //hp가 3넘어가면 3으로 맞춰주기
+                        HpCount = 3;
 
+                    else if (HpCount <= 3) //hp아이템 충돌하면 이펙트 나오고 카운트+1
+                    {
+                        GameObject hp = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
+                        Destroy(hp, 1);
+                        HpCount += 1;
+                    }
+                    break;
 
+                case "PowerUp":
+                    if (PowerCount >= 3)
+                        PowerCount = 3;
+
+                    else if (PowerCount <= 3)
+                    {
+                        GameObject power = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
+                        Destroy(power, 1);
+                        PowerCount += 1;
+                    }
+                    break;
+
+                case "ThunderItem":
+                    if (ThunderCount >= 3)
+                        ThunderCount = 3;
+
+                    else if (ThunderCount < 3)
+                    {
+                        GameObject thunder = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
+                        Destroy(thunder, 1);
+                        ThunderCount += 1;
+                    }
+                    break;
+
+                case "EvolutionItem":
+                    GameObject evolution = Instantiate(GetItemEffect, transform.position, Quaternion.identity);
+                    Destroy(evolution, 1);
+                    isFire = false;
+                    break;
+            }
+
+            Destroy(gameObject);
         }
+
+
+
+
+
+
+
+
         if (collision.gameObject.CompareTag("Monster")&& !isInvincible)
         {
             //몬스터 충돌
