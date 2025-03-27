@@ -120,9 +120,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1887906799386347065}
   - component: {fileID: 8859290763930808774}
-  - component: {fileID: -7076956303656313071}
+  - component: {fileID: 3429842905801816287}
   m_Layer: 0
-  m_Name: Lazer
+  m_Name: Lazer 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,7 +191,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 16.9}
   m_EdgeRadius: 0
---- !u!114 &-7076956303656313071
+--- !u!114 &3429842905801816287
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,10 +200,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3968222680748787509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8db9288a80c8c49b9ea30da7be4074, type: 3}
+  m_Script: {fileID: 11500000, guid: bea0f8da7089e0145b5fb0131d1aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LazerPos: {fileID: 0}
 --- !u!1 &7117937199378446916
 GameObject:
   m_ObjectHideFlags: 0

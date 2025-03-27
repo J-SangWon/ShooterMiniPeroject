@@ -16,7 +16,7 @@ public class Flola : MonoBehaviour
 
     IEnumerator CircleFire()
     {
-        int count = 30;
+        int count = 20;
         float intervalAngle = 360 / count;
         float weightAngle = 0f;
 

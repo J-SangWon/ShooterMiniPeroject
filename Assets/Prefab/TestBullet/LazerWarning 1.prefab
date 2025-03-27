@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1265835613811638124}
   - component: {fileID: 75634705428254716}
-  - component: {fileID: 1279992704690832772}
+  - component: {fileID: 6443573122502946638}
   m_Layer: 0
-  m_Name: LazerWarning
+  m_Name: LazerWarning 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &1279992704690832772
+--- !u!114 &6443573122502946638
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,8 +97,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 596188979111611564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22a53f4802e00eb48a4d4293c572a53a, type: 3}
+  m_Script: {fileID: 11500000, guid: a1777147389c040498af583605963b07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lerpTime: 0.1
-  LazerPos: {fileID: 0}
+  lerpTime: 1
