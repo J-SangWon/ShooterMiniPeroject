@@ -1,10 +1,11 @@
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Goru : MonoBehaviour
 {
-    int HP = 400;
+    public int HP = 400;
     public float Speed = 3;
     public float MaxPlace = 3;
     public float attackRate = 3;
@@ -19,6 +20,7 @@ public class Goru : MonoBehaviour
     public GameObject MS2;
     public Transform[] Pos;
 
+    public Image HealthGage;
 
 
     public Quaternion ZRot = Quaternion.AngleAxis(-90, Vector3.back);
@@ -274,6 +276,7 @@ public class Goru : MonoBehaviour
 
     void GetDamage(int Damage)
     {
+        HealthGage.fillAmount = (float)HP / 400;
         HP -= Damage;
         if (HP <= 0)
         {

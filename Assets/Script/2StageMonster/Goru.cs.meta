@@ -1,2 +1,20 @@
 fileFormatVersion: 2
 guid: e6c062842cc8d5f408e494b918700d99
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Lazer: {fileID: 3968222680748787509, guid: 192317a6fbfadf2459d526a88cafa39b, type: 3}
+  - Lazer2: {fileID: 3968222680748787509, guid: e549f4a1fdf761f4092fbbba9842c7d6, type: 3}
+  - LazerWarning: {fileID: 596188979111611564, guid: 21f4c6250b5de014d9e87daee29d59db, type: 3}
+  - LazerWarning2: {fileID: 596188979111611564, guid: 8e3887701c64a6b41bc6d592d8992a69, type: 3}
+  - HOMING: {fileID: 5368563749308745173, guid: 7a8860ef17544c2499c1bcb720962c62, type: 3}
+  - SPAWNBULLET: {fileID: 426635565181229661, guid: 5eb4a7e88d115b2448004836a6b41473, type: 3}
+  - MS1: {fileID: 601602235731602685, guid: 558c79fb6fda70840a182f13f9e5d65f, type: 3}
+  - MS2: {fileID: 601602235731602685, guid: 935b0f524f9cca242adceb66dc71cc44, type: 3}
+  - HealthGage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
