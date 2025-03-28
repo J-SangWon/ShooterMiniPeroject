@@ -286,6 +286,8 @@ public class Goru : MonoBehaviour
 
     void FixedUpdate()
     {
+        GetDamage(Damage);
+
         if (transform.position.y > MaxPlace)
         {
             Speed *= -1;
